@@ -1,0 +1,1 @@
+event_id,sequence_id,station_id,domain,parameter,product,window_start_utc,window_end_utc,expected_samples,valid_samples,coverage_fraction,qa_pass_fraction,local_relative_path,manifest_id,coverage_status,notes

@@ -1,0 +1,10 @@
+# Product-specific QC must be added after each official product guide is reviewed.
+missing_data_policy: preserve_missing
+allow_forward_fill: false
+allow_backward_fill: false
+allow_zero_imputation: false
+timezone_policy: UTC
+require_source_version: true
+require_sha256: true
+require_product_qa: true
+require_units_documentation: true

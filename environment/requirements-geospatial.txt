@@ -1,0 +1,7 @@
+# Optional geospatial/remote-sensing stack; install only when required.
+xarray
+netCDF4
+rasterio
+geopandas
+pyproj
+shapely

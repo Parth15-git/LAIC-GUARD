@@ -1,0 +1,9 @@
+project_name: LAIC-GUARD
+project_version: 0.1.0
+created_utc: 2026-11-08
+timezone: UTC
+coordinate_reference: WGS84
+status: research_design_and_data_audit
+primary_objective: >
+  Test whether independent multi-domain observations provide incremental,
+  reproducible information beyond conventional seismicity and environmental baselines.

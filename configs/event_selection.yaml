@@ -1,0 +1,16 @@
+# DRAFT ONLY — do not treat these as frozen inclusion criteria.
+catalogue_provider: USGS_ComCat
+candidate_start_date: "2000-01-01"
+candidate_end_date: "2025-12-31"
+candidate_min_magnitude: 6.5
+candidate_max_depth_km: null  # Define only after protocol review.
+magnitude_types: []            # Preserve original types; define handling before final catalogue.
+event_types_included: []
+sequence_grouping_rule: "TO_BE_PREDECLARED"
+geographic_scope: "GLOBAL_CANDIDATE_CATALOGUE"
+minimum_data_coverage: "TO_BE_PREDECLARED"
+freeze_status: "NOT_FROZEN"
+notes:
+  - This configuration is a starting audit query only.
+  - Do not select events based on observed anomalies.
+  - Store exact query parameters and catalogue retrieval timestamp.

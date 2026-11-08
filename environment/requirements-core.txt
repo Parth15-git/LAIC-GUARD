@@ -1,0 +1,9 @@
+# Add exact tested versions after the first environment is created and validated.
+numpy
+pandas
+scipy
+matplotlib
+pyyaml
+requests
+scikit-learn
+statsmodels

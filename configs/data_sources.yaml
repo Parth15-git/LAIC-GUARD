@@ -1,0 +1,37 @@
+sources:
+  usgs_comcat:
+    url: https://earthquake.usgs.gov/fdsnws/event/1/
+    role: earthquake_catalogue
+  giro:
+    url: https://giro.uml.edu/
+    role: ionosonde
+  nasa_cddis:
+    url: https://cddis.nasa.gov/
+    role: gnss_rinex_and_geodetic
+  igs:
+    url: https://www.igs.org/products/
+    role: gnss_products
+  nasa_omni:
+    url: https://omniweb.gsfc.nasa.gov/
+    role: solar_wind_and_geomagnetic
+  intermagnet:
+    url: https://intermagnet.org/data_download.html
+    role: geomagnetic_observatories
+  copernicus_cds:
+    url: https://cds.climate.copernicus.eu/
+    role: era5_meteorology
+  nasa_laads:
+    url: https://ladsweb.modaps.eosdis.nasa.gov/
+    role: modis
+  noaa_olr:
+    url: https://www.ncei.noaa.gov/products/climate-data-records/outgoing-longwave-radiation-daily
+    role: outgoing_longwave_radiation
+  copernicus_data_space:
+    url: https://dataspace.copernicus.eu/
+    role: sentinel_5p
+  usgs_water:
+    url: https://api.waterdata.usgs.gov/
+    role: groundwater
+  nasa_grace:
+    url: https://earth.gsfc.nasa.gov/geo/data/grace-mascons
+    role: gravity_mass_change
