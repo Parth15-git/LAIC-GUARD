@@ -1,0 +1,133 @@
+{
+  "project": "LAIC-GUARD",
+  "stage": "1C.1",
+  "script_version": "v003",
+  "run_id": "stage1c1_count_v003_20261108T154607Z",
+  "acquisition_cutoff_utc": "2026-11-08T15:46:07.688Z",
+  "frozen_target_catalogue": {
+    "path": "metadata/event_catalogue_v002.csv",
+    "rows": 1186,
+    "sha256": "0e20c3ef9268e728d320dcf55e18d66638aa92f66371af2915a34760f9837315",
+    "modified_by_script": false
+  },
+  "service_version": {
+    "run_id": "stage1c1_count_v003_20261108T154607Z",
+    "request_url": "https://earthquake.usgs.gov/fdsnws/event/1/version",
+    "http_status": 200,
+    "response_state": "text_response",
+    "response_text": "2.8.4",
+    "response_sha256": "ea7631cad6eb66f6513481141f44eb159108d5ec659cba16ce60c42d4ef54e9b",
+    "retrieved_at_utc": "2026-11-08T15:46:08.290Z",
+    "error": null
+  },
+  "thresholds": [
+    4.0,
+    4.5,
+    5.0
+  ],
+  "threshold_semantics": "Numerical preferred ComCat magnitude; not confirmed Mw-only counts",
+  "regional_strata": [
+    {
+      "region_id": "GLOBAL",
+      "label": "Global",
+      "bounds": null
+    },
+    {
+      "region_id": "W_NORTH_AMERICA",
+      "label": "Western North America",
+      "bounds": [
+        -170.0,
+        -105.0,
+        20.0,
+        72.0
+      ]
+    },
+    {
+      "region_id": "CENTRAL_AMERICA_CARIBBEAN",
+      "label": "Central America and Caribbean",
+      "bounds": [
+        -115.0,
+        -50.0,
+        0.0,
+        32.0
+      ]
+    },
+    {
+      "region_id": "ANDES",
+      "label": "Andes",
+      "bounds": [
+        -85.0,
+        -55.0,
+        -60.0,
+        15.0
+      ]
+    },
+    {
+      "region_id": "ALPINE_MEDITERRANEAN",
+      "label": "Alpine-Mediterranean",
+      "bounds": [
+        -15.0,
+        45.0,
+        25.0,
+        55.0
+      ]
+    },
+    {
+      "region_id": "EAST_AFRICA_ARABIA",
+      "label": "East African Rift and Arabia",
+      "bounds": [
+        25.0,
+        60.0,
+        -15.0,
+        30.0
+      ]
+    },
+    {
+      "region_id": "HIMALAYA_TIBET",
+      "label": "Himalaya-Tibet",
+      "bounds": [
+        60.0,
+        105.0,
+        20.0,
+        42.0
+      ]
+    },
+    {
+      "region_id": "JAPAN_KURIL",
+      "label": "Japan-Kuril",
+      "bounds": [
+        125.0,
+        180.0,
+        30.0,
+        60.0
+      ]
+    },
+    {
+      "region_id": "SUNDA_INDONESIA",
+      "label": "Sunda-Indonesia",
+      "bounds": [
+        90.0,
+        145.0,
+        -15.0,
+        25.0
+      ]
+    },
+    {
+      "region_id": "TONGA_KERMADEC_NZ",
+      "label": "Tonga-Kermadec-New Zealand",
+      "bounds": [
+        160.0,
+        210.0,
+        -50.0,
+        -10.0
+      ]
+    }
+  ],
+  "logical_count_cell_count": 150,
+  "initial_count_window_count_after_area_time_partitioning": 192,
+  "count_area_time_budget_square_degree_days": 90000000,
+  "global_fragment_years": 3,
+  "safe_query_ceiling": 18000,
+  "request_interval_seconds": 1.0,
+  "started_at_utc": "2026-11-08T15:46:08.290Z"
+}

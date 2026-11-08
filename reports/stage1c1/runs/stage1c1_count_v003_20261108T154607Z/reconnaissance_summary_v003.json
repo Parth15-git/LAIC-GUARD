@@ -1,0 +1,197 @@
+{
+  "project": "LAIC-GUARD",
+  "stage": "1C.1",
+  "script_version": "v003",
+  "run_id": "stage1c1_count_v003_20261108T154607Z",
+  "status": "complete",
+  "method": "USGS FDSN Event Web Service count endpoint only",
+  "count_endpoint": "https://earthquake.usgs.gov/fdsnws/event/1/count",
+  "version_endpoint": "https://earthquake.usgs.gov/fdsnws/event/1/version",
+  "service_version": {
+    "run_id": "stage1c1_count_v003_20261108T154607Z",
+    "request_url": "https://earthquake.usgs.gov/fdsnws/event/1/version",
+    "http_status": 200,
+    "response_state": "text_response",
+    "response_text": "2.8.4",
+    "response_sha256": "ea7631cad6eb66f6513481141f44eb159108d5ec659cba16ce60c42d4ef54e9b",
+    "retrieved_at_utc": "2026-11-08T15:46:08.290Z",
+    "error": null
+  },
+  "acquisition_cutoff_utc": "2026-11-08T15:46:07.688Z",
+  "run_completed_at_utc": "2026-11-08T15:54:53.605Z",
+  "frozen_target_catalogue": {
+    "path": "metadata/event_catalogue_v002.csv",
+    "rows": 1186,
+    "sha256": "0e20c3ef9268e728d320dcf55e18d66638aa92f66371af2915a34760f9837315",
+    "modified_by_script": false
+  },
+  "thresholds": [
+    4.0,
+    4.5,
+    5.0
+  ],
+  "threshold_semantics": "Numerical preferred ComCat magnitude; not confirmed Mw-only counts",
+  "periods": [
+    {
+      "period_id": "1980_1989",
+      "start_utc": "1980-01-01T00:00:00.000Z",
+      "end_inclusive_utc": "1989-12-31T23:59:59.999Z"
+    },
+    {
+      "period_id": "1990_1999",
+      "start_utc": "1990-01-01T00:00:00.000Z",
+      "end_inclusive_utc": "1999-12-31T23:59:59.999Z"
+    },
+    {
+      "period_id": "2000_2009",
+      "start_utc": "2000-01-01T00:00:00.000Z",
+      "end_inclusive_utc": "2009-12-31T23:59:59.999Z"
+    },
+    {
+      "period_id": "2010_2019",
+      "start_utc": "2010-01-01T00:00:00.000Z",
+      "end_inclusive_utc": "2019-12-31T23:59:59.999Z"
+    },
+    {
+      "period_id": "2020_to_acquisition_cutoff",
+      "start_utc": "2020-01-01T00:00:00.000Z",
+      "end_inclusive_utc": "2026-11-08T15:46:07.688Z"
+    }
+  ],
+  "regional_strata": [
+    {
+      "region_id": "GLOBAL",
+      "label": "Global",
+      "bounds": null
+    },
+    {
+      "region_id": "W_NORTH_AMERICA",
+      "label": "Western North America",
+      "bounds": [
+        -170.0,
+        -105.0,
+        20.0,
+        72.0
+      ]
+    },
+    {
+      "region_id": "CENTRAL_AMERICA_CARIBBEAN",
+      "label": "Central America and Caribbean",
+      "bounds": [
+        -115.0,
+        -50.0,
+        0.0,
+        32.0
+      ]
+    },
+    {
+      "region_id": "ANDES",
+      "label": "Andes",
+      "bounds": [
+        -85.0,
+        -55.0,
+        -60.0,
+        15.0
+      ]
+    },
+    {
+      "region_id": "ALPINE_MEDITERRANEAN",
+      "label": "Alpine-Mediterranean",
+      "bounds": [
+        -15.0,
+        45.0,
+        25.0,
+        55.0
+      ]
+    },
+    {
+      "region_id": "EAST_AFRICA_ARABIA",
+      "label": "East African Rift and Arabia",
+      "bounds": [
+        25.0,
+        60.0,
+        -15.0,
+        30.0
+      ]
+    },
+    {
+      "region_id": "HIMALAYA_TIBET",
+      "label": "Himalaya-Tibet",
+      "bounds": [
+        60.0,
+        105.0,
+        20.0,
+        42.0
+      ]
+    },
+    {
+      "region_id": "JAPAN_KURIL",
+      "label": "Japan-Kuril",
+      "bounds": [
+        125.0,
+        180.0,
+        30.0,
+        60.0
+      ]
+    },
+    {
+      "region_id": "SUNDA_INDONESIA",
+      "label": "Sunda-Indonesia",
+      "bounds": [
+        90.0,
+        145.0,
+        -15.0,
+        25.0
+      ]
+    },
+    {
+      "region_id": "TONGA_KERMADEC_NZ",
+      "label": "Tonga-Kermadec-New Zealand",
+      "bounds": [
+        160.0,
+        210.0,
+        -50.0,
+        -10.0
+      ]
+    }
+  ],
+  "regional_strata_caveat": "Exploratory bounding boxes; not tectonic polygons; some overlap; regional counts must not be summed to reproduce global totals.",
+  "logical_count_cell_count": 150,
+  "initial_count_window_count_after_area_time_partitioning": 192,
+  "total_count_requests_including_count_based_subdivisions": 312,
+  "count_area_time_budget_square_degree_days": 90000000,
+  "global_fragment_years": 3,
+  "maximum_initial_window_time_area_product_days_sqdeg": 71020800.0,
+  "logical_cells_complete": 150,
+  "logical_cells_incomplete": 0,
+  "successful_count_responses": 312,
+  "failed_count_requests": 0,
+  "http_204_zero_count_responses": 0,
+  "all_request_rows_over_safe_query_ceiling_including_parent_totals": 25,
+  "safe_query_ceiling": 18000,
+  "partition_reconciliation": {
+    "subdivided_parent_count": 25,
+    "parent_child_partitions_checked": 25,
+    "partition_sum_matches": 25,
+    "partition_sum_mismatches": 0,
+    "partition_reconciliations_incomplete": 0,
+    "leaf_partition_count": 287,
+    "leaf_partitions_over_safe_query_ceiling": 0,
+    "leaf_partitions_with_failed_counts": 0,
+    "all_leaf_partitions_safe_for_future_query": true,
+    "mismatch_request_ids": []
+  },
+  "counts_minimum": 152,
+  "counts_maximum": 48696,
+  "outputs": {
+    "count_results_csv": "reports/stage1c1/runs/stage1c1_count_v003_20261108T154607Z/reconnaissance_count_results_v003.csv",
+    "request_response_log_jsonl": "reports/stage1c1/runs/stage1c1_count_v003_20261108T154607Z/reconnaissance_request_log_v003.jsonl",
+    "run_metadata_json": "reports/stage1c1/runs/stage1c1_count_v003_20261108T154607Z/run_metadata_v003.json",
+    "summary_json": "reports/stage1c1/runs/stage1c1_count_v003_20261108T154607Z/reconnaissance_summary_v003.json",
+    "report_markdown": "reports/stage1c1/runs/stage1c1_count_v003_20261108T154607Z/STAGE1C1_COUNT_RECONNAISSANCE_v003.md",
+    "logical_cell_summary_csv": "reports/stage1c1/runs/stage1c1_count_v003_20261108T154607Z/reconnaissance_logical_cell_summary_v003.csv"
+  },
+  "event_records_downloaded": 0,
+  "query_endpoint_called": false,
+  "target_catalogue_modified": false
+}

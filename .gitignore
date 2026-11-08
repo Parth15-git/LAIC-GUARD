@@ -54,3 +54,10 @@ logs/*
 /LAIC-GUARD_Stage1B2_Counterpart_Evidence_v001.zip
 /LAIC-GUARD_Stage1B2_Counterpart_Retrieval/
 /stage1b2_counterpart_evidence_v001_20261108_173308/
+
+# Local Stage 1C.1 duplicate packages and unversioned aliases
+/12_run_stage1c1_count_reconnaissance.py
+/scripts/12_run_stage1c1_count_reconnaissance.py
+/LAIC-GUARD_Stage1C1_Count_Reconnaissance_Package_v001/
+/LAIC-GUARD_Stage1C1_v003_full_evidence.zip
+/README_STAGE1C1_COUNT_RECONNAISSANCE_v001.md
