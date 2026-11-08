@@ -1,0 +1,16 @@
+time_window_seconds,distance_window_km,pair_count,interpretation
+60,5,1,diagnostic screening count only; not an approved sequence/deduplication threshold
+60,10,1,diagnostic screening count only; not an approved sequence/deduplication threshold
+60,25,2,diagnostic screening count only; not an approved sequence/deduplication threshold
+60,50,2,diagnostic screening count only; not an approved sequence/deduplication threshold
+60,100,2,diagnostic screening count only; not an approved sequence/deduplication threshold
+300,5,1,diagnostic screening count only; not an approved sequence/deduplication threshold
+300,10,2,diagnostic screening count only; not an approved sequence/deduplication threshold
+300,25,6,diagnostic screening count only; not an approved sequence/deduplication threshold
+300,50,7,diagnostic screening count only; not an approved sequence/deduplication threshold
+300,100,9,diagnostic screening count only; not an approved sequence/deduplication threshold
+3600,5,1,diagnostic screening count only; not an approved sequence/deduplication threshold
+3600,10,12,diagnostic screening count only; not an approved sequence/deduplication threshold
+3600,25,35,diagnostic screening count only; not an approved sequence/deduplication threshold
+3600,50,48,diagnostic screening count only; not an approved sequence/deduplication threshold
+3600,100,58,diagnostic screening count only; not an approved sequence/deduplication threshold

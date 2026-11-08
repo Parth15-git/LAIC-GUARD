@@ -48,3 +48,9 @@ logs/*
 *.token
 *credentials*
 *secret*
+
+# Local Stage 1B evidence bundles retained outside Git
+/LAIC-GUARD_Stage1B2C_outputs_v001.zip
+/LAIC-GUARD_Stage1B2_Counterpart_Evidence_v001.zip
+/LAIC-GUARD_Stage1B2_Counterpart_Retrieval/
+/stage1b2_counterpart_evidence_v001_20261108_173308/

@@ -1,0 +1,30 @@
+{
+  "stage": "1B.2B",
+  "detail_geojson_files_reviewed": 358,
+  "catalogue_rows_reviewed": 1186,
+  "catalogue_unique_event_ids": 1186,
+  "input_detail_sha256_verified": true,
+  "input_manifest_detail_rows_matched": 358,
+  "associate_product_occurrences": 583,
+  "disassociate_product_occurrences": 25,
+  "unique_undirected_disassociate_endpoint_pairs": 23,
+  "pair_scope_classification_counts": {
+    "CROSS_DETAIL_PAIR": 3,
+    "WITHIN_ONE_RETRIEVED_DETAIL_FEATURE_ALIAS_PAIR": 20
+  },
+  "preferred_id_pair_pdl_assessment_counts": {
+    "ASSOCIATED_BY_EXPLICIT_ASSOCIATE": 1,
+    "NOT_ASSOCIATED_DISASSOCIATE_PRECEDENCE": 1,
+    "NO_EXPLICIT_PREFERRED_ID_PAIR_PRODUCT_FOUND": 1,
+    "SUBEVENT_LEVEL_REVIEW; DO_NOT_TREAT_AS_TWO_CATALOGUE_ROWS": 20
+  },
+  "legacy_preliminary_decisions_imported_for_comparison": 3,
+  "policy": [
+    "All raw associate/disassociate occurrences are preserved in the product-record CSV.",
+    "Product current state is determined by latest updateTime per (type, source, code); DELETE supersedes earlier versions.",
+    "PDL explicit disassociate takes precedence over explicit associate when evaluating a pair of preferred Event IDs.",
+    "Endpoint alias-token relationships are not automatically promoted to preferred Event ID pair decisions.",
+    "Administrative ComCat association status is not interpreted as physical/tectonic independence.",
+    "No event is merged, split, removed, re-IDed, or assigned a sequence by this script."
+  ]
+}

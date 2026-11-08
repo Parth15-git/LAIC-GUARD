@@ -1,0 +1,49 @@
+{
+  "detail_geojson_files_reviewed": 355,
+  "candidate_catalogue_rows": 1186,
+  "associate_products_in_disassociate_events": 60,
+  "disassociate_product_objects": 25,
+  "unique_disassociate_events": 18,
+  "unique_undirected_source_code_pairs": 23,
+  "duplicate_undirected_source_code_pairs": {
+    "duputel200509090726a <-> iscgem7519857": 2,
+    "duputel200604301917a <-> iscgem10698202": 2
+  },
+  "disassociate_only_event_ids": [
+    "usp000ba6g",
+    "usp000ba6m",
+    "usp000ccg3",
+    "usp000d06s"
+  ],
+  "disassociate_event_product_counts": {
+    "ci14607652": 1,
+    "us7000lfxx": 1,
+    "usp000ba6g": 1,
+    "usp000ba6m": 1,
+    "usp000ccg3": 1,
+    "usp000d06s": 1,
+    "usp000d7h4": 1,
+    "usp000ddrk": 2,
+    "usp000dubj": 1,
+    "usp000dz2j": 2,
+    "usp000efv7": 2,
+    "usp000eg5g": 1,
+    "usp000ensm": 3,
+    "usp000fpca": 1,
+    "usp000fuse": 2,
+    "usp000g0k9": 2,
+    "usp000gbc0": 1,
+    "usp000jcq2": 1
+  },
+  "events_with_associate_and_disassociate_products": 14,
+  "disassociate_only_events": 4,
+  "both_endpoints_in_current_event_ids": 22,
+  "exact_pair_associate_product_conflicts": 1,
+  "associate_products_in_disassociate_events_with_inline_comment": 5,
+  "disassociate_products_with_inline_comment": 0,
+  "disassociate_products_with_original_signature_field": 2,
+  "all_disassociate_statuses": {
+    "UPDATE": 25
+  },
+  "review_policy": "No event merging, splitting, removal, or sequence assignment is performed. Every row remains pending manual adjudication."
+}
