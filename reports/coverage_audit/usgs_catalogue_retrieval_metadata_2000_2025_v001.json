@@ -1,0 +1,262 @@
+{
+  "project": "LAIC-GUARD",
+  "catalogue_version": "v001",
+  "provider": "USGS ComCat / FDSN Event Web Service",
+  "retrieved_at_utc": "2026-11-08T09:02:28.910Z",
+  "start_year": 2000,
+  "end_year_inclusive": 2025,
+  "minimum_magnitude_query": 6.5,
+  "event_type_filter": "earthquake",
+  "magnitude_filter_caveat": "This query is not a strict Mw-only catalogue. Preferred magnitude and magType are preserved; final magnitude-type eligibility must be decided separately.",
+  "depth_filter": null,
+  "chunks": [
+    {
+      "start_time_utc": "2000-01-01T00:00:00.000Z",
+      "end_time_utc": "2000-12-31T23:59:59.999Z",
+      "expected_count": 48,
+      "returned_count": 48,
+      "raw_geojson_path": "data/raw/usgs/usgs_comcat_candidate_events_20000101T000000_20001231T235959_v001.geojson",
+      "raw_sha256": "6752d5c9e7a596d9a8c55984cd36c7f57ea1fcc1da32e757fb2b2580730a1eeb",
+      "query_url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2000-01-01T00%3A00%3A00.000Z&endtime=2000-12-31T23%3A59%3A59.999Z&minmagnitude=6.5&eventtype=earthquake&orderby=time-asc&limit=20000"
+    },
+    {
+      "start_time_utc": "2001-01-01T00:00:00.000Z",
+      "end_time_utc": "2001-12-31T23:59:59.999Z",
+      "expected_count": 42,
+      "returned_count": 42,
+      "raw_geojson_path": "data/raw/usgs/usgs_comcat_candidate_events_20010101T000000_20011231T235959_v001.geojson",
+      "raw_sha256": "d95c3163ebee73513feb615f6d932eb6131773a87f42f394ea8c7c92db60ce36",
+      "query_url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2001-01-01T00%3A00%3A00.000Z&endtime=2001-12-31T23%3A59%3A59.999Z&minmagnitude=6.5&eventtype=earthquake&orderby=time-asc&limit=20000"
+    },
+    {
+      "start_time_utc": "2002-01-01T00:00:00.000Z",
+      "end_time_utc": "2002-12-31T23:59:59.999Z",
+      "expected_count": 36,
+      "returned_count": 36,
+      "raw_geojson_path": "data/raw/usgs/usgs_comcat_candidate_events_20020101T000000_20021231T235959_v001.geojson",
+      "raw_sha256": "aaa486a06c435fe2348a3b73893e6308a29feb3fff6301555eeff2b98cfacd8f",
+      "query_url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2002-01-01T00%3A00%3A00.000Z&endtime=2002-12-31T23%3A59%3A59.999Z&minmagnitude=6.5&eventtype=earthquake&orderby=time-asc&limit=20000"
+    },
+    {
+      "start_time_utc": "2003-01-01T00:00:00.000Z",
+      "end_time_utc": "2003-12-31T23:59:59.999Z",
+      "expected_count": 51,
+      "returned_count": 51,
+      "raw_geojson_path": "data/raw/usgs/usgs_comcat_candidate_events_20030101T000000_20031231T235959_v001.geojson",
+      "raw_sha256": "a9a164fa9f0200ead7119f42bdcef81f400201da5731fb1c8b361f7f58de4ecd",
+      "query_url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2003-01-01T00%3A00%3A00.000Z&endtime=2003-12-31T23%3A59%3A59.999Z&minmagnitude=6.5&eventtype=earthquake&orderby=time-asc&limit=20000"
+    },
+    {
+      "start_time_utc": "2004-01-01T00:00:00.000Z",
+      "end_time_utc": "2004-12-31T23:59:59.999Z",
+      "expected_count": 44,
+      "returned_count": 44,
+      "raw_geojson_path": "data/raw/usgs/usgs_comcat_candidate_events_20040101T000000_20041231T235959_v001.geojson",
+      "raw_sha256": "641a0a6e618090ae3296096de3a2a68fe78ab5d32a1f643ccb07ec1adba34519",
+      "query_url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2004-01-01T00%3A00%3A00.000Z&endtime=2004-12-31T23%3A59%3A59.999Z&minmagnitude=6.5&eventtype=earthquake&orderby=time-asc&limit=20000"
+    },
+    {
+      "start_time_utc": "2005-01-01T00:00:00.000Z",
+      "end_time_utc": "2005-12-31T23:59:59.999Z",
+      "expected_count": 45,
+      "returned_count": 45,
+      "raw_geojson_path": "data/raw/usgs/usgs_comcat_candidate_events_20050101T000000_20051231T235959_v001.geojson",
+      "raw_sha256": "d08e298f8d48eebac3c00740065e7cdeada0e95b01d4db2d1f5579751216549e",
+      "query_url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2005-01-01T00%3A00%3A00.000Z&endtime=2005-12-31T23%3A59%3A59.999Z&minmagnitude=6.5&eventtype=earthquake&orderby=time-asc&limit=20000"
+    },
+    {
+      "start_time_utc": "2006-01-01T00:00:00.000Z",
+      "end_time_utc": "2006-12-31T23:59:59.999Z",
+      "expected_count": 40,
+      "returned_count": 40,
+      "raw_geojson_path": "data/raw/usgs/usgs_comcat_candidate_events_20060101T000000_20061231T235959_v001.geojson",
+      "raw_sha256": "a414898d39732fe6c918bf56c87b0996c43cae540d5c513a1f3f30845dff8ce5",
+      "query_url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2006-01-01T00%3A00%3A00.000Z&endtime=2006-12-31T23%3A59%3A59.999Z&minmagnitude=6.5&eventtype=earthquake&orderby=time-asc&limit=20000"
+    },
+    {
+      "start_time_utc": "2007-01-01T00:00:00.000Z",
+      "end_time_utc": "2007-12-31T23:59:59.999Z",
+      "expected_count": 58,
+      "returned_count": 58,
+      "raw_geojson_path": "data/raw/usgs/usgs_comcat_candidate_events_20070101T000000_20071231T235959_v001.geojson",
+      "raw_sha256": "d97a7bb9249062a0af431494e1b53e49915d668a1b4952ac1e184d20730381d9",
+      "query_url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2007-01-01T00%3A00%3A00.000Z&endtime=2007-12-31T23%3A59%3A59.999Z&minmagnitude=6.5&eventtype=earthquake&orderby=time-asc&limit=20000"
+    },
+    {
+      "start_time_utc": "2008-01-01T00:00:00.000Z",
+      "end_time_utc": "2008-12-31T23:59:59.999Z",
+      "expected_count": 46,
+      "returned_count": 46,
+      "raw_geojson_path": "data/raw/usgs/usgs_comcat_candidate_events_20080101T000000_20081231T235959_v001.geojson",
+      "raw_sha256": "8e8b087634237a3472aaab7836de1e7fc7d9513919660269b8b6dae195d5b96a",
+      "query_url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2008-01-01T00%3A00%3A00.000Z&endtime=2008-12-31T23%3A59%3A59.999Z&minmagnitude=6.5&eventtype=earthquake&orderby=time-asc&limit=20000"
+    },
+    {
+      "start_time_utc": "2009-01-01T00:00:00.000Z",
+      "end_time_utc": "2009-12-31T23:59:59.999Z",
+      "expected_count": 45,
+      "returned_count": 45,
+      "raw_geojson_path": "data/raw/usgs/usgs_comcat_candidate_events_20090101T000000_20091231T235959_v001.geojson",
+      "raw_sha256": "a6111ee6238c8b55f103ad9f09258abc6d8fdee6b30aa6524beca11fd71acbbd",
+      "query_url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2009-01-01T00%3A00%3A00.000Z&endtime=2009-12-31T23%3A59%3A59.999Z&minmagnitude=6.5&eventtype=earthquake&orderby=time-asc&limit=20000"
+    },
+    {
+      "start_time_utc": "2010-01-01T00:00:00.000Z",
+      "end_time_utc": "2010-12-31T23:59:59.999Z",
+      "expected_count": 61,
+      "returned_count": 61,
+      "raw_geojson_path": "data/raw/usgs/usgs_comcat_candidate_events_20100101T000000_20101231T235959_v001.geojson",
+      "raw_sha256": "bfcf41b797380efce28343ecd12dd417cba1263d20626b90c4745504aef080ef",
+      "query_url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2010-01-01T00%3A00%3A00.000Z&endtime=2010-12-31T23%3A59%3A59.999Z&minmagnitude=6.5&eventtype=earthquake&orderby=time-asc&limit=20000"
+    },
+    {
+      "start_time_utc": "2011-01-01T00:00:00.000Z",
+      "end_time_utc": "2011-12-31T23:59:59.999Z",
+      "expected_count": 58,
+      "returned_count": 58,
+      "raw_geojson_path": "data/raw/usgs/usgs_comcat_candidate_events_20110101T000000_20111231T235959_v001.geojson",
+      "raw_sha256": "2c0a8f1961b67eac6208e33c242a3c00b41698190aa6152833e1e2e6ae4b752e",
+      "query_url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2011-01-01T00%3A00%3A00.000Z&endtime=2011-12-31T23%3A59%3A59.999Z&minmagnitude=6.5&eventtype=earthquake&orderby=time-asc&limit=20000"
+    },
+    {
+      "start_time_utc": "2012-01-01T00:00:00.000Z",
+      "end_time_utc": "2012-12-31T23:59:59.999Z",
+      "expected_count": 41,
+      "returned_count": 41,
+      "raw_geojson_path": "data/raw/usgs/usgs_comcat_candidate_events_20120101T000000_20121231T235959_v001.geojson",
+      "raw_sha256": "12bce3efe24e07d405b496edd822a3ac58f1e5a9bb7527d35f40356cef263d7f",
+      "query_url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2012-01-01T00%3A00%3A00.000Z&endtime=2012-12-31T23%3A59%3A59.999Z&minmagnitude=6.5&eventtype=earthquake&orderby=time-asc&limit=20000"
+    },
+    {
+      "start_time_utc": "2013-01-01T00:00:00.000Z",
+      "end_time_utc": "2013-12-31T23:59:59.999Z",
+      "expected_count": 55,
+      "returned_count": 55,
+      "raw_geojson_path": "data/raw/usgs/usgs_comcat_candidate_events_20130101T000000_20131231T235959_v001.geojson",
+      "raw_sha256": "b9d727f4584f7b423b93e02dab05928517a013be5e655daa1959de953442393f",
+      "query_url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2013-01-01T00%3A00%3A00.000Z&endtime=2013-12-31T23%3A59%3A59.999Z&minmagnitude=6.5&eventtype=earthquake&orderby=time-asc&limit=20000"
+    },
+    {
+      "start_time_utc": "2014-01-01T00:00:00.000Z",
+      "end_time_utc": "2014-12-31T23:59:59.999Z",
+      "expected_count": 54,
+      "returned_count": 54,
+      "raw_geojson_path": "data/raw/usgs/usgs_comcat_candidate_events_20140101T000000_20141231T235959_v001.geojson",
+      "raw_sha256": "998394e6d8c4960e268d7c6e36112a45036a0357f2314246237dba68d3fb0b11",
+      "query_url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2014-01-01T00%3A00%3A00.000Z&endtime=2014-12-31T23%3A59%3A59.999Z&minmagnitude=6.5&eventtype=earthquake&orderby=time-asc&limit=20000"
+    },
+    {
+      "start_time_utc": "2015-01-01T00:00:00.000Z",
+      "end_time_utc": "2015-12-31T23:59:59.999Z",
+      "expected_count": 58,
+      "returned_count": 58,
+      "raw_geojson_path": "data/raw/usgs/usgs_comcat_candidate_events_20150101T000000_20151231T235959_v001.geojson",
+      "raw_sha256": "e64366c08476c561abf83490a45537d09892b9207fd66778d46ab399f2de9039",
+      "query_url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2015-01-01T00%3A00%3A00.000Z&endtime=2015-12-31T23%3A59%3A59.999Z&minmagnitude=6.5&eventtype=earthquake&orderby=time-asc&limit=20000"
+    },
+    {
+      "start_time_utc": "2016-01-01T00:00:00.000Z",
+      "end_time_utc": "2016-12-31T23:59:59.999Z",
+      "expected_count": 46,
+      "returned_count": 46,
+      "raw_geojson_path": "data/raw/usgs/usgs_comcat_candidate_events_20160101T000000_20161231T235959_v001.geojson",
+      "raw_sha256": "fae18abf1fdc12c351be1c0edc410687f544aa703f6bf29c7ec0b0142e55077b",
+      "query_url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2016-01-01T00%3A00%3A00.000Z&endtime=2016-12-31T23%3A59%3A59.999Z&minmagnitude=6.5&eventtype=earthquake&orderby=time-asc&limit=20000"
+    },
+    {
+      "start_time_utc": "2017-01-01T00:00:00.000Z",
+      "end_time_utc": "2017-12-31T23:59:59.999Z",
+      "expected_count": 39,
+      "returned_count": 39,
+      "raw_geojson_path": "data/raw/usgs/usgs_comcat_candidate_events_20170101T000000_20171231T235959_v001.geojson",
+      "raw_sha256": "21d64890d62f4a09327954c235ccb4c6b80934730a8b4cfa42d7c828993145fa",
+      "query_url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2017-01-01T00%3A00%3A00.000Z&endtime=2017-12-31T23%3A59%3A59.999Z&minmagnitude=6.5&eventtype=earthquake&orderby=time-asc&limit=20000"
+    },
+    {
+      "start_time_utc": "2018-01-01T00:00:00.000Z",
+      "end_time_utc": "2018-12-31T23:59:59.999Z",
+      "expected_count": 44,
+      "returned_count": 44,
+      "raw_geojson_path": "data/raw/usgs/usgs_comcat_candidate_events_20180101T000000_20181231T235959_v001.geojson",
+      "raw_sha256": "e1662b37160d36133e1fa7c798b751791cbbd5dc0ae3b0f738d301d6f8c6ee5f",
+      "query_url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2018-01-01T00%3A00%3A00.000Z&endtime=2018-12-31T23%3A59%3A59.999Z&minmagnitude=6.5&eventtype=earthquake&orderby=time-asc&limit=20000"
+    },
+    {
+      "start_time_utc": "2019-01-01T00:00:00.000Z",
+      "end_time_utc": "2019-12-31T23:59:59.999Z",
+      "expected_count": 33,
+      "returned_count": 33,
+      "raw_geojson_path": "data/raw/usgs/usgs_comcat_candidate_events_20190101T000000_20191231T235959_v001.geojson",
+      "raw_sha256": "6812217e8bb3cd9f069eaf440332f98c83a8e64901830a274b4afd53820f36d9",
+      "query_url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2019-01-01T00%3A00%3A00.000Z&endtime=2019-12-31T23%3A59%3A59.999Z&minmagnitude=6.5&eventtype=earthquake&orderby=time-asc&limit=20000"
+    },
+    {
+      "start_time_utc": "2020-01-01T00:00:00.000Z",
+      "end_time_utc": "2020-12-31T23:59:59.999Z",
+      "expected_count": 29,
+      "returned_count": 29,
+      "raw_geojson_path": "data/raw/usgs/usgs_comcat_candidate_events_20200101T000000_20201231T235959_v001.geojson",
+      "raw_sha256": "4a71db850b99c65a3c975d5092cad5de27822a20ef4cb6573ae90fbd181d75a9",
+      "query_url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2020-01-01T00%3A00%3A00.000Z&endtime=2020-12-31T23%3A59%3A59.999Z&minmagnitude=6.5&eventtype=earthquake&orderby=time-asc&limit=20000"
+    },
+    {
+      "start_time_utc": "2021-01-01T00:00:00.000Z",
+      "end_time_utc": "2021-12-31T23:59:59.999Z",
+      "expected_count": 45,
+      "returned_count": 45,
+      "raw_geojson_path": "data/raw/usgs/usgs_comcat_candidate_events_20210101T000000_20211231T235959_v001.geojson",
+      "raw_sha256": "1cca4c859134dc0b8c18ff54639260e371abae266db7966573431df5cc3ef343",
+      "query_url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2021-01-01T00%3A00%3A00.000Z&endtime=2021-12-31T23%3A59%3A59.999Z&minmagnitude=6.5&eventtype=earthquake&orderby=time-asc&limit=20000"
+    },
+    {
+      "start_time_utc": "2022-01-01T00:00:00.000Z",
+      "end_time_utc": "2022-12-31T23:59:59.999Z",
+      "expected_count": 42,
+      "returned_count": 42,
+      "raw_geojson_path": "data/raw/usgs/usgs_comcat_candidate_events_20220101T000000_20221231T235959_v001.geojson",
+      "raw_sha256": "9f0d5d0e2186182a8abe11b989b9712844a7f5d7089c49056c664818ea1ad161",
+      "query_url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2022-01-01T00%3A00%3A00.000Z&endtime=2022-12-31T23%3A59%3A59.999Z&minmagnitude=6.5&eventtype=earthquake&orderby=time-asc&limit=20000"
+    },
+    {
+      "start_time_utc": "2023-01-01T00:00:00.000Z",
+      "end_time_utc": "2023-12-31T23:59:59.999Z",
+      "expected_count": 53,
+      "returned_count": 53,
+      "raw_geojson_path": "data/raw/usgs/usgs_comcat_candidate_events_20230101T000000_20231231T235959_v001.geojson",
+      "raw_sha256": "c33f62f0a6e7452125810e0ba2627449dff139a3fd8bf35c4b4dee62564d3146",
+      "query_url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2023-01-01T00%3A00%3A00.000Z&endtime=2023-12-31T23%3A59%3A59.999Z&minmagnitude=6.5&eventtype=earthquake&orderby=time-asc&limit=20000"
+    },
+    {
+      "start_time_utc": "2024-01-01T00:00:00.000Z",
+      "end_time_utc": "2024-12-31T23:59:59.999Z",
+      "expected_count": 28,
+      "returned_count": 28,
+      "raw_geojson_path": "data/raw/usgs/usgs_comcat_candidate_events_20240101T000000_20241231T235959_v001.geojson",
+      "raw_sha256": "391e5740ff139b32c3848606b24c22abb2aa7eca1435868f31895bbcfedc1051",
+      "query_url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2024-01-01T00%3A00%3A00.000Z&endtime=2024-12-31T23%3A59%3A59.999Z&minmagnitude=6.5&eventtype=earthquake&orderby=time-asc&limit=20000"
+    },
+    {
+      "start_time_utc": "2025-01-01T00:00:00.000Z",
+      "end_time_utc": "2025-12-31T23:59:59.999Z",
+      "expected_count": 45,
+      "returned_count": 45,
+      "raw_geojson_path": "data/raw/usgs/usgs_comcat_candidate_events_20250101T000000_20251231T235959_v001.geojson",
+      "raw_sha256": "dd7a10a4762f3dc5e7bc6830a9bdff9556f39e1376aaf1760ec8d3457fe2874a",
+      "query_url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2025-01-01T00%3A00%3A00.000Z&endtime=2025-12-31T23%3A59%3A59.999Z&minmagnitude=6.5&eventtype=earthquake&orderby=time-asc&limit=20000"
+    }
+  ],
+  "count_endpoint_total": 1186,
+  "unique_event_rows": 1186,
+  "unique_event_ids": 1186,
+  "catalogue_csv": "metadata/event_catalogue.csv",
+  "catalogue_sha256": "836eff9326fe0b8c1b952440e6bf8ed51ec55de31c63f3848b83cce984727f4c",
+  "raw_data_policy": "Raw response files are preserved unchanged in data/raw/usgs/; hashes rechecked against the original data_manifest.csv records during metadata reconstruction.",
+  "sequence_policy": "sequence_id intentionally blank until a documented sequence grouping rule is approved.",
+  "depth_policy": "No depth exclusion applied; depth_km retained for later screening.",
+  "metadata_reconstruction": {
+    "reconstructed": true,
+    "reason": "Original retrieval-metadata JSON was not present at its expected path or elsewhere in the searched OneDrive directory.",
+    "method": "Rebuilt from the 26 preserved query sidecars, 26 raw GeoJSON responses, v001 catalogue, and existing data_manifest.csv. All raw and sidecar SHA-256 values and event-ID sets were cross-checked before writing.",
+    "important_note": "This is a reconstructed provenance record, not byte-for-byte recovery of the originally generated metadata JSON. It does not claim the original metadata file was preserved."
+  }
+}

@@ -1,0 +1,4 @@
+depth_class,count,fraction
+deep_>=300_km,123,0.10370994940978077
+intermediate_70_to_<300_km,151,0.12731871838111297
+shallow_<70_km,912,0.7689713322091062

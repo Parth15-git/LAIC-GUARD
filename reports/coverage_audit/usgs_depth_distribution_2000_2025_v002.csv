@@ -1,0 +1,4 @@
+﻿depth_class,count,fraction,definition
+shallow_<70_km,912,0.768971,0 <= depth < 70 km
+intermediate_70_to_<300_km,151,0.127319,70 <= depth < 300 km
+deep_>=300_km,123,0.103710,"300 <= depth <= 700 km (and any retained value beyond, if present)"
