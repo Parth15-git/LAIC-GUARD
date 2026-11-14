@@ -1,4 +1,4 @@
-\documentclass[journal]{IEEEtran}
+﻿\documentclass[journal]{IEEEtran}
 \usepackage{amsmath,amssymb}
 \usepackage{graphicx}
 \usepackage{booktabs}
@@ -84,7 +84,7 @@ To prevent atmospheric attenuation over hundreds of kilometers from diluting loc
 
 During our Stage~5C schema audit of all 176 multi-year UNR \texttt{IGS20/trop} SINEX archives, we verified that standard UNR tropospheric solution blocks (\texttt{+TROP/SOLUTION}) contain strictly eight fields per record:
 \begin{center}
-{\footnotesize\texttt{SITE\ \ EPOCH\ \ TROTOT\ \ STDDEV\ \ TGNTOT\ \ STDDEV\ \ TGETOT\ \ STDDEV}}
+{\scriptsize\texttt{SITE\ EPOCH\ TROTOT\ STDDEV\ TGNTOT\ STDDEV\ TGETOT\ STDDEV}}
 \end{center}
 Crucially, auxiliary meteorological columns (\texttt{PRESS}, \texttt{TEMP}, \texttt{IWV}) are absent from standard UNR \texttt{IGS20} \texttt{.trop} distributions. Consequently, pipeline implementations that fall back to fixed positional column index~8 when the string \texttt{"IWV"} is absent inadvertently parse horizontal gradient standard deviations, producing artificial variance compression and spurious false-alarm inflation. In LAIC-GUARD, we enforce strict header-token validation and evaluate verified 5-minute \texttt{TROTOT} ($\text{ZTD}_{\text{GNSS}}$, bounded within $[1000, 3500]$\,mm) aggregated into exact UTC hourly means.
 
@@ -228,3 +228,4 @@ We have presented \textbf{LAIC-GUARD} (\texttt{v002\_era5}), a deconfounded, zer
 \bibliographystyle{IEEEtran}
 \bibliography{references}
 \end{document}
+
