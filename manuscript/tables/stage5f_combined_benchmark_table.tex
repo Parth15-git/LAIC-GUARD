@@ -1,8 +1,9 @@
-% Auto-generated Stage 5F Unified Multi-Domain & ERA5-Deconfounded Benchmark Table
+% Auto-generated Stage 5F Unified Benchmark Table (Proofed Layout)
 \begin{table*}[t]
 \centering
 \caption{Out-of-Sample Leave-One-Event-Out (LOEO) $\text{ROC-AUC}$ (95\% Cluster-Bootstrap CIs), $\text{PR-AUC}$, and Within-Event Paired Wilcoxon $p$-Values Under Strictly Non-Overlapping, Equal-Lag ($1\text{--}10\,\text{d}$) Calibration Across Tropospheric (\texttt{v002\_era5}) and Ionospheric (\texttt{v002}) Domains.}
 \label{tab:stage5f_combined_benchmark}
+\resizebox{\textwidth}{!}{%
 \begin{tabular}{lcccc}
 \hline
 \textbf{Ablation Model / Tectonic \& Geomagnetic Stratum} & \textbf{Events ($N$)} & \textbf{ROC-AUC [95\% CI]} & \textbf{PR-AUC} & \textbf{Paired $p_{\text{Wilc}}$} \\
@@ -19,9 +20,10 @@ M3: Quiet $F_{10.7}$-Adj.\ GIM VTEC (Shallow, Storm-Cluster CV) & 90 & 0.623 [0.
 M3: Quiet $F_{10.7}$-Adj.\ GIM VTEC (Slab / Outer-Rise Controls) & 21 & 0.522 [0.32, 0.71] & 0.556 & 0.3641 \\
 M3: Quiet $F_{10.7}$-Adj.\ GIM VTEC (Shallow Megathrust) & 62 & 0.645 [0.57, 0.73] & 0.579 & 0.0005 \\
 M3: Quiet $F_{10.7}$-Adj.\ GIM VTEC (Shallow Crustal / Splay) & 28 & 0.463 [0.34, 0.60] & 0.474 & 0.2437 \\
-M3: Quiet GIM VTEC (Geomagnetic $\lvert\lambda_m\rvert \le 25^\circ$) & 57 & 0.616 [0.52, 0.70] & 0.551 & 0.0293 \\
-M3: Quiet GIM VTEC (Geomagnetic $\lvert\lambda_m\rvert > 25^\circ$) & 33 & 0.638 [0.54, 0.75] & 0.626 & 0.0035 \\
+M3: Quiet GIM VTEC (Geomagnetic $|\lambda_m| \le 25^\circ$) & 57 & 0.616 [0.52, 0.70] & 0.551 & 0.0293 \\
+M3: Quiet GIM VTEC (Geomagnetic $|\lambda_m| > 25^\circ$) & 33 & 0.638 [0.54, 0.75] & 0.626 & 0.0035 \\
 M4$_{\text{ERA5}}$: Joint Calibrated ERA5-Residual + Quiet VTEC (Shallow) & 90 & 0.642 [0.56, 0.72] & 0.637 & 0.0009 \\
 \hline
-\end{tabular}
+\end{tabular}%
+}
 \end{table*}
