@@ -1,28 +1,32 @@
-% Auto-generated Stage 5F Unified Benchmark Table (Proofed Layout)
+% Auto-generated Stage 5H Table IV: Comprehensive Multi-Domain & Stratified Benchmark Table
 \begin{table*}[t]
 \centering
-\caption{Out-of-Sample Leave-One-Event-Out (LOEO) $\text{ROC-AUC}$ (95\% Cluster-Bootstrap CIs), $\text{PR-AUC}$, and Within-Event Paired Wilcoxon $p$-Values Under Strictly Non-Overlapping, Equal-Lag ($1\text{--}10\,\text{d}$) Calibration Across Tropospheric (\texttt{v002\_era5}) and Ionospheric (\texttt{v002}) Domains.}
+\caption{Comprehensive Out-of-Sample Leave-One-Event-Out (LOEO) and Storm-Cluster Cross-Validated $\text{ROC-AUC}$ (95\% Cluster-Bootstrap CIs), $\text{PR-AUC}$, and Paired Wilcoxon $p$-Values Across Tropospheric (\texttt{v002\_era5}), Ionospheric (\texttt{v002}), and Multi-Domain Models.}
 \label{tab:stage5f_combined_benchmark}
 \resizebox{\textwidth}{!}{%
-\begin{tabular}{lcccc}
+\begin{tabular}{llcccc}
 \hline
-\textbf{Ablation Model / Tectonic \& Geomagnetic Stratum} & \textbf{Events ($N$)} & \textbf{ROC-AUC [95\% CI]} & \textbf{PR-AUC} & \textbf{Paired $p_{\text{Wilc}}$} \\
+\textbf{Domain} & \textbf{Ablation Model / Tectonic, Geomagnetic, Coastal \& Era Stratum} & \textbf{Events ($N$)} & \textbf{ROC-AUC [95\% CI]} & \textbf{PR-AUC} & \textbf{Paired $p_{\text{Wilc}}$} \\
 \hline
-M2a: Raw GNSS ZTD-Only (Shallow Target) & 90 & 0.518 [0.44, 0.60] & 0.518 & 0.1233 \\
-M2b: Uncalibrated $\text{GNSS} - \text{ERA5}$ ($\text{ZHD}+\text{ZWD}$, Shallow) & 90 & 0.422 [0.34, 0.50] & 0.441 & 0.3175 \\
-M2c: Causal-Calibrated $\text{GNSS} - \text{ERA5}$ Residual (Shallow, Event-LOEO) & 90 & 0.621 [0.55, 0.70] & 0.636 & 0.0009 \\
-M2c: Causal-Calibrated $\text{GNSS} - \text{ERA5}$ Residual (Shallow, Cluster-CV) & 90 & 0.618 [0.54, 0.70] & 0.637 & 0.0009 \\
-M2c: Causal-Calibrated $\text{GNSS} - \text{ERA5}$ Residual (Slab / Outer-Rise Controls) & 21 & 0.503 [0.33, 0.67] & 0.619 & 0.3383 \\
-M2c: Causal-Calibrated $\text{GNSS} - \text{ERA5}$ Residual (Shallow Megathrust) & 62 & 0.672 [0.58, 0.76] & 0.719 & 0.0004 \\
-M2c: Causal-Calibrated $\text{GNSS} - \text{ERA5}$ Residual (Shallow Crustal / Splay) & 28 & 0.445 [0.30, 0.61] & 0.482 & 0.2509 \\
-M3: Quiet $F_{10.7}$-Adj.\ GIM VTEC (Shallow, Event-LOEO) & 90 & 0.627 [0.56, 0.70] & 0.559 & 0.0010 \\
-M3: Quiet $F_{10.7}$-Adj.\ GIM VTEC (Shallow, Storm-Cluster CV) & 90 & 0.623 [0.55, 0.70] & 0.555 & 0.0010 \\
-M3: Quiet $F_{10.7}$-Adj.\ GIM VTEC (Slab / Outer-Rise Controls) & 21 & 0.522 [0.32, 0.71] & 0.556 & 0.3641 \\
-M3: Quiet $F_{10.7}$-Adj.\ GIM VTEC (Shallow Megathrust) & 62 & 0.645 [0.57, 0.73] & 0.579 & 0.0005 \\
-M3: Quiet $F_{10.7}$-Adj.\ GIM VTEC (Shallow Crustal / Splay) & 28 & 0.463 [0.34, 0.60] & 0.474 & 0.2437 \\
-M3: Quiet GIM VTEC (Geomagnetic $|\lambda_m| \le 25^\circ$) & 57 & 0.616 [0.52, 0.70] & 0.551 & 0.0293 \\
-M3: Quiet GIM VTEC (Geomagnetic $|\lambda_m| > 25^\circ$) & 33 & 0.638 [0.54, 0.75] & 0.626 & 0.0035 \\
-M4$_{\text{ERA5}}$: Joint Calibrated ERA5-Residual + Quiet VTEC (Shallow) & 90 & 0.642 [0.56, 0.72] & 0.637 & 0.0009 \\
+Troposphere & M2a: Raw GNSS ZTD-Only (Shallow Target Cohort) & 90 & 0.518 [0.44, 0.60] & 0.518 & 0.1233 \\
+Troposphere & M2b: Uncalibrated $\text{GNSS} - \text{ERA5}$ ($\text{ZHD}+\text{ZWD}$, Shallow) & 90 & 0.422 [0.34, 0.50] & 0.441 & 0.3175 \\
+Troposphere & M2c: Causal-Calibrated $\text{GNSS} - \text{ERA5}$ Residual (Shallow, Event-LOEO) & 90 & 0.621 [0.55, 0.70] & 0.636 & 0.0009 \\
+Troposphere & M2c: Causal-Calibrated $\text{GNSS} - \text{ERA5}$ Residual (Shallow, $\pm 15\,\text{d}$ Cluster-CV) & 90 & 0.618 [0.54, 0.70] & 0.637 & 0.0009 \\
+Troposphere & M2c: Causal-Calibrated $\text{GNSS} - \text{ERA5}$ Residual (Slab / Outer-Rise Controls) & 21 & 0.503 [0.33, 0.67] & 0.619 & 0.3383 \\
+Troposphere & M2c: Causal-Calibrated $\text{GNSS} - \text{ERA5}$ Residual (Shallow Megathrust Interface) & 62 & 0.672 [0.58, 0.76] & 0.719 & 0.0004 \\
+Troposphere & M2c: Causal-Calibrated $\text{GNSS} - \text{ERA5}$ Residual (Shallow Crustal / Splay) & 28 & 0.445 [0.30, 0.61] & 0.482 & 0.2509 \\
+Ionosphere & M3: Quiet $F_{10.7}$-Adj.\ GIM VTEC (Shallow $M \ge 6.5$, Event-LOEO) & 90 & 0.627 [0.56, 0.70] & 0.559 & 0.0010 \\
+Ionosphere & M3: Quiet $F_{10.7}$-Adj.\ GIM VTEC (Shallow $M \ge 6.5$, $\pm 15\,\text{d}$ Cluster-CV) & 90 & 0.623 [0.55, 0.70] & 0.555 & 0.0010 \\
+Ionosphere & M3: Quiet $F_{10.7}$-Adj.\ GIM VTEC (Slab / Outer-Rise Candidate Controls) & 21 & 0.522 [0.32, 0.71] & 0.556 & 0.3641 \\
+Ionosphere & M3: Quiet $F_{10.7}$-Adj.\ GIM VTEC (Shallow Megathrust Interface) & 62 & 0.645 [0.57, 0.73] & 0.579 & 0.0005 \\
+Ionosphere & M3: Quiet $F_{10.7}$-Adj.\ GIM VTEC (Shallow Crustal / Splay) & 28 & 0.463 [0.34, 0.60] & 0.474 & 0.2437 \\
+Ionosphere & M3: Quiet $F_{10.7}$-Adj.\ GIM VTEC (Major Shallow Ruptures $M \ge 7.0$) & 26 & 0.609 [0.48, 0.74] & 0.560 & 0.0136 \\
+Ionosphere & M3: Quiet GIM VTEC (Low Geomagnetic Latitude $|\lambda_m| \le 25^\circ$, EIA Belt) & 57 & 0.616 [0.52, 0.70] & 0.551 & 0.0293 \\
+Ionosphere & M3: Quiet GIM VTEC (Mid Geomagnetic Latitude $|\lambda_m| > 25^\circ$) & 33 & 0.638 [0.54, 0.75] & 0.626 & 0.0035 \\
+Ionosphere & M3: Quiet GIM VTEC (Modified Dip $|\text{modip}| > 30^\circ$, Disjoint Baseline) & 47 & 0.626 [0.57, 0.70] & 0.609 & 0.0000 \\
+Ionosphere & M3: Quiet GIM VTEC (Near-Field Station $d \le 50\,\text{km}$, Disjoint Baseline) & 31 & 0.631 [0.54, 0.72] & 0.580 & 0.0091 \\
+Ionosphere & M3: Quiet GIM VTEC (Sub-Regional Station $50 < d \le 150\,\text{km}$, Disjoint Baseline) & 59 & 0.612 [0.55, 0.68] & 0.607 & 0.0002 \\
+Multi-Domain & M4$_{\text{ERA5}}$: Joint Calibrated ERA5-Residual + Quiet VTEC Fusion (Shallow) & 90 & 0.642 [0.56, 0.72] & 0.637 & 0.0009 \\
 \hline
 \end{tabular}%
 }

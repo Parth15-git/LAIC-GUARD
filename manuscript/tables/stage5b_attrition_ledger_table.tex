@@ -1,0 +1,26 @@
+% Auto-generated Stage 5H Table II: 1,186-Event Attrition Funnel Ledger
+\begin{table*}[t]
+\centering
+\caption{Complete Row-Level Attrition and Selection Funnel Across All $1{,}186$ Global $M \ge 6.5$ Earthquakes in USGS ComCat (2000--2025) From Stage~1C.1 Reconnaissance to the Final Paired Tier-1 Benchmark Cohort ($N = 111$).}
+\label{tab:stage5b_attrition}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{llrrl}
+\hline
+\textbf{Pipeline Gate} & \textbf{Disposition Code} & \textbf{Dropped} & \textbf{Remaining} & \textbf{Geophysical / Quality-Control Criterion} \\
+\hline
+Stage 1C.1 & \texttt{GLOBAL\_COMCAT\_M65\_INITIAL} & --- & $1{,}186$ & Exhaustive global USGS ComCat $M \ge 6.5$ census (2000--2025) \\
+Stage 1C.2--1D & \texttt{EXCL\_STAGE1D\_EXCLUDED\_OUTSIDE\_PILOT\_SCOPE} & $545$ & $641$ & Mid-ocean ridges, oceanic transforms, and diffuse outside-pilot zones \\
+Stage 1C.3--1D & \texttt{EXCL\_STAGE1D\_EXCLUDED\_SEPARATED\_ADJACENT\_STRATUM} & $70$ & $571$ & Secondary back-arc / adjacent tectonic buffer zones excluded a priori \\
+Stage 1C.4--1D & \texttt{EXCL\_STAGE1D\_EXCLUDED\_CODA\_MASKED\_EARLY\_AFTERSHOCK} & $8$ & $563$ & Early $\le 48\,\text{h}$ aftershocks masked by mainshock coda (Core Pilot frozen) \\
+Stage 2A--2B & \texttt{EXCL\_STAGE2B\_NO\_ACTIVE\_GNSS\_IN\_RD} & $35$ & $528$ & Zero active UNR continuous GNSS stations within Dobrovolsky radius $R_D$ \\
+Stage 2B & \texttt{EXCL\_STAGE2B\_TIER3\_FAR\_FIELD\_DOBROVOLSKY\_ONLY\_GT\_300KM} & $165$ & $363$ & Nearest active GNSS station at $300\,\text{km} < d \le R_D$ (Near-Regional frozen) \\
+Stage 2C & \texttt{EXCL\_STAGE2C\_QUIET\_DAYS\_LT\_15} & $86$ & $277$ & Fewer than $15$ geomagnetically quiet baseline days ($Kp < 3$, $Dst > -30\,\text{nT}$) \\
+Stage 2C & \texttt{EXCL\_STAGE2C\_NO\_UNR\_TROP\_ZIP} & $8$ & $269$ & Station lacks published UNR \texttt{IGS20/trop} SINEX archive for event year \\
+Stage 3A--4B & \texttt{DEFERRED\_TIER2\_150\_300KM} & $77$ & $192$ & Tier-2 regional stations ($150 < d \le 300\,\text{km}$) held out from Tier-1 near-field \\
+Stage 4B--5C & \texttt{EXCL\_STAGE4B\_QA\_OR\_UNPAIRED\_WINDOW} & $81$ & $111$ & $<80\%$ 5-min raw GNSS completeness or $<12$ quiet hours in disjoint windows \\
+\hline
+\textbf{Final Cohort} & \texttt{INCLUDED\_FINAL\_111\_BENCHMARK} & \textbf{0} & \textbf{111} & \textbf{90 Primary Shallow Targets ($z < 70\,\text{km}$) + 21 Slab/Outer-Rise Controls} \\
+\hline
+\end{tabular}%
+}
+\end{table*}

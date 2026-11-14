@@ -1,0 +1,28 @@
+% Auto-generated Stage 5H Table III: Baseline Window Design & Lag-Symmetry Audit
+\begin{table*}[t]
+\centering
+\caption{Methodological Sensitivity Audit Comparing Overlapping (`v001`), Shared-Baseline Disjoint (`Stage 5B`), and Strictly Non-Overlapping Equal-Lag (`Stage 5C v002`) Calibration Designs on Quiet $F_{10.7}$-Detrended GIM VTEC (M3).}
+\label{tab:stage5b_baseline_audit}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{llllccc}
+\hline
+\textbf{Calibration Protocol / Stratum} & \textbf{Placebo Cal.\ $\to$ Eval.} & \textbf{Target Cal.\ $\to$ Eval.} & \textbf{Lag Symmetry} & \textbf{Events ($N$)} & \textbf{ROC-AUC [95\% CI]} & \textbf{Paired $p_{\text{Wilc}}$} \\
+\hline
+Overlapping Target Baseline (\texttt{v001} Shallow) & $[-45,-21] \to [-20,-11]$ & $[-35,-11] \to [-10,-1]$ & Equal ($1\text{--}10\,\text{d}$), Overlapped & $90$ & $0.634\ [0.56, 0.71]$ & $0.0002$ \\
+Overlapping Target Baseline (\texttt{v001} Megathrust) & $[-45,-21] \to [-20,-11]$ & $[-35,-11] \to [-10,-1]$ & Overlapped $[-20,-11]$ & $62$ & $0.580\ [0.48, 0.68]$ & $0.0195$ \\
+Overlapping Target Baseline (\texttt{v001} Crustal/Splay) & $[-45,-21] \to [-20,-11]$ & $[-35,-11] \to [-10,-1]$ & Overlapped $[-20,-11]$ & $28$ & $0.733\ [0.62, 0.85]$ & $0.0008$ \\
+\hline
+Shared Disjoint Base ($L=10\,\text{d}$, Shallow) & $[-35,-21] \to [-20,-11]$ & $[-35,-21] \to [-10,-1]$ & Asymmetric ($1\text{--}10$ vs.\ $11\text{--}20\,\text{d}$) & $90$ & 0.627\ [0.58, 0.68] & 0.0000 \\
+Shared Disjoint Wide Base ($L=10\,\text{d}$, Shallow) & $[-45,-21] \to [-20,-11]$ & $[-45,-21] \to [-10,-1]$ & Asymmetric ($1\text{--}10$ vs.\ $11\text{--}20\,\text{d}$) & $90$ & 0.620\ [0.57, 0.68] & 0.0000 \\
+Shared Disjoint Multi-Lag ($L=12\,\text{d}$, Shallow) & $[-39,-25] \to [-24,-13]$ & $[-39,-25] \to [-12,-1]$ & Asymmetric ($1\text{--}12$ vs.\ $13\text{--}24\,\text{d}$) & $90$ & 0.622\ [0.57, 0.68] & 0.0000 \\
+Shared Disjoint Multi-Lag ($L=15\,\text{d}$, Shallow) & $[-45,-31] \to [-30,-16]$ & $[-45,-31] \to [-15,-1]$ & Asymmetric ($1\text{--}15$ vs.\ $16\text{--}30\,\text{d}$) & $90$ & 0.627\ [0.59, 0.67] & 0.0000 \\
+Shared Disjoint Base (Slab / Outer-Rise Controls) & $[-35,-21] \to [-20,-11]$ & $[-35,-21] \to [-10,-1]$ & Asymmetric Drift Leakage & $21$ & 0.601\ [0.51, 0.70] & 0.0722 \\
+\hline
+\textbf{Zero-Overlap Equal-Lag (\texttt{v002} Shallow)} & $[-45,-31] \to [-30,-21]$ & $[-25,-11] \to [-10,-1]$ & \textbf{Strict Equal ($1\text{--}10\,\text{d}$), Disjoint} & $90$ & \textbf{0.627\ [0.56, 0.70]} & \textbf{0.0010} \\
+\textbf{Zero-Overlap Equal-Lag (\texttt{v002} Megathrust)} & $[-45,-31] \to [-30,-21]$ & $[-25,-11] \to [-10,-1]$ & \textbf{Strict Equal ($1\text{--}10\,\text{d}$), Disjoint} & $62$ & \textbf{0.645\ [0.57, 0.73]} & \textbf{0.0005} \\
+\textbf{Zero-Overlap Equal-Lag (\texttt{v002} Crustal/Splay)} & $[-45,-31] \to [-30,-21]$ & $[-25,-11] \to [-10,-1]$ & \textbf{Strict Equal ($1\text{--}10\,\text{d}$), Disjoint} & $28$ & 0.463\ [0.34, 0.60] & 0.2437 \\
+\textbf{Zero-Overlap Equal-Lag (\texttt{v002} Slab Controls)} & $[-45,-31] \to [-30,-21]$ & $[-25,-11] \to [-10,-1]$ & \textbf{Strict Equal ($1\text{--}10\,\text{d}$), Disjoint} & $21$ & 0.522\ [0.32, 0.71] & 0.3641 \\
+\hline
+\end{tabular}%
+}
+\end{table*}

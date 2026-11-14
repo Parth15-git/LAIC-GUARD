@@ -1,4 +1,4 @@
-\documentclass[conference]{IEEEtran}
+\documentclass[journal]{IEEEtran}
 \usepackage{amsmath,amssymb}
 \usepackage{graphicx}
 \usepackage{booktabs}
@@ -6,34 +6,178 @@
 
 \input{laic_guard_numbers.tex}
 
+\markboth{IEEE TRANSACTIONS ON GEOSCIENCE AND REMOTE SENSING, VOL.~XX, NO.~X, NOVEMBER~2026}%
+{JICHKAR: LAIC-GUARD DECONFOUNDED MULTI-DOMAIN EARTHQUAKE PRECURSOR BENCHMARK (2000--2025)}
+
 \title{LAIC-GUARD: A Deconfounded Multi-Domain Benchmark for Lithosphere--Atmosphere--Ionosphere Earthquake Precursors (2000--2025)}
 
-\author{\IEEEauthorblockN{Parth Nilesh Jichkar}
-\IEEEauthorblockA{Department of Electronics and Communication Engineering, MIT World Peace University, Pune, India}}
+\author{Parth~Nilesh~Jichkar%
+\thanks{Manuscript received November 15, 2026. All benchmark datasets, deterministic verification manifests, and reproducible pipeline scripts (\texttt{tag: v002\_era5}) are archived at \url{https://github.com/Parth15-git/LAIC-GUARD}.}%
+\thanks{P.~N.~Jichkar is with the Department of Electronics and Communication Engineering, MIT World Peace University, Pune 411038, Maharashtra, India (e-mail: parthjichkar939@gmail.com).}}
 
 \begin{document}
 \maketitle
 
 \begin{abstract}
-Retrospective studies of pre-seismic anomalies across tropospheric delay and ionospheric total electron content (TEC) often suffer from post-hoc event selection, overlapping baseline windows, meteorological and geomagnetic storm leakage, and a lack of deep-source negative controls. We introduce \textbf{LAIC-GUARD}, a reproducible, zero-imputation multi-domain benchmark spanning all \LgTotalGlobalEvents{} global $M \ge 6.5$ earthquakes (2000--2025). Combining tectonic province attribution, moment-tensor adjudication, and Dobrovolsky strain-radius ($R_D = 10^{0.43M}$\,km) station pairing across Nevada Geodetic Laboratory (UNR) continuous GNSS tropospheric solutions, ECMWF ERA5 meteorological reanalysis, CODE AIUB global ionosphere maps (\LgIonexMapsIngested{} daily IONEX files), and NASA OMNIWeb indices, we isolate \LgPairedTierOneTotal{} within-event paired near-field ($d \le 150$\,km) earthquakes (\LgPairedShallowMain{} primary shallow targets vs.\ \LgPairedNullCtrlMain{} deep-slab and outer-rise candidate negative controls). Under strictly non-overlapping, equal-lag ($1\text{--}10$\,d) calibration, raw GNSS zenith total delay (ZTD) shows no statistically distinguishable skill ($\text{AUC} = \LgAucZtdRaw$, $p_{\text{Wilc}} = 0.1233$). However, removing synoptic weather via station-calibrated ERA5 hydrostatic-plus-wet reanalysis uncovers a non-meteorological ZTD residual ($\text{AUC} = \LgAucEraCal$, $p_{\text{Wilc}} = 0.0009$) that mirrors solar-$F_{10.7}$-detrended quiet GIM VTEC ($\text{AUC} = \LgAucVtecMain$, $p_{\text{Wilc}} = 0.0010$). Both signals concentrate in shallow megathrust interface ruptures ($\text{AUC} = \LgAucEraMegathrust$ and $\LgAucVtecMegathrust$, respectively) while remaining at chance for crustal/splay earthquakes ($\LgAucEraCrustal$, $\LgAucVtecCrustal$) and slab/outer-rise controls ($\LgAucEraNullCtrl$, $\LgAucVtecNullCtrl$), yielding $\text{AUC} = \LgAucJointEraVtec$ when fused jointly.
+Retrospective studies of pre-seismic anomalies in Global Navigation Satellite System (GNSS) tropospheric zenith delay and ionospheric vertical total electron content (VTEC) frequently suffer from post-hoc case selection, overlapping calibration and evaluation windows, unmodeled synoptic weather variability, solar and geomagnetic storm leakage, and the absence of deep-source physical negative controls. We introduce \textbf{LAIC-GUARD}, a reproducible, zero-imputation multi-domain falsification and evaluation benchmark spanning all \LgTotalGlobalEvents{} global $M \ge 6.5$ earthquakes recorded in the USGS ComCat catalogue between 2000 and 2025. By integrating tectonic province overlays, centroid moment-tensor adjudication, and Dobrovolsky strain-radius ($R_D = 10^{0.43M}$\,km) spatial pairing across Nevada Geodetic Laboratory (UNR) continuous GNSS tropospheric solutions, hourly ECMWF ERA5 meteorological reanalysis, CODE AIUB global ionosphere maps (\LgIonexMapsIngested{} daily IONEX files), and NASA OMNIWeb geomagnetic and solar indices, we deterministically isolate \LgPairedTierOneTotal{} within-event paired near-field ($d \le 150$\,km) earthquakes (\LgPairedShallowMain{} primary shallow crustal and megathrust targets at $z < 70$\,km vs.\ \LgPairedNullCtrlMain{} intermediate/deep intraslab and outer-rise candidate negative controls). Under strictly non-overlapping, equal-lag ($1\text{--}10$\,d) out-of-sample evaluation, raw GNSS zenith total delay (ZTD) exhibits no statistically distinguishable discriminative skill over pre-event placebo windows ($\text{ROC-AUC} = \LgAucZtdRaw$, $95\%$ CI $[0.44, 0.60]$, $p_{\text{Wilc}} = 0.1233$). However, subtracting synoptic hydrostatic and wet delay via causal baseline-calibrated ERA5 reanalysis uncovers a non-meteorological tropospheric residual ($\text{ROC-AUC} = \LgAucEraCal$, $95\%$ CI $[0.55, 0.70]$, $p_{\text{Wilc}} = 0.0009$; $\LgAucEraCalCluster$ under $\pm 15$\,d storm-cluster cross-validation) that closely parallels solar-$F_{10.7}$-detrended, geomagnetically quiet GIM VTEC ($\text{ROC-AUC} = \LgAucVtecMain$, $95\%$ CI $[0.56, 0.70]$, $p_{\text{Wilc}} = 0.0010$; $\LgAucVtecClusterCv$ under cluster cross-validation). Independently across both atmospheric layers, discriminative skill concentrates in large-area shallow megathrust interface ruptures ($\text{AUC} = \LgAucEraMegathrust$ and $\LgAucVtecMegathrust$, $N=62$) while remaining indistinguishable from random chance on shallow crustal and splay faults ($\LgAucEraCrustal$ and $\LgAucVtecCrustal$, $N=28$) and deep-slab/outer-rise negative controls ($\LgAucEraNullCtrl$ and $\LgAucVtecNullCtrl$, $N=21$). Joint multi-domain fusion reaches $\text{ROC-AUC} = \LgAucJointEraVtec$ ($95\%$ CI $[0.56, 0.72]$), establishing a transparent statistical baseline for seismo-atmospheric coupling research.
 \end{abstract}
 
 \begin{IEEEkeywords}
-Lithosphere--atmosphere--ionosphere coupling, GNSS troposphere, ERA5 reanalysis, GIM VTEC, earthquake precursors
+Lithosphere--atmosphere--ionosphere coupling (LAIC), GNSS meteorology, zenith total delay (ZTD), ERA5 reanalysis, global ionosphere maps (GIM), vertical total electron content (VTEC), earthquake precursor falsification benchmark.
 \end{IEEEkeywords}
 
 \section{Introduction}
-The Lithosphere--Atmosphere--Ionosphere Coupling (LAIC) framework hypothesizes that pre-rupture stress accumulation perturbs atmospheric moisture and ionospheric electron density prior to major earthquakes \cite{dobrovolsky1979,pulinets2011}. Recent multi-decadal audits emphasize that credible benchmark evaluation requires explicit non-overlapping baselines, event-wise and storm-clustered cross-validation, negative controls, and rigorous meteorological and space-weather deconfounding \cite{diaz2026,chaniadakis2025,wen2026}.
+\IEEEPARstart{T}{he} Lithosphere--Atmosphere--Ionosphere Coupling (LAIC) hypothesis posits that tectonic stress accumulation within the earthquake preparation zone prior to major ruptures induces measurable perturbations across the lower atmosphere and ionosphere \cite{dobrovolsky1979,pulinets2011}. Proposed physical coupling pathways include: (i) microfracturing-driven volatile and radon exhalation that alters boundary-layer air conductivity and latent heat release \cite{pulinets2011}; (ii) pre-seismic crustal deformation and surface thermal anomalies exciting atmospheric acoustic-gravity waves (AGWs) that propagate upward into the thermosphere; and (iii) direct stressed-rock charge-carrier activation and electrodynamic $\mathbf{E} \times \mathbf{B}$ plasma redistribution in the ionospheric F-region \cite{heki2011,he2017}.
 
-\section{Catalogue Adjudication and Multi-Domain Pipeline}
-From \LgTotalGlobalEvents{} global $M \ge 6.5$ earthquakes in USGS ComCat (2000--2025), tectonic province overlays \cite{hasterok2022} and W-phase/GCMT moment tensors isolate \LgStageOneCRegionalTotal{} regional candidates across \LgPilotRegions{} macro-regions (Table~\ref{tab:stage1c_summary}), yielding \LgCorePilotIncluded{} Core Pilot events (\LgPrimaryShallowTotal{} shallow targets at $z < 70$\,km and \LgPhysicalNullControlTotal{} deep-slab/outer-rise candidate negative controls) after excluding \LgCodaMaskedExcluded{} coda-masked early aftershocks (\LgExcludedTotal{} total exclusions).
+Despite hundreds of retrospective case reports over the past two decades, whether pre-seismic tropospheric and ionospheric anomalies carry reproducible, out-of-sample discriminative skill remains intensely debated \cite{jordan2011,kossobokov2020,chaniadakis2025,diaz2026}. Recent multi-decadal mapping reviews and multi-station audits identify five pervasive methodological vulnerabilities in the existing literature \cite{chaniadakis2025,diaz2026,wen2026}:
+\begin{enumerate}
+    \item \textbf{Post-Hoc Event and Station Cherry-Picking:} Restricting evaluation to a handful of famous $M_w \ge 7.0$ mainshocks without accounting for the full global earthquake population or reporting the station-selection attrition funnel.
+    \item \textbf{Overlapping and Asymmetric Baseline Leakage:} Using sliding 15--30 day running medians where the pre-event target window shares calibration epochs with the control window, or where the target window is separated from its calibration baseline by a longer temporal lag than the placebo window.
+    \item \textbf{Unmodeled Synoptic Meteorology in GNSS Tropospheric Series:} Treating raw GNSS zenith total delay (ZTD) or precipitable water vapor (PWV) spikes as lithospheric signals without removing frontal barometric pressure drops and synoptic moisture advection \cite{bevis1992,hersbach2020}.
+    \item \textbf{Solar EUV Drift and Geomagnetic Storm Contamination:} Attributing equatorial ionization anomaly (EIA) enhancements or post-storm ionospheric disturbances to impending earthquakes without simultaneously masking geomagnetic storms ($Kp$, $Dst$) and detrending 27-day solar rotation ($F_{10.7}$) trends \cite{wen2026}.
+    \item \textbf{Absence of Physical Negative Controls:} Failing to verify that any putative lithosphere-to-ionosphere coupling vanishes (or degrades to chance) on deep-focus intraslab ruptures ($z \ge 70$\,km) and oceanic outer-rise bending earthquakes where upper-crustal fluid/gas release and continental boundary-layer coupling are physically suppressed.
+\end{enumerate}
+
+To resolve these limitations, we construct \textbf{LAIC-GUARD} (\texttt{v002\_era5}), a fully reproducible, zero-imputation multi-domain benchmark auditing all \LgTotalGlobalEvents{} global $M \ge 6.5$ earthquakes from 2000 through 2025. The primary contributions of this paper are fivefold:
+\begin{enumerate}
+    \item \textbf{Exhaustive Global Catalogue Funnel and Tectonic Adjudication:} We audit all \LgTotalGlobalEvents{} USGS ComCat $M \ge 6.5$ earthquakes using digital plate-boundary and geological province models \cite{bird2003,hasterok2022} and W-phase/GCMT moment tensors \cite{ekstrom2012}, publishing a complete row-level attrition ledger down to \LgPairedTierOneTotal{} within-event paired near-field ($d \le 150$\,km) events (\LgPairedShallowMain{} primary shallow targets and \LgPairedNullCtrlMain{} deep-slab/outer-rise candidate negative controls).
+    \item \textbf{SINEX Tropospheric Schema Audit and Strict Zero-Imputation QC:} We audit 176 multi-year Nevada Geodetic Laboratory (UNR) \texttt{IGS20/trop} SINEX archives \cite{blewitt2018}, demonstrating that standard UNR `.trop` files provide total zenith delay (\texttt{TROTOT}) and horizontal gradients rather than direct integrated water vapor (\texttt{IWV}), and enforcing a strict $\ge 80\%$ 5-minute data completeness gate without gap interpolation.
+    \item \textbf{Baseline Overlap and Lag-Symmetry Falsification Audit:} We prove empirically that shared disjoint baselines introduce a 10-day lag asymmetry that inflates deep-slab null controls to $\text{AUC} = 0.601$, while overlapping target baselines artificially invert crustal versus megathrust performance. Enforcing strictly non-overlapping, equal-lag ($1\text{--}10$\,d) calibration restores deep-slab controls to chance ($\text{AUC} = \LgAucVtecNullCtrl$).
+    \item \textbf{Causal Station-Level ERA5 Meteorological Deconfounding:} Using collocated hourly ECMWF ERA5 reanalysis \cite{hersbach2020}, we show that while raw GNSS ZTD lies at random chance ($\text{AUC} = \LgAucZtdRaw$), removing hydrostatic and wet weather delay via causal baseline ordinary least squares (OLS) calibration isolates a significant non-meteorological ZTD residual ($\text{AUC} = \LgAucEraCal$, $p_{\text{Wilc}} = 0.0009$).
+    \item \textbf{Cross-Layer Convergence on Megathrust Interfaces:} We demonstrate that independently deconfounded tropospheric residuals (M2c) and quiet $F_{10.7}$-adjusted GIM VTEC (M3) exhibit identical tectonic specificity: both concentrate in shallow megathrust interface ruptures ($\text{AUC} = \LgAucEraMegathrust$ and $\LgAucVtecMegathrust$, $N=62$), both drop to chance on shallow crustal/splay faults ($\LgAucEraCrustal$ and $\LgAucVtecCrustal$, $N=28$), and both remain at chance on deep-slab/outer-rise controls ($\LgAucEraNullCtrl$ and $\LgAucVtecNullCtrl$, $N=21$).
+\end{enumerate}
+
+\section{Global Catalogue Adjudication and Attrition Funnel (2000--2025)}
+
+\subsection{USGS ComCat Census and Tectonic Province Overlay}
+We begin with an exhaustive, count-verified census of all \LgTotalGlobalEvents{} global earthquakes with magnitude $M \ge 6.5$ occurring between January 1, 2000 (`00:00:00 UTC`) and December 31, 2025 (`23:59:59 UTC`) in the USGS Comprehensive Earthquake Catalogue (ComCat). Rather than selecting events with known ionospheric anomalies, every earthquake is deterministically georeferenced against the Hasterok et al.\ (2022) global geological provinces and plate-boundary dataset \cite{hasterok2022} and the PB2002 digital plate model \cite{bird2003}.
+
+Events occurring along mid-ocean spreading ridges, remote oceanic transform faults, or diffuse oceanic intraplate domains lacking near-field land geodetic networks ($N = 545$), together with $70$ events situated in separated secondary back-arc buffer strata, are excluded prior to time-series inspection. This leaves \LgStageOneCRegionalTotal{} regional candidate earthquakes distributed across \LgPilotRegions{} convergent and collisional macro-regions (Table~\ref{tab:stage1c_summary}).
 
 \input{tables/stage1c_manuscript_tables.tex}
 
-Spatial-temporal pairing against the UNR GNSS network \cite{blewitt2018} within each event's Dobrovolsky strain radius ($R_D = 10^{0.43M}$\,km) yields \LgNearRegionalCohort{} near-regional ($d \le 300$\,km) events and \LgStageThreeReady{} archive-verified events with $\ge 15$ geomagnetically quiet baseline days ($Kp < 3$, $Dst > -30$\,nT). Within Tier-1 near-field stations ($d \le 150$\,km, \LgTierOneReady{} events), \LgTierOneGnssQaPass{} achieve $\ge 80\%$ 5-minute completeness without imputation, and \LgPairedTierOneTotal{} (\LgPairedShallowMain{} shallow, \LgPairedNullCtrlMain{} controls) satisfy strict quiet-epoch completeness across non-overlapping placebo ($[-30\,\text{d}, -21\,\text{d}]$) and pre-event ($[-10\,\text{d}, -1\,\text{d}]$) windows using \LgIonexMapsIngested{} daily CODE AIUB IONEX maps \cite{schaer1999} and hourly ECMWF ERA5 reanalysis \cite{hersbach2020,bevis1992}.
+\subsection{Moment-Tensor Mechanism Adjudication and Negative Controls}
+To separate ruptures capable of direct upper-crustal lithospheric coupling from deep or oceanic bending sources, we retrieve USGS ComCat and Global Centroid-Moment-Tensor (GCMT) focal mechanisms \cite{ekstrom2012} for all \LgStageOneCRegionalTotal{} regional candidates. First, \LgCodaMaskedExcluded{} early aftershocks occurring within $48\,\text{h}$ and inside the rupture zone of a preceding $M \ge 7.0$ mainshock are excluded (`EXCL_STAGE1D_EXCLUDED_CODA_MASKED_EARLY_AFTERSHOCK`) because their pre-event windows are contaminated by mainshock co-seismic and post-seismic deformation, freezing the Core Pilot catalogue at \LgCorePilotIncluded{} events.
 
-\section{Zero-Overlap Equal-Lag \& ERA5-Deconfounded Results}
-Placebo windows are calibrated against $[-45\,\text{d}, -31\,\text{d}]$ and pre-event windows against $[-25\,\text{d}, -11\,\text{d}]$. Table~\ref{tab:stage5f_combined_benchmark} and Fig.~\ref{fig:benchmark_v002_combined} report out-of-sample discrimination across all tropospheric, ERA5-deconfounded, and ionospheric models.
+Second, each of the \LgCorePilotIncluded{} Core Pilot earthquakes is assigned to one of two pre-specified analytical roles:
+\begin{itemize}
+    \item \textbf{Primary Shallow Targets ($z < 70$\,km, $N = \LgPrimaryShallowTotal$):} Comprising $209$ low-angle subduction megathrust interface candidates (thrust rake $45^\circ \le \lambda \le 135^\circ$, dip $\delta \le 35^\circ$, within $250$\,km landward of the trench axis) and $169$ shallow upper-plate crustal, strike-slip, or splay-fault ruptures.
+    \item \textbf{Candidate Physical Negative Controls ($N = \LgPhysicalNullControlTotal$):} Comprising $87$ intermediate-depth intraslab ruptures ($70 \le z < 300$\,km), $73$ deep-focus slab ruptures ($z \ge 300$\,km), and $25$ trenchward oceanic outer-rise normal-faulting events. Because intraslab earthquakes nucleate within the cold subducting lithosphere beneath the Moho and asthenospheric wedge, and outer-rise ruptures occur in Flexural oceanic lithosphere seaward of the trench, they serve as natural within-network negative controls for testing whether putative anomalies are merely artifacts of regional climatology or space weather.
+\end{itemize}
+
+\subsection{Complete 1,186-Event Attrition Funnel}
+Table~\ref{tab:stage5b_attrition} and Fig.~\ref{fig:journal_diagnostics}(a) document the complete, zero-imputation attrition funnel from the initial \LgTotalGlobalEvents{} global events to the final \LgPairedTierOneTotal{}-event near-field benchmark cohort. Every excluded event is logged with an explicit disposition code and SHA-256 hash in \texttt{metadata/event\_exclusions.csv}.
+
+\input{tables/stage5b_attrition_ledger_table.tex}
+
+\section{Multi-Domain Geophysical Data Architecture and Quality Control}
+
+\subsection{Dobrovolsky Strain-Radius GNSS Pairing and SINEX Schema Audit}
+For each of the \LgCorePilotIncluded{} Core Pilot earthquakes, we compute the theoretical Dobrovolsky preparation-zone radius \cite{dobrovolsky1979}:
+\begin{equation}
+    R_D = 10^{0.43 M}\quad (\text{km}),
+    \label{eq:dobrovolsky}
+\end{equation}
+which spans from $R_D = 623.7$\,km at $M = 6.5$ to $R_D = 2{,}754.2$\,km at $M = 8.0$. Cross-matching event origin times and epicenters against the full 23,839-station Nevada Geodetic Laboratory (UNR) continuous GNSS holdings \cite{blewitt2018} identifies \LgNearRegionalCohort{} near-regional events with at least one active station at epicentral distance $d \le 300$\,km (excluding $35$ events with no active station inside $R_D$ and $165$ Tier-3 far-field events with $300\,\text{km} < d \le R_D$).
+
+To prevent atmospheric attenuation over hundreds of kilometers from diluting localized boundary-layer signals, primary evaluation is restricted to \textbf{Tier-1 near-field stations} ($d \le 150$\,km, \LgTierOneReady{} archive-ready events after removing $86$ events with $<15$ quiet baseline days and $8$ events lacking published UNR `.trop` archives). Under our strict zero-imputation rule (\texttt{preserve\_missing: true}), the nearest Tier-1 station must achieve $\ge 80\%$ raw 5-minute epoch completeness across the 50-day window $[-45\,\text{d}, +5\,\text{d}]$, which is satisfied by \LgTierOneGnssQaPass{} events ($111$ of which retain $\ge 12$ geomagnetically quiet hourly samples in every disjoint baseline and evaluation sub-window).
+
+During our Stage~5C schema audit of all 176 multi-year UNR \texttt{IGS20/trop} SINEX archives, we verified that standard UNR tropospheric solution blocks (\texttt{+TROP/SOLUTION}) contain strictly seven columns:
+\begin{equation*}
+    \texttt{SITE} \quad \texttt{EPOCH} \quad \texttt{TROTOT} \quad \texttt{STDDEV} \quad \texttt{TGNTOT} \quad \texttt{STDDEV} \quad \texttt{TGETOT} \quad \texttt{STDDEV}
+\end{equation*}
+Crucially, auxiliary meteorological columns (\texttt{PRESS}, \texttt{TEMP}, \texttt{IWV}) are absent from standard UNR \texttt{IGS20} `.trop` distributions. Consequently, pipeline implementations that fall back to fixed positional column index~8 when the string \texttt{"IWV"} is absent inadvertently parse horizontal gradient standard deviations, producing artificial variance compression and spurious false-alarm inflation. In LAIC-GUARD, we enforce strict header-token validation and evaluate verified 5-minute \texttt{TROTOT} ($\text{ZTD}_{\text{GNSS}}$, bounded within $[1000, 3500]$\,mm) aggregated into exact UTC hourly means.
+
+\subsection{ECMWF ERA5 Meteorological Reanalysis Forward Model}
+Because raw $\text{ZTD}_{\text{GNSS}}$ is dominated by barometric pressure systems (zenith hydrostatic delay, $\text{ZHD} \approx 2100\text{--}2300$\,mm) and synoptic tropospheric water vapor (zenith wet delay, $\text{ZWD} \approx 20\text{--}350$\,mm), we collocate hourly ECMWF ERA5 reanalysis fields \cite{hersbach2020}—surface pressure $P_s(t)$ (hPa), 2-m air temperature $T_{2\text{m}}(t)$ (K), 2-m dew-point temperature $T_d(t)$ ($^\circ\text{C}$), and total column integrated water vapour $\text{TCWV}(t)$ ($\text{kg}\,\text{m}^{-2}$)—at the exact geodetic coordinates $(\phi_s, \lambda_s, H_{\text{km}})$ of each paired Tier-1 GNSS station across $[-45\,\text{d}, +5\,\text{d}]$.
+
+Using the Saastamoinen (1972) and Davis et al.\ (1985) formulation \cite{saastamoinen1972,davis1985}, hourly reanalysis hydrostatic delay (in mm) is computed as:
+\begin{equation}
+    \text{ZHD}_{\text{ERA5}}(t) = \frac{2.2768 \, P_s(t)}{1 - 0.00266 \cos(2\phi_s) - 0.00028 \, H_{\text{km}}}.
+    \label{eq:zhd}
+\end{equation}
+Following Bevis et al.\ (1992) \cite{bevis1992}, we estimate the water-vapor-weighted mean atmospheric temperature $T_m(t)$ (K) and dimensionless inverse conversion factor $\Pi^{-1}(t)$:
+\begin{align}
+    T_m(t) &= 70.2 + 0.72 \, T_{2\text{m}}(t), \label{eq:tm} \\
+    \Pi^{-1}(t) &= 10^{-6} R_v \left(\frac{k_3}{T_m(t)} + k_2'\right), \label{eq:pi_inv}
+\end{align}
+where $R_v = 461.5\,\text{J}\,\text{kg}^{-1}\,\text{K}^{-1}$, $k_3 = 3.739 \times 10^5\,\text{K}^2\,\text{hPa}^{-1}$, and $k_2' = 22.1\,\text{K}\,\text{hPa}^{-1}$. The ERA5 wet and total zenith delays (in mm) are then:
+\begin{align}
+    \text{ZWD}_{\text{ERA5}}(t) &= 10^3 \, \Pi^{-1}(t) \, \text{TCWV}(t), \label{eq:zwd} \\
+    \text{ZTD}_{\text{ERA5}}(t) &= \text{ZHD}_{\text{ERA5}}(t) + \text{ZWD}_{\text{ERA5}}(t). \label{eq:ztd_era5}
+\end{align}
+
+\subsection{CODE AIUB GIM IONEX and NASA OMNIWeb Space-Weather Ingestion}
+To audit the ionospheric layer concurrently, we ingest \LgIonexMapsIngested{} daily Global Ionosphere Map (GIM) files in IONEX format produced by the Center for Orbit Determination in Europe (CODE, Astronomical Institute, University of Bern) \cite{schaer1999}, spanning years 2000--2025 ($2.5^\circ$ latitude $\times 5.0^\circ$ longitude spatial grid; 2-hour cadence during 2000--2014 and 1-hour cadence during 2015--2025). For each hourly map epoch, vertical total electron content ($\text{VTEC}$, in $\text{TECU}$, $1\,\text{TECU} = 10^{16}\,\text{el}\,\text{m}^{-2}$) is bilinearly interpolated from the four surrounding grid nodes to the earthquake epicenter $(\phi_e, \lambda_e)$.
+
+Hourly planetary geomagnetic indices ($Kp$, $Dst$) and solar $10.7$\,cm radio flux ($F_{10.7}$, in sfu) are ingested from NASA GSFC OMNIWeb low-resolution archives. An hourly epoch $t$ is classified as \textbf{geomagnetically quiet} if and only if:
+\begin{equation}
+    t \in \mathcal{Q} \iff Kp(t) < 3.0 \quad \text{and} \quad Dst(t) > -30\,\text{nT}.
+    \label{eq:quiet_mask}
+\end{equation}
+
+\section{Deconfounding Methodology and Zero-Overlap Equal-Lag Protocol}
+
+\subsection{Eliminating Baseline Overlap and Temporal Lag Asymmetry}
+A critical flaw in retrospective precursor studies is calibrating a pre-seismic target window $w_1 = [-10\,\text{d}, -1\,\text{d}]$ against an immediately preceding 25-day baseline $[-35\,\text{d}, -11\,\text{d}]$ while evaluating a placebo window $w_0 = [-20\,\text{d}, -11\,\text{d}]$ that overlaps the target's calibration baseline. Conversely, if both $w_0 = [-20\,\text{d}, -11\,\text{d}]$ and $w_1 = [-10\,\text{d}, -1\,\text{d}]$ are calibrated against a single shared disjoint baseline $\mathcal{B} = [-35\,\text{d}, -21\,\text{d}]$, the target window sits $11\text{--}20\,\text{d}$ after the baseline whereas the placebo window sits only $1\text{--}10\,\text{d}$ after the baseline. Under seasonal tropospheric drift or 27-day solar EUV rotation, this 10-day lag asymmetry systematically inflates target-window variance even on non-seismic series.
+
+To eliminate both overlap and lag asymmetry simultaneously, LAIC-GUARD (\texttt{v002}) enforces a **strictly non-overlapping, equal-lag ($1\text{--}10\,\text{d}$) paired design**:
+\begin{align}
+    \text{Placebo Pair:} \quad \mathcal{B}_0 &= [-45\,\text{d}, -31\,\text{d}] \xrightarrow{\text{lag } 1\text{--}10\,\text{d}} w_0 = [-30\,\text{d}, -21\,\text{d}], \label{eq:pair_plac} \\
+    \text{Target Pair:} \quad \mathcal{B}_1 &= [-25\,\text{d}, -11\,\text{d}] \xrightarrow{\text{lag } 1\text{--}10\,\text{d}} w_1 = [-10\,\text{d}, -1\,\text{d}]. \label{eq:pair_targ}
+\end{align}
+Here $\mathcal{B}_0, w_0, \mathcal{B}_1, w_1$ form four mutually disjoint time intervals prior to $t_0$ (with $[-1\,\text{d}, 0]$ held out as a co-seismic guard band), and both $w_0$ and $w_1$ are evaluated across identical $10\,\text{d}$ durations at an identical $1\text{--}10\,\text{d}$ forward lag from their respective $15\,\text{d}$ causal baselines.
+
+\subsection{Causal Station-Level ERA5 Transfer Calibration (\texttt{M2c})}
+Because ERA5 fields represent $0.25^\circ \times 0.25^\circ$ ($\sim 28\,\text{km}$) areal averages, the reanalysis model orography differs from the exact GPS monument altitude by up to $300\text{--}1{,}200\,\text{m}$ along steep coastal subduction zones (e.g., Andes, Japan, Kuril, Sumatra). Direct uncalibrated subtraction $r_{\text{raw}}(t) = \text{ZTD}_{\text{GNSS}}(t) - \text{ZTD}_{\text{ERA5}}(t)$ (\textbf{Model M2b}) therefore leaves a terrain-dependent hydrostatic scale mismatch $\beta_s \ne 1$ that injects synoptic barometric variance into the difference series.
+
+In \textbf{Model M2c}, we fit a station-specific affine transfer function $(\hat{\alpha}_k, \hat{\beta}_k)$ via ordinary least squares (OLS) strictly inside each causal baseline $\mathcal{B}_k$ ($k \in \{0, 1\}$), with zero access to evaluation epochs $w_k$:
+\begin{equation}
+    (\hat{\alpha}_k, \hat{\beta}_k) = \arg\min_{\alpha,\beta} \sum_{t \in \mathcal{B}_k} \left[\text{ZTD}_{\text{GNSS}}(t) - \left(\alpha + \beta \, \text{ZTD}_{\text{ERA5}}(t)\right)\right]^2,
+    \label{eq:ols_era5}
+\end{equation}
+and evaluate the deconfounded residual inside $w_k$:
+\begin{equation}
+    r_{\text{cal}}^{(k)}(t) = \text{ZTD}_{\text{GNSS}}(t) - \left(\hat{\alpha}_k + \hat{\beta}_k \, \text{ZTD}_{\text{ERA5}}(t)\right), \quad t \in \mathcal{B}_k \cup w_k.
+    \label{eq:res_cal}
+\end{equation}
+
+\subsection{Quiet-Time Solar $F_{10.7}$ Detrending (\texttt{M3}) and Diurnal MAD Scoring}
+For \textbf{Model M3}, all storm-disturbed epochs ($t \notin \mathcal{Q}$) are masked prior to baseline fitting and window scoring. To remove slow solar cycle and 27-day EUV rotation trends without leaking pre-event target data, linear regression of quiet-time $\text{VTEC}(t)$ against $F_{10.7}(t)$ is fitted exclusively on the union of quiet baseline epochs $\mathcal{B}_{\text{quiet}} = (\mathcal{B}_0 \cup \mathcal{B}_1) \cap \mathcal{Q}$:
+\begin{equation}
+    \widetilde{\text{VTEC}}(t) = \text{VTEC}(t) - \hat{\gamma}_{\mathcal{B}} \left(F_{10.7}(t) - \bar{F}_{10.7,\mathcal{B}}\right), \quad t \in \mathcal{Q}.
+    \label{eq:vtec_detrend}
+\end{equation}
+
+To account for strong diurnal cycles in both tropospheric moisture and ionospheric photoionization, any candidate series $x(t) \in \{\text{ZTD}_{\text{GNSS}}, r_{\text{raw}}, r_{\text{cal}}, \widetilde{\text{VTEC}}\}$ is standardized separately for each UTC hour of the day $h \in \{0, 1, \dots, 23\}$ using the causal baseline median $m_{h,k}$ and Median Absolute Deviation ($\text{MAD}$) scale $\sigma_{h,k}$ computed strictly over $\{t \in \mathcal{B}_k : \text{hour}(t) = h\}$:
+\begin{align}
+    m_{h,k} &= \text{median}_{t \in \mathcal{B}_{k,h}} x(t), \label{eq:med} \\
+    \sigma_{h,k} &= 1.4826 \times \text{median}_{t \in \mathcal{B}_{k,h}} \lvert x(t) - m_{h,k} \rvert, \label{eq:mad} \\
+    z_k(t) &= \frac{\lvert x(t) - m_{\text{hour}(t),k} \rvert}{\sigma_{\text{hour}(t),k}}, \quad t \in w_k. \label{eq:zscore}
+\end{align}
+Each 10-day window $w_k$ ($k=0$ placebo, $k=1$ pre-event target) is summarized by the 2-D extreme-value feature vector:
+\begin{equation}
+    \mathbf{u}_{e,k} = \begin{bmatrix} \max_{t \in w_k} z_k(t) \\ Q_{0.95}\!\left(\{z_k(t)\}_{t \in w_k}\right) \end{bmatrix},
+    \label{eq:feat_vec}
+\end{equation}
+where $Q_{0.95}$ denotes the 95th percentile across valid hourly epochs in $w_k$. Out-of-sample classification probabilities $\hat{p}_{e,k}$ are generated via L2-regularized logistic regression under both **Leave-One-Event-Out (LOEO)** cross-validation and **Storm-Cluster Cross-Validation** (holding out entire $\pm 15\,\text{d}$ multi-earthquake temporal clusters simultaneously). Statistical significance is assessed via the non-parametric within-event paired Wilcoxon signed-rank test on $\Delta Q_{0.95,e} = Q_{0.95}(w_{e,1}) - Q_{0.95}(w_{e,0})$ and 2,000-replicate event-cluster bootstrap 95\% confidence intervals.
+
+\section{Empirical Benchmark Results and Stratified Audits}
+
+\subsection{Baseline Overlap and Lag-Symmetry Audit (\texttt{Stage 5B} vs.\ \texttt{Stage 5C})}
+Table~\ref{tab:stage5b_baseline_audit} demonstrates the necessity of our zero-overlap, equal-lag protocol. When a single disjoint baseline ($[-35\,\text{d}, -21\,\text{d}]$ or $[-45\,\text{d}, -21\,\text{d}]$) is shared between placebo and target windows, the 10-day lag asymmetry causes deep-slab and outer-rise negative controls ($N=21$) to drift upward to $\text{ROC-AUC} = 0.601\ [0.51, 0.70]$ ($p_{\text{Wilc}} = 0.0722$). Furthermore, in the preliminary \texttt{v001} design where the target baseline $[-35\,\text{d}, -11\,\text{d}]$ overlapped the placebo window $[-20\,\text{d}, -11\,\text{d}]$, elevated variance during $[-20\,\text{d}, -11\,\text{d}]$ prior to large megathrust ruptures inflated the target denominator $\sigma_{h,1}$, artificially depressing megathrust skill to $0.580$ while inflating crustal/splay events to $0.733$.
+
+Restoring strict zero-overlap and equal $1\text{--}10\,\text{d}$ lag (\texttt{v002}, bottom rows of Table~\ref{tab:stage5b_baseline_audit}) eliminates both artifacts: deep-slab/outer-rise negative controls drop to random chance ($\text{AUC} = \LgAucVtecNullCtrl$, $p_{\text{Wilc}} = 0.3641$), while shallow megathrust interface ruptures emerge as the primary physical driver ($\text{AUC} = \LgAucVtecMegathrust$, $p_{\text{Wilc}} = 0.0005$) and shallow crustal/splay faults fall to chance ($\text{AUC} = \LgAucVtecCrustal$, $p_{\text{Wilc}} = 0.2437$).
+
+\input{tables/stage5b_baseline_design_table.tex}
+
+\subsection{Tropospheric ERA5 Deconfounding Progression (\texttt{M2a} $\to$ \texttt{M2c})}
+Table~\ref{tab:stage5f_combined_benchmark} and Fig.~\ref{fig:benchmark_v002_combined}(a) present the complete multi-domain ablation across all \LgPairedTierOneTotal{} paired Tier-1 events:
+\begin{itemize}
+    \item \textbf{M2a (Raw GNSS ZTD-Only):} Evaluated across the \LgPairedShallowMain{} primary shallow earthquakes, raw GNSS ZTD yields $\text{ROC-AUC} = \LgAucZtdRaw$ ($95\%$ CI $[0.44, 0.60]$, $\text{PR-AUC} = 0.518$, $p_{\text{Wilc}} = 0.1233$), confirming that unadjusted tropospheric delay provides no statistically distinguishable pre-seismic skill under equal-lag calibration.
+    \item \textbf{M2b (Uncalibrated $\text{GNSS} - \text{ERA5}$ Difference):} Directly subtracting physical $\text{ZTD}_{\text{ERA5}}$ (\ref{eq:ztd_era5}) without station elevation/scale calibration degrades performance to $\text{ROC-AUC} = \LgAucEraUncal$ ($[0.34, 0.50]$), reflecting $0.25^\circ$ grid-topography mismatch in coastal mountain belts.
+    \item \textbf{M2c (Causal-Calibrated $\text{GNSS} - \text{ERA5}$ Residual):} Fitting the causal station transfer model (\ref{eq:ols_era5}) removes topographic scale bias and synoptic barometric/moisture variance, uncovering a statistically significant positive residual on shallow targets: $\text{ROC-AUC} = \LgAucEraCal$ ($95\%$ CI $[0.55, 0.70]$, $\text{PR-AUC} = 0.636$, $p_{\text{Wilc}} = 0.0009$) under Event-LOEO, and $\text{ROC-AUC} = \LgAucEraCalCluster$ ($[0.54, 0.70]$) under $\pm 15\,\text{d}$ storm-cluster cross-validation. Crucially, the exact same M2c pipeline applied to the \LgPairedNullCtrlMain{} deep-slab and outer-rise negative controls yields $\text{ROC-AUC} = \LgAucEraNullCtrl$ ($[0.33, 0.67]$, $p_{\text{Wilc}} = 0.3383$).
+\end{itemize}
 
 \input{tables/stage5f_combined_benchmark_table.tex}
 
@@ -44,10 +188,38 @@ Placebo windows are calibrated against $[-45\,\text{d}, -31\,\text{d}]$ and pre-
 \label{fig:benchmark_v002_combined}
 \end{figure*}
 
-Raw GNSS ZTD ($\text{AUC} = \LgAucZtdRaw$) and uncalibrated $\text{GNSS} - \text{ERA5}$ differences ($\LgAucEraUncal$) fail to separate pre-seismic windows from placebo due to synoptic weather and $0.25^\circ$ grid-elevation mismatch. Applying station-specific linear transfer calibration within each causal baseline (M2c) isolates a non-meteorological ZTD residual ($\text{AUC} = \LgAucEraCal$, $p_{\text{Wilc}} = 0.0009$; $\LgAucEraCalCluster$ under $\pm 15$\,d storm-cluster CV). Independently, M2c and quiet $F_{10.7}$-adjusted VTEC (M3) converge on shallow megathrust interface earthquakes ($\text{AUC} = \LgAucEraMegathrust$ and $\LgAucVtecMegathrust$, $N=62$), while remaining indistinguishable from chance on crustal/splay ruptures ($\LgAucEraCrustal$, $\LgAucVtecCrustal$, $N=28$) and slab/outer-rise controls ($\LgAucEraNullCtrl$, $\LgAucVtecNullCtrl$, $N=21$). Fusing calibrated ERA5 residuals with quiet VTEC (M4$_{\text{ERA5}}$) yields $\text{AUC} = \LgAucJointEraVtec$.
+\subsection{Cross-Layer Tectonic Specificity and Subgroup Sensitivity}
+Comparing Fig.~\ref{fig:benchmark_v002_combined}(b) and Fig.~\ref{fig:journal_diagnostics}(b) reveals a striking physical convergence between the lower atmosphere (M2c) and ionosphere (M3):
+\begin{enumerate}
+    \item \textbf{Shallow Megathrust Interface Ruptures ($N=62$):} Both layers achieve their highest discriminative performance on subduction megathrust interfaces, with M2c reaching $\text{ROC-AUC} = \LgAucEraMegathrust$ ($[0.58, 0.76]$, $\text{PR-AUC} = 0.719$, $p_{\text{Wilc}} = 0.0004$) and M3 reaching $\text{ROC-AUC} = \LgAucVtecMegathrust$ ($[0.57, 0.73]$, $\text{PR-AUC} = 0.579$, $p_{\text{Wilc}} = 0.0005$). As shown in Fig.~\ref{fig:journal_diagnostics}(b), within-event paired 95th-percentile anomalies shift positively ($\Delta Q_{0.95} > 0$) in both domains specifically for megathrust events.
+    \item \textbf{Shallow Crustal and Splay Faults ($N=28$):} Both layers drop to random chance on smaller-area continental and upper-plate splay faults: $\text{ROC-AUC} = \LgAucEraCrustal$ ($p_{\text{Wilc}} = 0.2509$) for M2c and $\text{ROC-AUC} = \LgAucVtecCrustal$ ($p_{\text{Wilc}} = 0.2437$) for M3.
+    \item \textbf{Geomagnetic Latitude and Coastal Proximity (Fig.~\ref{fig:journal_diagnostics}c):} Stratifying M3 by dipole geomagnetic latitude $\lambda_m$ shows comparable skill inside the Equatorial Ionization Anomaly belt ($\lvert\lambda_m\rvert \le 25^\circ$, $N=57$, $\text{AUC} = \LgAucVtecGeomagLow$, $p_{\text{Wilc}} = 0.0293$) and at mid-latitudes ($\lvert\lambda_m\rvert > 25^\circ$, $N=33$, $\text{AUC} = \LgAucVtecGeomagHigh$, $p_{\text{Wilc}} = 0.0035$), refuting claims of a sharp $25^\circ$ latitude cutoff. Similarly, stations within $d \le 50$\,km ($N=31$, $\text{AUC} = 0.631$) slightly outperform stations at $50 < d \le 150$\,km ($N=59$, $\text{AUC} = 0.612$).
+    \item \textbf{Multi-Domain Fusion (\texttt{M4\_ERA5}):} Combining the two M2c tropospheric residual features with the two M3 quiet-VTEC features in a 4-feature out-of-sample LOEO classifier achieves $\text{ROC-AUC} = \LgAucJointEraVtec$ ($95\%$ CI $[0.56, 0.72]$, $\text{PR-AUC} = 0.637$, $p_{\text{Wilc}} = 0.0009$), outperforming either single-domain model across the full $N=90$ shallow cohort.
+\end{enumerate}
 
-\section{Limitations, Data Availability, and Conclusion}
-While causal-window OLS calibration in M2c prevents future leakage, non-stationary synoptic shifts between baseline windows can influence residual variance; nonetheless, chance-level performance on slab controls ($\LgAucEraNullCtrl$) argues against a generic baseline artifact. Together, our findings show that meteorological and solar deconfounding isolates a modest, megathrust-specific multi-layer association rather than an operational earthquake-prediction capability. All benchmark manifests, verification scripts, and provenance ledgers (\texttt{tag: v002\_era5}) are openly available at \url{https://github.com/Parth15-git/LAIC-GUARD}.
+\begin{figure*}[t]
+\centering
+\includegraphics[width=0.98\textwidth]{figures/fig_stage5h_journal_diagnostics.png}
+\caption{LAIC-GUARD diagnostic synthesis: (a) deterministic zero-imputation selection waterfall from $1{,}186$ global ComCat earthquakes to the $111$ paired Tier-1 cohort; (b) within-event paired anomaly shift $\Delta Q_{0.95} = Q_{0.95}(w_1) - Q_{0.95}(w_0)$ (mean $\pm 95\%$ CI in $\sigma_{\text{MAD}}$ units) showing cross-layer convergence on megathrust ruptures ($N=62$) and null shifts on crustal ($N=28$) and slab/outer-rise control ($N=21$) strata; and (c) ionospheric M3 sensitivity across geomagnetic dipole latitude, modified dip, station proximity, and magnitude.}
+\label{fig:journal_diagnostics}
+\end{figure*}
+
+\section{Physical Interpretation, Limitations, and Discussion}
+
+\subsection{Why Do Anomalies Concentrate in Megathrust Interfaces?}
+The independent convergence of ERA5-deconfounded GNSS tropospheric residuals ($\text{AUC} = \LgAucEraMegathrust$) and solar-detrended quiet GIM VTEC ($\text{AUC} = \LgAucVtecMegathrust$) on shallow subduction megathrusts—while crustal/splay faults ($\LgAucEraCrustal, \LgAucVtecCrustal$) and deep-slab controls ($\LgAucEraNullCtrl, \LgAucVtecNullCtrl$) remain at chance—offers an important physical clue. Subduction megathrust earthquakes involve coherent pre-seismic locking and slow-slip strain accumulation across fault patches tens to hundreds of kilometers wide along coastal ocean--land boundaries \cite{heki2011,he2017}. By contrast, continental strike-slip and upper-plate splay ruptures at $M \sim 6.5\text{--}7.0$ have compact preparation zones whose localized boundary-layer perturbations are rapidly dispersed by horizontal winds and sub-grid turbulence below the spatial resolution of $2.5^\circ \times 5.0^\circ$ GIM IONEX maps.
+
+\subsection{Methodological Limitations and Operational Caveats}
+In accordance with international guidelines for earthquake forecasting validation \cite{jordan2011,kossobokov2020}, four methodological limitations must be emphasized:
+\begin{enumerate}
+    \item \textbf{Causal OLS Non-Stationarity in \texttt{M2c}:} Because $\hat{\alpha}_k, \hat{\beta}_k$ in (\ref{eq:ols_era5}) are fitted separately on $\mathcal{B}_0 = [-45\,\text{d}, -31\,\text{d}]$ and $\mathcal{B}_1 = [-25\,\text{d}, -11\,\text{d}]$ to prevent future leakage, rapid seasonal regime transitions between baseline windows can influence residual scaling. However, the null result on the \LgPairedNullCtrlMain{} slab/outer-rise controls ($\text{AUC} = \LgAucEraNullCtrl$, $p_{\text{Wilc}} = 0.3383$) rules out a generic regression artifact.
+    \item \textbf{Coarse Spatial Resolution of GIM IONEX:} Global IONEX maps smooth ionospheric structure over $2.5^\circ \times 5.0^\circ$ cells. Future extensions incorporating station-specific slant TEC (sTEC) from raw RINEX observations may sharpen near-field sensitivity.
+    \item \textbf{Control Cohort Sample Size ($N=21$):} While \LgPhysicalNullControlTotal{} deep-slab and outer-rise controls were frozen in Stage~1D, requiring a Tier-1 station within $d \le 150$\,km and $\ge 80\%$ 5-minute completeness reduced the paired control sample to $N = \LgPairedNullCtrlMain{}$, resulting in wider bootstrap confidence intervals ($[0.32, 0.71]$). Expanding evaluation to Tier-2 stations ($150 < d \le 300$\,km, $N = 77$ deferred events) is a priority for future work.
+    \item \textbf{Statistical Benchmark vs.\ Operational Forecasting:} An out-of-sample $\text{ROC-AUC}$ of $0.642\text{--}0.672$ demonstrates a statistically reproducible geophysical association above random chance, but yields substantial false-alarm rates under extreme base-rate imbalance in continuous daily monitoring \cite{jordan2011,chaniadakis2025}. LAIC-GUARD should therefore be interpreted as a deconfounded physical benchmark rather than an operational earthquake warning system.
+\end{enumerate}
+
+\section{Conclusion}
+We have presented \textbf{LAIC-GUARD} (\texttt{v002\_era5}), a deconfounded, zero-imputation benchmark evaluating pre-seismic tropospheric and ionospheric anomalies across \LgTotalGlobalEvents{} global $M \ge 6.5$ earthquakes (2000--2025). Under strictly non-overlapping, equal-lag ($1\text{--}10\,\text{d}$) calibration, raw GNSS ZTD exhibits chance-level skill ($\text{AUC} = \LgAucZtdRaw$), but causal station-level ERA5 meteorological deconfounding uncovers a megathrust-specific tropospheric residual ($\text{AUC} = \LgAucEraCal$ overall; $\LgAucEraMegathrust$ on megathrusts) that mirrors quiet-time $F_{10.7}$-detrended GIM VTEC ($\text{AUC} = \LgAucVtecMain$ overall; $\LgAucVtecMegathrust$ on megathrusts) and reaches $\text{AUC} = \LgAucJointEraVtec$ when fused jointly, while both layers remain at chance on deep-slab/outer-rise negative controls ($\LgAucEraNullCtrl, \LgAucVtecNullCtrl$).
 
 \bibliographystyle{IEEEtran}
 \bibliography{references}
