@@ -1,0 +1,8 @@
+﻿event_id,origin_time_utc,latitude_deg,longitude_deg,magnitude,magnitude_type,place
+usp000hyfx,2011-03-24T13:55:12.010Z,20.687,99.822,6.9,mww,"27 km NNW of Tachilek, Myanmar"
+usp000jvbq,2012-11-11T01:12:38.870Z,23.005,95.885,6.8,mww,"51 km NNE of Shwebo, Myanmar"
+us10004b2n,2016-01-03T23:05:22.270Z,24.8036,93.6505,6.7,mww,"29 km W of Imph?l, India"
+us20005hqz,2016-04-13T13:55:17.800Z,23.0944,94.8654,6.9,mww,"76 km SE of Mawlaik, Myanmar"
+us10006gbf,2016-08-24T10:34:54.580Z,20.9228,94.569,6.8,mww,"26 km W of Chauk, Myanmar"
+us7000pn9s,2025-03-28T06:20:52.715Z,22.011,95.9363,7.7,mww,"2025 Mandalay, Burma (Myanmar) Earthquake"
+us7000pn9z,2025-03-28T06:32:04.777Z,21.6975,95.969,6.7,mww,Burma (Myanmar)

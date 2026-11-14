@@ -1,0 +1,13 @@
+domain_id,candidate_domain,interim_status,reviewer_decision,approved_polygon_source_and_version,boundary_definition_or_coordinates,tectonic_source_types_included,tectonic_source_types_excluded,minimum_completeness_assessment,sample_size_assessment,reviewer_rationale,reviewer_initials,review_date_utc
+HIM_COLLISION,India–Eurasia collision belt,PROVISIONAL_CANDIDATE_HOLD_BOUNDARY,,,,,,,,,,
+BURMA_SHAN_THAI,Burma / Shan-Thai transition complex,KEEP_AS_SEPARATE_COMPLEX_REVIEW,,,,,,,,,,
+KURIL_KAMCHATKA,Kuril–Kamchatka arc,KEEP_AS_SEPARATE_ARC_CANDIDATE,,,,,,,,,,
+BERING_ALEUTIAN,Bering Sea / Aleutian transition,KEEP_SEPARATE_FROM_KURIL_HOLD_JUNCTION,,,,,,,,,,
+RYUKYU,Ryukyu arc / trench,KEEP_AS_SEPARATE_ARC_CANDIDATE,,,,,,,,,,
+IZU_BONIN_MARIANA,Izu–Bonin–Mariana system,KEEP_AS_SEPARATE_ARC_SYSTEM,,,,,,,,,,
+SUNDA_SUMATRA_JAVA,Sunda arc: Sumatra and Java,SPLIT_SUMATRA_JAVA,,,,,,,,,,
+BANDA_TIMOR,Banda arc / Timor collision transition,KEEP_SEPARATE_TRANSITION_REVIEW,,,,,,,,,,
+MOLUCCA_HALMAHERA,Molucca Sea / Halmahera double-subduction,KEEP_AS_SEPARATE_COMPLEX_DOMAIN,,,,,,,,,,
+PHILIPPINE_MOBILE_BELT,Philippine Mobile Belt complex,KEEP_AS_COMPLEX_UMBRELLA,,,,,,,,,,
+ANDES_SEGMENTS,Andes / Nazca–South America margin,REPLACE_RECTANGLE_WITH_SEGMENTS,,,,,,,,,,
+UNASSIGNED_OUTSIDE,Unassigned and outside-pilot events,RETAIN_UNASSIGNED_NO_CONTROL_ROLE,,,,,,,,,,

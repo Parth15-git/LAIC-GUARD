@@ -1,0 +1,5 @@
+metric,shallow_n,shallow_placebo_median,shallow_target_median,auc_target_vs_placebo,wilcoxon_p_target_gt_placebo,null_control_n,null_control_target_median,auc_shallow_vs_null_control,mann_whitney_p_shallow_gt_null
+Troposphere Max |Z| (Lag-Matched 15d Causal),34,7.26,6.73,0.492,0.3222,9,9.72,0.297,0.9690
+Troposphere 95th-Pct |Z| (Lag-Matched 15d Causal),34,3.99,3.77,0.460,0.6466,9,5.90,0.209,0.9962
+Quiet GIM VTEC Max |Z| (F10.7-Detrended + Lag-Matched),34,5.24,7.54,0.572,0.0161,9,7.25,0.333,0.9379
+Quiet GIM VTEC 95th-Pct |Z| (F10.7-Detrended + Lag-Matched),34,3.05,4.26,0.599,0.0008,9,3.89,0.327,0.9449

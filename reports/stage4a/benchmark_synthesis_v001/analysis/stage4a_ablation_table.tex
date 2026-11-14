@@ -1,0 +1,17 @@
+% Auto-generated Stage 4A Leave-One-Event-Out Multi-Domain Ablation Table
+\begin{table*}[t]
+\centering
+\caption{Leave-One-Event-Out (LOEO) Cross-Validated $\text{ROC-AUC}$ Across Five LAIC-GUARD Domain Ablation Models Comparing Primary Shallow Ruptures ($N = 34$) Against Deep/Outer-Rise Physical Null Controls ($N = 9$) Under Strict Zero-Imputation Storm Masking.}
+\label{tab:stage4a_ablation}
+\begin{tabular}{lcccc}
+\hline
+\textbf{Ablation Model} & \textbf{Valid Win. (S / NC)} & \textbf{Shallow LOEO AUC} & \textbf{Null-Control LOEO AUC} & \textbf{Specificity $\Delta\text{AUC}$ (S $-$ NC)} \\
+\hline
+M1: Seismicity \& Distance Only & 68 / 18 & 0.500 & 0.500 & +0.000 \\
+M2: Troposphere (ZTD/IWV, 15d-lag) & 68 / 18 & 0.441 & 0.531 & -0.090 \\
+M3: Quiet GIM VTEC ($F_{10.7}$-adj.) & 62 / 13 & 0.689 & 0.238 & +0.450 \\
+M4: Joint Trop $\times$ VTEC Concordance & 62 / 13 & 0.557 & 0.786 & -0.228 \\
+M5: Full Multi-Domain Feature Set & 62 / 13 & 0.579 & 0.690 & -0.111 \\
+\hline
+\end{tabular}
+\end{table*}

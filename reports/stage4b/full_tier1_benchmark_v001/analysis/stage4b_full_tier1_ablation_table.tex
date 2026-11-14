@@ -1,0 +1,17 @@
+% Auto-generated Stage 4B Full Tier-1 (M >= 6.5 & M >= 7.0) 1:1 Paired LOEO Ablation Table
+\begin{table*}[t]
+\centering
+\caption{Stage 4B Leave-One-Event-Out (LOEO) $\text{ROC-AUC}$ with Cluster-Bootstrap 95\% Confidence Intervals Across 1:1 Storm-Paired Tier-1 ($d \le 150\,\text{km}$) Earthquakes: Full $M \ge 6.5$ Cohort ($N_S = 90$, $N_{NC} = 21$) vs.\ Major $M \ge 7.0$ Sub-Cohort ($N_S = 26$, $N_{NC} = 6$).}
+\label{tab:stage4b_full_tier1_ablation}
+\begin{tabular}{lcccccc}
+\hline
+\textbf{Ablation Model} & \textbf{Shallow ($M\!\ge\!6.5$)} & \textbf{Null-Ctrl ($M\!\ge\!6.5$)} & \textbf{$\Delta\text{AUC}_{6.5}$} & \textbf{Shallow ($M\!\ge\!7.0$)} & \textbf{Null-Ctrl ($M\!\ge\!7.0$)} & \textbf{$\Delta\text{AUC}_{7.0}$} \\
+\hline
+M1: Seismicity \& Distance Only & 0.500 [0.50, 0.50] & 0.500 [0.50, 0.50] & +0.000 & 0.500 [0.50, 0.50] & 0.500 [0.50, 0.50] & +0.000 \\
+M2: Troposphere (ZTD/IWV, 15d-lag) & 0.505 [0.44, 0.57] & 0.599 [0.49, 0.71] & -0.094 & 0.467 [0.34, 0.60] & 0.694 [0.44, 0.97] & -0.227 \\
+M3: Quiet GIM VTEC ($F_{10.7}$-adj.) & 0.634 [0.56, 0.71] & 0.472 [0.30, 0.66] & +0.163 & 0.649 [0.50, 0.81] & 0.250 [0.00, 0.33] & +0.399 \\
+M4: Joint Trop $\times$ VTEC Concordance & 0.536 [0.46, 0.61] & 0.485 [0.33, 0.64] & +0.051 & 0.537 [0.41, 0.67] & 0.750 [0.47, 0.97] & -0.213 \\
+M5: Full Multi-Domain Feature Set & 0.583 [0.51, 0.66] & 0.549 [0.43, 0.68] & +0.034 & 0.581 [0.44, 0.73] & 0.611 [0.39, 0.83] & -0.030 \\
+\hline
+\end{tabular}
+\end{table*}

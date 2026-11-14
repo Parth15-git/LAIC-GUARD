@@ -1,0 +1,14 @@
+{
+  "proposal": "Stage 1C.2.4 provisional regional segmentation proposal v001",
+  "input_catalogue_sha256": "0e20c3ef9268e728d320dcf55e18d66638aa92f66371af2915a34760f9837315",
+  "event_rows": 1186,
+  "unique_event_ids": 1186,
+  "candidate_tagged_events": 602,
+  "unassigned_events": 584,
+  "original_overlap_review_retained": 7,
+  "outside_pilot_retained": 640,
+  "PB2002_orogen_matches": 303,
+  "supporting_event_downloads": 0,
+  "sequence_labels_assigned": 0,
+  "network_calls": 0
+}

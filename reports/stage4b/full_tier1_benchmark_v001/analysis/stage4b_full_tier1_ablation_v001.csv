@@ -1,0 +1,11 @@
+cohort,shallow_events,null_ctrl_events,model_id,latex_label,shallow_auc,shallow_ci95,null_auc,null_ci95,delta_auc
+ALL_TIER1_M65,90,21,M1_Seismicity_Distance,M1: Seismicity \& Distance Only,0.500,"[0.50, 0.50]",0.500,"[0.50, 0.50]",+0.000
+ALL_TIER1_M65,90,21,M2_Troposphere_15d_Lag,"M2: Troposphere (ZTD/IWV, 15d-lag)",0.505,"[0.44, 0.57]",0.599,"[0.49, 0.71]",-0.094
+ALL_TIER1_M65,90,21,M3_Quiet_VTEC_F107,M3: Quiet GIM VTEC ($F_{10.7}$-adj.),0.634,"[0.56, 0.71]",0.472,"[0.30, 0.66]",+0.163
+ALL_TIER1_M65,90,21,M4_Joint_Concordance,M4: Joint Trop $\times$ VTEC Concordance,0.536,"[0.46, 0.61]",0.485,"[0.33, 0.64]",+0.051
+ALL_TIER1_M65,90,21,M5_Full_MultiDomain,M5: Full Multi-Domain Feature Set,0.583,"[0.51, 0.66]",0.549,"[0.43, 0.68]",+0.034
+MAJOR_TIER1_M70,26,6,M1_Seismicity_Distance,M1: Seismicity \& Distance Only,0.500,"[0.50, 0.50]",0.500,"[0.50, 0.50]",+0.000
+MAJOR_TIER1_M70,26,6,M2_Troposphere_15d_Lag,"M2: Troposphere (ZTD/IWV, 15d-lag)",0.467,"[0.34, 0.60]",0.694,"[0.44, 0.97]",-0.227
+MAJOR_TIER1_M70,26,6,M3_Quiet_VTEC_F107,M3: Quiet GIM VTEC ($F_{10.7}$-adj.),0.649,"[0.50, 0.81]",0.250,"[0.00, 0.33]",+0.399
+MAJOR_TIER1_M70,26,6,M4_Joint_Concordance,M4: Joint Trop $\times$ VTEC Concordance,0.537,"[0.41, 0.67]",0.750,"[0.47, 0.97]",-0.213
+MAJOR_TIER1_M70,26,6,M5_Full_MultiDomain,M5: Full Multi-Domain Feature Set,0.581,"[0.44, 0.73]",0.611,"[0.39, 0.83]",-0.030

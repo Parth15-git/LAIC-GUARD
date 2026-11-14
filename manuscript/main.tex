@@ -1,0 +1,54 @@
+\documentclass[conference]{IEEEtran}
+\usepackage{amsmath,amssymb}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{hyperref}
+
+\input{laic_guard_numbers.tex}
+
+\title{LAIC-GUARD: A Deconfounded Multi-Domain Benchmark for Lithosphere--Atmosphere--Ionosphere Earthquake Precursors (2000--2025)}
+
+\author{\IEEEauthorblockN{Parth Nilesh Jichkar}
+\IEEEauthorblockA{Department of Electronics and Communication Engineering, MIT World Peace University, Pune, India}}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+Retrospective studies of pre-seismic anomalies in tropospheric zenith delay and ionospheric vertical total electron content (VTEC) frequently suffer from post-hoc event selection, overlapping baseline windows, geomagnetic storm leakage, and the absence of deep-source negative controls. We introduce \textbf{LAIC-GUARD}, a reproducible, zero-imputation multi-domain benchmark spanning all \LgTotalGlobalEvents{} global $M \ge 6.5$ earthquakes (2000--2025). By combining tectonic province attribution, moment-tensor adjudication, and Dobrovolsky strain-radius ($R_D = 10^{0.43M}$\,km) station pairing across Nevada Geodetic Laboratory (UNR) continuous GNSS tropospheric solutions, CODE AIUB global ionosphere maps (\LgIonexMapsIngested{} daily IONEX files), and NASA OMNIWeb space-weather records, we isolate \LgPairedTierOneTotal{} within-event paired near-field ($d \le 150$\,km) earthquakes (\LgPairedShallowM65{} primary shallow targets vs.\ \LgPairedNullCtrlM65{} deep-slab and outer-rise candidate negative controls). Under strictly non-overlapping, equal-lag ($1\text{--}10$\,d) calibration, GNSS tropospheric zenith total delay (ZTD) exhibits no statistically distinguishable discriminative skill ($\text{AUC} = \LgAucZtdM65$, $95\%$ CI $[0.44, 0.60]$). Conversely, solar-$F_{10.7}$-detrended, geomagnetically quiet GIM VTEC achieves $\text{AUC} = \LgAucVtecM65$ ($95\%$ CI $[0.56, 0.70]$, $p_{\text{Wilc}} = 0.0010$; $\LgAucVtecClusterCv$ under $\pm 15$\,d storm-cluster cross-validation) on shallow ruptures while remaining indistinguishable from chance on candidate negative controls ($\text{AUC} = \LgAucVtecNullCtrl$, $\Delta\text{AUC} = \LgDeltaAucVtecM65$), driven primarily by shallow megathrust interface ruptures ($\text{AUC} = \LgAucVtecMegathrust$).
+\end{abstract}
+
+\begin{IEEEkeywords}
+Lithosphere--atmosphere--ionosphere coupling, GNSS troposphere, GIM VTEC, falsification benchmark, earthquake precursors
+\end{IEEEkeywords}
+
+\section{Introduction}
+The Lithosphere--Atmosphere--Ionosphere Coupling (LAIC) hypothesis proposes that pre-rupture stress accumulation perturbs tropospheric delay and ionospheric electron density prior to major earthquakes \cite{dobrovolsky1979,pulinets2011}. Recent multi-decadal reviews and ionospheric audits emphasize that rigorous progress requires explicit baselines, event-wise and storm-clustered validation, systematic false-alarm accounting, and transparent quality control \cite{diaz2026,chaniadakis2025,wen2026}.
+
+\section{Catalogue Adjudication and Multi-Domain Data Pipeline}
+From \LgTotalGlobalEvents{} global $M \ge 6.5$ earthquakes in USGS ComCat (2000--2025), tectonic province overlays \cite{hasterok2022} and W-phase/GCMT moment tensors isolate \LgCorePilotIncluded{} Core Pilot events across \LgPilotRegions{} macro-regions (\LgPrimaryShallowTotal{} shallow targets at $z < 70$\,km and \LgPhysicalNullControlTotal{} deep-slab/outer-rise negative controls; \LgExcludedTotal{} excluded).
+
+\input{tables/stage1c_manuscript_tables.tex}
+
+Spatial-temporal pairing against the UNR GNSS archive \cite{blewitt2018} yields \LgNearRegionalCohort{} near-regional ($d \le 300$\,km) events and \LgStageThreeReady{} archive-verified events with $\ge 15$ geomagnetically quiet baseline days ($Kp < 3$, $Dst > -30$\,nT). Within Tier-1 near-field stations ($d \le 150$\,km, \LgTierOneReady{} events), \LgTierOneGnssQaPass{} achieve $\ge 80\%$ 5-minute completeness without imputation, and \LgPairedTierOneTotal{} (\LgPairedShallowM65{} shallow, \LgPairedNullCtrlM65{} controls) satisfy strict quiet-epoch completeness across non-overlapping placebo ($[-30\,\text{d}, -21\,\text{d}]$) and pre-event ($[-10\,\text{d}, -1\,\text{d}]$) windows using \LgIonexMapsIngested{} daily CODE AIUB IONEX maps \cite{schaer1999}.
+
+\section{Zero-Overlap Equal-Lag Benchmark Results}
+To eliminate baseline overlap and solar EUV drift, placebo windows are calibrated against $[-45\,\text{d}, -31\,\text{d}]$ and pre-event windows against $[-25\,\text{d}, -11\,\text{d}]$ after linear $F_{10.7}$ detrending of quiet-day VTEC. Table~\ref{tab:stage5c_v002_benchmark} and Fig.~\ref{fig:benchmark_v002} summarize out-of-sample performance.
+
+\input{tables/stage5c_v002_benchmark_table.tex}
+
+\begin{figure*}[t]
+\centering
+\includegraphics[width=0.96\textwidth]{figures/fig_stage5c_laic_guard_benchmark.png}
+\caption{LAIC-GUARD (\texttt{v002}) zero-overlap, equal-lag ($1\text{--}10$\,d) out-of-sample $\text{ROC-AUC}$ with 95\% cluster-bootstrap confidence intervals across (a) primary tropospheric and quiet-VTEC models, and (b) tectonic mechanism and geomagnetic dipole latitude ($\lambda_m$) strata.}
+\label{fig:benchmark_v002}
+\end{figure*}
+
+GNSS ZTD shows no statistically distinguishable skill ($\text{AUC} = \LgAucZtdM65$, $p_{\text{Wilc}} = 0.1233$). Quiet $F_{10.7}$-adjusted GIM VTEC retains modest discrimination across shallow ruptures ($\text{AUC} = \LgAucVtecM65$, $p_{\text{Wilc}} = 0.0010$), concentrated in large-area megathrust interface earthquakes ($\text{AUC} = \LgAucVtecMegathrust$, $N=62$) rather than smaller crustal/splay ruptures ($\text{AUC} = \LgAucVtecCrustal$, $N=28$), while remaining at chance for slab/outer-rise controls ($\text{AUC} = \LgAucVtecNullCtrl$). Stratifying by geomagnetic dipole latitude shows comparable discrimination at mid-latitudes ($\lvert\lambda_m\rvert > 25^\circ$, $\text{AUC} = \LgAucVtecGeomagHigh$) and low latitudes ($\lvert\lambda_m\rvert \le 25^\circ$, $\text{AUC} = \LgAucVtecGeomagLow$), indicating no sharp $25^\circ$ regime cutoff.
+
+\section{Conclusion}
+Under strictly non-overlapping, equal-lag calibration, tested GNSS ZTD features provide no discriminative skill, whereas $F_{10.7}$-adjusted quiet-day GIM VTEC exhibits modest, reproducible association with shallow megathrust ruptures ($\text{AUC} = \LgAucVtecMegathrust$). These findings establish a controlled statistical baseline rather than an operational earthquake-prediction capability.
+
+\bibliographystyle{IEEEtran}
+\bibliography{references}
+\end{document}

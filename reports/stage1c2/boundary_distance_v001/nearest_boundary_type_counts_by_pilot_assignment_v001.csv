@@ -1,0 +1,32 @@
+﻿pilot_assignment_v001,nearest_boundary_type,event_count
+ANDES,subduction zone,67
+ANDES,collision zone,37
+ANDES,inferred,16
+ANDES,dextral transform,3
+ANDES,extension zone,2
+ANDES,sinistral transform,1
+ANDES,spreading center,1
+HIMALAYA_TIBET_CORE,collision zone,24
+HIMALAYA_TIBET_CORE,sinistral transform,8
+HIMALAYA_TIBET_CORE,dextral transform,3
+JAPAN_KURIL,subduction zone,87
+JAPAN_KURIL,collision zone,41
+JAPAN_KURIL,extension zone,7
+JAPAN_KURIL,dextral transform,2
+JAPAN_KURIL,spreading center,1
+OUTSIDE_PILOT,subduction zone,261
+OUTSIDE_PILOT,spreading center,118
+OUTSIDE_PILOT,dextral transform,84
+OUTSIDE_PILOT,extension zone,81
+OUTSIDE_PILOT,sinistral transform,50
+OUTSIDE_PILOT,collision zone,37
+OUTSIDE_PILOT,inferred,9
+OVERLAP_REVIEW_HIMALAYA_SUNDA,dextral transform,5
+OVERLAP_REVIEW_HIMALAYA_SUNDA,collision zone,2
+SUNDA_INDONESIA_CORE,subduction zone,101
+SUNDA_INDONESIA_CORE,collision zone,43
+SUNDA_INDONESIA_CORE,dextral transform,42
+SUNDA_INDONESIA_CORE,extension zone,19
+SUNDA_INDONESIA_CORE,sinistral transform,19
+SUNDA_INDONESIA_CORE,spreading center,13
+SUNDA_INDONESIA_CORE,inferred,2

@@ -1,0 +1,28 @@
+candidate_domain_family_v001,candidate_subdomains,events_all_catalogue,events_in_four_box_union,events_outside_pilot,events_overlap_review,tectonic_rationale_v001,status
+AMUR_ADJACENT_DOMAIN_REVIEW,1,5,5,0,0,"Amur subplate, with Amur-Okhotsk boundary uncertainty noted in GNSS literature.",PROVISIONAL_REVIEW_ONLY
+BANDA_TIMOR_COLLISION_REVIEW,2,36,36,0,0,Banda Sea and Timor subplates have strongly collision-dominated nearest-boundary types in this catalogue.,PROVISIONAL_REVIEW_ONLY
+BERING_SEA_ALEUTIAN_REVIEW,1,37,12,25,0,"Bering Sea subplate; many events lie outside the old Japan-Kuril rectangle, so do not merge by bounding box.",PROVISIONAL_REVIEW_ONLY
+BURMA_SHAN_THAI_COMPLEX_REVIEW,2,22,22,0,7,"Burma and Shan-Thai subplate tags; all seven geometric overlap events remain flagged and included here as evidence tags, not forced into Himalaya or Sunda.",PROVISIONAL_REVIEW_ONLY
+CENTRAL_AMERICA_CARIBBEAN_REVIEW,3,16,13,3,0,"Panama, Lesser Antilles and Coiba should be reviewed separately from the Andes.",PROVISIONAL_REVIEW_ONLY
+CENTRAL_ANDES_SEGMENTATION_REVIEW,2,64,64,0,0,Puna and Altiplano subplates are distinct child units within a central-Andes candidate comparison; PB2002 Puna-Sierras Pampeanas orogen remains separate.,PROVISIONAL_REVIEW_ONLY
+CENTRAL_ASIA_COLLISION_REVIEW,1,3,1,2,0,"Tien Shan subplate; adjacent collision-belt context, low target count.",PROVISIONAL_REVIEW_ONLY
+COCOS_PLATE_REVIEW,1,3,2,1,0,Cocos oceanic plate events should not be treated as Andean continental events.,PROVISIONAL_REVIEW_ONLY
+INDIAN_PLATE_ADJACENT_REVIEW,1,4,3,1,0,,PROVISIONAL_REVIEW_ONLY
+INDIA_EURASIA_COLLISION_BELT_REVIEW,3,33,33,0,0,"Tibet, Pamir and Afghan exact Hasterok subplate labels; PB2002 Persia-Tibet-Burma orogen is broader and retained independently.",PROVISIONAL_REVIEW_ONLY
+IZU_BONIN_ARC_REVIEW,1,5,4,1,0,"Izu-Bonin subplate, a distinct intra-oceanic subduction system south of the Boso triple junction.",PROVISIONAL_REVIEW_ONLY
+KURIL_KAMCHATKA_ARC_REVIEW,1,79,79,0,0,Kuril-Kamchatka subplate and USGS regional definition from Hokkaido through the Kuril Islands to Kamchatka.,PROVISIONAL_REVIEW_ONLY
+MARIANA_ARC_REVIEW,1,16,9,7,0,"Mariana subplate is a separate western Pacific arc/back-arc domain, not a Sunda core unit.",PROVISIONAL_REVIEW_ONLY
+MOLUCCA_DOUBLE_SUBDUCTION_REVIEW,2,24,24,0,0,Molucca Sea and Halmahera subplates; published literature describes opposing/double-vergent subduction.,PROVISIONAL_REVIEW_ONLY
+NAZCA_PLATE_REVIEW,1,2,2,0,0,Nazca oceanic plate events should remain distinct from South American crustal events.,PROVISIONAL_REVIEW_ONLY
+NEW_GUINEA_EASTERN_INDONESIA_REVIEW,4,27,23,4,0,"Mamberamo, Cenderawasih, Birds Head and source label variants; some events fall outside old Sunda rectangle.",PROVISIONAL_REVIEW_ONLY
+NORTHERN_ANDES_REVIEW,1,8,8,0,0,North Andes subplate; literature distinguishes northern from central and southern Andes.,PROVISIONAL_REVIEW_ONLY
+NORTH_SULAWESI_REVIEW,1,5,5,0,0,North Sulawesi subplate retained separately until its relation to Molucca/Celebes structures is reviewed.,PROVISIONAL_REVIEW_ONLY
+OKHOTSK_ADJACENT_DOMAIN_REVIEW,1,14,13,1,0,Okhotsk plate-side setting adjacent to the Kuril-Kamchatka arc; retained as separate evidence.,PROVISIONAL_REVIEW_ONLY
+PERU_ANDES_REVIEW,1,6,6,0,0,Peruvian subplate; PB2002 Peru orogen also covers some events with South American subplate label.,PROVISIONAL_REVIEW_ONLY
+PHILIPPINE_MOBILE_BELT_REVIEW,5,46,39,7,0,"Bicol, Mindanao, East Luzon, Philippine and West Luzon subplates; PB2002 Philippine orogen flag is preserved as a separate overlay.",PROVISIONAL_REVIEW_ONLY
+RYUKYU_ARC_REVIEW,1,11,8,3,0,"Ryukyu subplate; old rectangles divide its events between Japan-Kuril, Sunda-Indonesia and outside.",PROVISIONAL_REVIEW_ONLY
+SCOTIA_DOMAIN_REVIEW,1,6,2,4,0,Scotia plate events represent a distinct southern ocean tectonic context.,PROVISIONAL_REVIEW_ONLY
+SOUTHERN_ANDES_REVIEW,1,3,3,0,0,South Chile subplate; very low event count in this magnitude/time catalogue.,PROVISIONAL_REVIEW_ONLY
+SOUTHWEST_JAPAN_REVIEW,2,10,10,0,0,"Southwest Japan Inner and Kinki Outer labels; distinguish from Kuril, Izu-Bonin and Ryukyu systems.",PROVISIONAL_REVIEW_ONLY
+SOUTH_AMERICAN_PLATE_REVIEW,1,49,27,22,0,South American plate label is broad and not equivalent to Andean margin membership.,PROVISIONAL_REVIEW_ONLY
+SUNDA_ARC_SEGMENTATION_REVIEW,2,68,68,0,0,West Sumatra and Sunda/Java subplates; published studies describe changes in obliquity and strike-slip partitioning along the arc.,PROVISIONAL_REVIEW_ONLY

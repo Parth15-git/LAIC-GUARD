@@ -1,0 +1,21 @@
+{
+  "catalogue_sha256": "0e20c3ef9268e728d320dcf55e18d66638aa92f66371af2915a34760f9837315",
+  "overlay_sha256": "fe60f5d81cad8dd877dd514c73fcb84f5f1389adcf73e0bd9cd027dc2bfc03ed",
+  "distance_sha256": "d8c683fcfe63db195f2bfa879659c9c8f55c1e75851458464ce319dceafb6a6d",
+  "catalogue_rows": 1186,
+  "catalogue_unique_event_ids": 1186,
+  "overlay_rows": 1186,
+  "distance_rows": 1186,
+  "candidate_rows": 1186,
+  "candidate_unique_event_ids": 1186,
+  "candidate_tagged_events": 602,
+  "candidate_untagged_events": 584,
+  "original_overlap_review_events": 7,
+  "outside_pilot_events_preserved": 640,
+  "pb2002_orogen_matched_events": 303,
+  "no_network_calls": true,
+  "no_supporting_event_records_downloaded": true,
+  "no_sequence_labels_assigned": true,
+  "proposal_status": "PROVISIONAL_REVIEW_ONLY",
+  "candidate_tag_rule": "Exact Hasterok_subplate lookup; PB2002_OROGEN_NAME preserved independently; no precedence override."
+}

@@ -1,0 +1,10 @@
+model_or_stratum,n_events,roc_auc,ci95,pr_auc,wilcoxon_p
+M2a: Troposphere ZTD-Only (Shallow),90,0.518,"[0.44, 0.60]",0.518,0.1233
+"M3: Quiet VTEC (Shallow M>=6.5, Event-LOEO)",90,0.627,"[0.56, 0.70]",0.559,0.0010
+"M3: Quiet VTEC (Shallow M>=6.5, Storm-Cluster)",90,0.623,"[0.55, 0.70]",0.555,0.0010
+M3: Quiet VTEC (Null-Control Slab/Outer),21,0.522,"[0.32, 0.71]",0.556,0.3641
+M3: Quiet VTEC (Shallow M>=7.0),26,0.609,"[0.48, 0.74]",0.560,0.0136
+M3: Quiet VTEC (Shallow |gm_lat| <= 25 deg),57,0.616,"[0.52, 0.70]",0.551,0.0293
+M3: Quiet VTEC (Shallow |gm_lat| > 25 deg),33,0.638,"[0.54, 0.75]",0.626,0.0035
+M3: Quiet VTEC (Shallow Megathrust),62,0.645,"[0.57, 0.73]",0.579,0.0005
+M3: Quiet VTEC (Shallow Crustal/Splay),28,0.463,"[0.34, 0.60]",0.474,0.2437

@@ -1,0 +1,13 @@
+PB2002_OROGEN_NAME,events_all_catalogue,events_in_four_box_union,events_outside_pilot,pilot_assignments,Hasterok_subplates
+Alaska-Yukon,6,0,6,OUTSIDE_PILOT:6,Wrangell-Talkeetna:5;Bering Sea:1
+Alps,8,0,8,OUTSIDE_PILOT:8,Aegean:6;Pannonian:1;Western Mediterranean:1
+Gorda-California-Nevada,11,0,11,OUTSIDE_PILOT:11,Gorda:4;California Borderland:3;Walker Lane:2;Coastal Oregon:1;North Cordillera:1
+New Hebrides-Fiji,81,0,81,OUTSIDE_PILOT:81,New Hebrides:57;Australian:10;Pacific:9;Conway Reef:4;Futuna:1
+Ninety East-Sumatra,50,50,0,SUNDA_INDONESIA_CORE:50,West Sumatra:39;Capricorn:6;Burma:3;Indian:2
+Persia-Tibet-Burma,55,42,13,HIMALAYA_TIBET_CORE:34;OUTSIDE_PILOT:13;OVERLAP_REVIEW_HIMALAYA_SUNDA:7;SUNDA_INDONESIA_CORE:1,Tibet:18;Pamir:11;Iranian:5;Burma:5;Afghan:4;Tien Shan:3;Shan-Thai:3;Southern Caspian:2;Eurasian:2;Mongolian:2
+Peru,10,10,0,ANDES:10,Peruvian:6;South American:4
+Philippines,37,37,0,SUNDA_INDONESIA_CORE:37,Bicol:11;Mindanao:10;Sunda:9;Molucca Sea:4;West Luzon:3
+Puna-Sierras Pampeanas,35,35,0,ANDES:35,Puna:35
+west central Atlantic,2,0,2,OUTSIDE_PILOT:2,North American:2
+western Aleutians,8,8,0,JAPAN_KURIL:8,Bering Sea:7;Pacific:1
+[NO_OROGEN_MATCH],883,364,519,OUTSIDE_PILOT:519;SUNDA_INDONESIA_CORE:151;JAPAN_KURIL:130;ANDES:82;HIMALAYA_TIBET_CORE:1,Kuril-Kamchatka:79;Australian:75;Pacific:46;South Bismarck:45;South American:45;Kermadec:37;San Christobal:33;Bering Sea:29;Banda Sea:20;Sunda:20;Antarctic:18;Altiplano:18;North Bismarck:18;Nicaragua:16;Mariana:16;Timor:16;Tonga:15;Philippine:15;Molucca Sea:15;Okhotsk:14;Sierra Madre del Sur:13;Mamberamo:12;Sandwich:12;Ryukyu:11;Burma:11;Puna:11;Panama:10;Guatamala:9;Southern Alpine:8;North Andes:8;Alaskan Peninsular:8;North American:7;Cenderawasih:7;African:7;East Luzon:7;Scotia:6;Southwest Japan Inner:6;Solomon:6;Sur:6;Macquarie:6;Birds Head:6;Explorer:5;Amur:5;North Sulawesi:5;Izu Bonin:5;Lesser Antilles:5;Halmahera:5;California Borderland:4;Anatolia:4;Caribbean:4;Kinki Outer:4;Aegean:4;Eurasian:4;Niuaf'ou:4;Capricorn:3;Cocos:3;South Chile:3;Juan Fernandez:3;Puysegur:3;Sonora:3;Coast Belt:3;Arabian:3;Shetland:3;East Iceland:2;Nazca:2;Phoenix:2;Buru:2;Coastal Oregon:2;Victorian:2;Woodlark:2;Indian:2;Easter:2;Yangtze:2;Futuna:2;Moake:2;Western Mediterranean:1;Coiba:1;Caroline:1;Taupo:1;Rivera:1;Lwandle:1

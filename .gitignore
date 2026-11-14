@@ -1,63 +1,34 @@
-# Python
+﻿# Python & OS
 __pycache__/
 *.py[cod]
-.pytest_cache/
-.mypy_cache/
-.ruff_cache/
-.venv/
-venv/
-.env
-.env.*
-!.env.example
-
-# Editors / OS
-.vscode/
-.idea/
 .DS_Store
 Thumbs.db
 
-# Data: keep large/raw scientific data out of Git
-data/raw/*
-!data/raw/.gitkeep
-data/interim/*
-!data/interim/.gitkeep
-data/processed/*
-!data/processed/.gitkeep
-data/features/*
-!data/features/.gitkeep
+# Raw third-party data & multi-GB caches (hashes locked in SHA256SUMS.csv)
+data/raw/usgs/
+data/raw/usgs_event_details/
+data/raw/*.geojson
+data/external/gnss/unr_trop_zips_v001/*.zip
+data/external/ionosphere/code_ionex_v001/*.Z
+data/external/ionosphere/code_ionex_v001/*.gz
+data/external/space_weather/omniweb_lowres_v001/*.dat
+reports/stage3b/multilayer_benchmark_v001/aligned_hourly_series/*.csv
+reports/stage3a/unr_trop_pilot_ingest_v001/extracted_windows/*.csv
 
-# Generated outputs and model files
-outputs/
-models/
-*.joblib
-*.pkl
-*.h5
-*.nc
-*.grib
-*.tif
-*.tiff
-*.parquet
+# Root staging archives & release ZIP bundles
+LAIC-GUARD_Stage*.zip
+Stage1C2_*.zip
+LAIC-GUARD_Stage1B2_Counterpart_Retrieval/
+LAIC-GUARD_Stage1C1_Count_Reconnaissance_Package_v001/
+_stage1c2_bd_import/
+stage1b2_counterpart_evidence_*/
+reports/**/*.zip
 
-# Logs and temporary files
-logs/*
-!logs/.gitkeep
-*.log
-*.tmp
+# LaTeX auxiliary build artifacts
+manuscript/*.aux
+manuscript/*.bbl
+manuscript/*.blg
+manuscript/*.log
+manuscript/*.out
 
-# Secrets
-*.token
-*credentials*
-*secret*
-
-# Local Stage 1B evidence bundles retained outside Git
-/LAIC-GUARD_Stage1B2C_outputs_v001.zip
-/LAIC-GUARD_Stage1B2_Counterpart_Evidence_v001.zip
-/LAIC-GUARD_Stage1B2_Counterpart_Retrieval/
-/stage1b2_counterpart_evidence_v001_20261108_173308/
-
-# Local Stage 1C.1 duplicate packages and unversioned aliases
-/12_run_stage1c1_count_reconnaissance.py
-/scripts/12_run_stage1c1_count_reconnaissance.py
-/LAIC-GUARD_Stage1C1_Count_Reconnaissance_Package_v001/
-/LAIC-GUARD_Stage1C1_v003_full_evidence.zip
-/README_STAGE1C1_COUNT_RECONNAISSANCE_v001.md
+data/external/

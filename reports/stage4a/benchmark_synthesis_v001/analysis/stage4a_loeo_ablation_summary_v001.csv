@@ -1,0 +1,6 @@
+model_id,latex_label,features,shallow_valid_windows,shallow_loeo_auc,null_control_valid_windows,null_control_loeo_auc,net_physical_specificity_delta_auc
+M1_Seismicity_Station_Baseline,M1: Seismicity \& Distance Only,mag;dist_km,68,0.500,18,0.500,+0.000
+M2_Troposphere_Deconfounded,"M2: Troposphere (ZTD/IWV, 15d-lag)",trop_max_z;trop_q95_z,68,0.441,18,0.531,-0.090
+M3_Ionosphere_Quiet_VTEC_F107,M3: Quiet GIM VTEC ($F_{10.7}$-adj.),vtec_max_z;vtec_q95_z,62,0.689,13,0.238,+0.450
+M4_Joint_Trop_VTEC_Concordance,M4: Joint Trop $\times$ VTEC Concordance,joint_hits;joint_prod,62,0.557,13,0.786,-0.228
+M5_Full_MultiDomain_Combined,M5: Full Multi-Domain Feature Set,mag;dist_km;trop_max_z;trop_q95_z;vtec_max_z;vtec_q95_z;joint_hits,62,0.579,13,0.690,-0.111

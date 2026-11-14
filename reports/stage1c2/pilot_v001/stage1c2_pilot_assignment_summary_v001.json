@@ -1,0 +1,166 @@
+{
+  "project": "LAIC-GUARD",
+  "stage": "1C.2",
+  "artifact": "pilot_region_assignment",
+  "version": "v001",
+  "status": "DRAFT_FOR_REVIEW",
+  "created_at_utc": "2026-11-08T18:01:49.947993Z",
+  "input": {
+    "path_as_supplied": ".\\metadata\\event_catalogue_v002.csv",
+    "resolved_path": "C:\\Users\\parth\\OneDrive\\Desktop\\Research\\LAIC-GUARD\\metadata\\event_catalogue_v002.csv",
+    "rows": 1186,
+    "sha256": "0e20c3ef9268e728d320dcf55e18d66638aa92f66371af2915a34760f9837315",
+    "frozen_expected_sha256": "0e20c3ef9268e728d320dcf55e18d66638aa92f66371af2915a34760f9837315",
+    "hash_match": true
+  },
+  "scope": "Frozen Stage 1A target catalogue only; no supporting event data; no network calls; no sequence labels.",
+  "region_semantics": "Exploratory rectangular operational pilot windows, not tectonic regions or plate polygons.",
+  "assignment_rule": "Mutually exclusive assignment; the exact Himalaya-Tibet/Sunda-Indonesia intersection is retained as OVERLAP_REVIEW_HIMALAYA_SUNDA and excluded from both core strata.",
+  "pilot_boxes": {
+    "HIMALAYA_TIBET": {
+      "west": 60.0,
+      "east": 105.0,
+      "south": 20.0,
+      "north": 42.0
+    },
+    "JAPAN_KURIL": {
+      "west": 125.0,
+      "east": 180.0,
+      "south": 30.0,
+      "north": 60.0
+    },
+    "SUNDA_INDONESIA": {
+      "west": 90.0,
+      "east": 145.0,
+      "south": -15.0,
+      "north": 25.0
+    },
+    "ANDES": {
+      "west": -85.0,
+      "east": -55.0,
+      "south": -60.0,
+      "north": 15.0
+    }
+  },
+  "overlap_intersection_box": {
+    "west": 90.0,
+    "east": 105.0,
+    "south": 20.0,
+    "north": 25.0
+  },
+  "original_box_membership_counts": {
+    "HIMALAYA_TIBET": 42,
+    "JAPAN_KURIL": 138,
+    "SUNDA_INDONESIA": 246,
+    "ANDES": 127
+  },
+  "exclusive_assignment_counts": {
+    "HIMALAYA_TIBET_CORE": 35,
+    "JAPAN_KURIL": 138,
+    "SUNDA_INDONESIA_CORE": 239,
+    "ANDES": 127,
+    "OVERLAP_REVIEW_HIMALAYA_SUNDA": 7,
+    "OUTSIDE_PILOT": 640
+  },
+  "period_assignment_counts": {
+    "2000_2009": {
+      "HIMALAYA_TIBET_CORE": 11,
+      "JAPAN_KURIL": 62,
+      "SUNDA_INDONESIA_CORE": 110,
+      "ANDES": 38,
+      "OVERLAP_REVIEW_HIMALAYA_SUNDA": 0,
+      "OUTSIDE_PILOT": 234
+    },
+    "2010_2019": {
+      "HIMALAYA_TIBET_CORE": 17,
+      "JAPAN_KURIL": 48,
+      "SUNDA_INDONESIA_CORE": 84,
+      "ANDES": 68,
+      "OVERLAP_REVIEW_HIMALAYA_SUNDA": 5,
+      "OUTSIDE_PILOT": 267
+    },
+    "2020_2025": {
+      "HIMALAYA_TIBET_CORE": 7,
+      "JAPAN_KURIL": 28,
+      "SUNDA_INDONESIA_CORE": 45,
+      "ANDES": 21,
+      "OVERLAP_REVIEW_HIMALAYA_SUNDA": 2,
+      "OUTSIDE_PILOT": 139
+    }
+  },
+  "magnitude_type_counts_by_assignment": {
+    "OUTSIDE_PILOT": {
+      "mwc": 199,
+      "mwb": 56,
+      "mw": 17,
+      "mb": 3,
+      "md": 2,
+      "mww": 362,
+      "ml": 1
+    },
+    "JAPAN_KURIL": {
+      "mwc": 49,
+      "mwb": 18,
+      "mww": 65,
+      "mw": 1,
+      "mb": 4,
+      "ms": 1
+    },
+    "SUNDA_INDONESIA_CORE": {
+      "mwc": 104,
+      "mb": 1,
+      "mwb": 23,
+      "ms": 1,
+      "mw": 2,
+      "mww": 108
+    },
+    "ANDES": {
+      "mwb": 17,
+      "mwc": 28,
+      "mww": 82
+    },
+    "HIMALAYA_TIBET_CORE": {
+      "mwc": 10,
+      "mwb": 2,
+      "mww": 23
+    },
+    "OVERLAP_REVIEW_HIMALAYA_SUNDA": {
+      "mww": 7
+    }
+  },
+  "depth_exactly_10km_by_assignment": {
+    "HIMALAYA_TIBET_CORE": 6,
+    "JAPAN_KURIL": 16,
+    "SUNDA_INDONESIA_CORE": 22,
+    "ANDES": 6,
+    "OVERLAP_REVIEW_HIMALAYA_SUNDA": 2,
+    "OUTSIDE_PILOT": 119
+  },
+  "overlap_event_ids": [
+    "usp000hyfx",
+    "usp000jvbq",
+    "us10004b2n",
+    "us20005hqz",
+    "us10006gbf",
+    "us7000pn9s",
+    "us7000pn9z"
+  ],
+  "outside_pilot_event_count": 640,
+  "checks": {
+    "row_count_1186": true,
+    "unique_event_ids": true,
+    "all_event_type_earthquake": true,
+    "all_coordinates_valid": true,
+    "exclusive_assignments_sum_to_1186": true,
+    "overlap_count_7": true,
+    "no_event_records_downloaded": true,
+    "sequence_ids_assigned": false
+  },
+  "outputs": [
+    "stage1c2_pilot_region_spec_v001.csv",
+    "stage1c2_target_region_crosswalk_v001.csv",
+    "stage1c2_overlap_review_events_v001.csv",
+    "stage1c2_pilot_assignment_summary_v001.json",
+    "STAGE1C2_PILOT_REGION_ASSIGNMENT_v001.md"
+  ]
+}

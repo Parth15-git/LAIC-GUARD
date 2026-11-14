@@ -1,0 +1,19 @@
+category,stratum_or_model,n_events,roc_auc,ci95,pr_auc,wilcoxon_p,hit_q95_ge3,fa_q95_ge3
+1_BASELINE_LAG,"Disjoint Fixed Base (L=10d, Base=[-35,-21])",90,0.627,"[0.58, 0.68]",0.600,0.0000,74.4%,56.7%
+1_BASELINE_LAG,"Disjoint Fixed Base (L=10d, Base=[-45,-21])",90,0.620,"[0.57, 0.68]",0.616,0.0000,52.2%,34.4%
+1_BASELINE_LAG,"Disjoint Multi-Lag (L=12d, Base=[-39,-25])",90,0.622,"[0.57, 0.68]",0.636,0.0000,76.7%,55.6%
+1_BASELINE_LAG,"Disjoint Multi-Lag (L=15d, Base=[-45,-31])",90,0.627,"[0.59, 0.67]",0.627,0.0000,73.3%,57.8%
+2_MODELS_CV,M2a: Troposphere ZTD-Only (Shallow),90,0.522,"[0.47, 0.58]",0.544,0.1651,52.2%,50.0%
+2_MODELS_CV,M2b: Troposphere IWV-Only (Shallow),90,0.682,"[0.64, 0.74]",0.662,0.0000,88.9%,77.8%
+2_MODELS_CV,"M3: Quiet VTEC (Shallow, Event-LOEO)",90,0.627,"[0.58, 0.68]",0.600,0.0000,74.4%,56.7%
+2_MODELS_CV,"M3: Quiet VTEC (Shallow, Storm-Cluster CV)",90,0.621,"[0.57, 0.68]",0.596,0.0000,74.4%,56.7%
+2_MODELS_CV,M3: Quiet VTEC (Null-Control Slab/Outer),21,0.601,"[0.51, 0.70]",0.689,0.0722,90.5%,85.7%
+3_GEOMAG_OBSERVABILITY,Shallow: Geomagnetic |gm_lat| <= 25 deg (EIA),57,0.591,"[0.53, 0.66]",0.572,0.0037,78.9%,57.9%
+3_GEOMAG_OBSERVABILITY,Shallow: Geomagnetic |gm_lat| > 25 deg (Mid-Lat),33,0.638,"[0.57, 0.73]",0.641,0.0004,66.7%,54.5%
+3_GEOMAG_OBSERVABILITY,Shallow: Modified Dip |modip| > 30 deg,47,0.626,"[0.57, 0.70]",0.609,0.0000,66.0%,53.2%
+3_GEOMAG_OBSERVABILITY,Shallow: Era 2000-2014 (2-h GIM Cadence),75,0.636,"[0.58, 0.70]",0.625,0.0001,72.0%,56.0%
+3_GEOMAG_OBSERVABILITY,Shallow: Era 2015-2025 (1-h GIM Cadence),15,0.600,"[0.44, 0.77]",0.537,0.0820,86.7%,60.0%
+3_GEOMAG_OBSERVABILITY,Shallow: Onshore/Near-Coast (<= 50 km),31,0.631,"[0.54, 0.72]",0.580,0.0091,80.6%,61.3%
+3_GEOMAG_OBSERVABILITY,Shallow: Offshore/Regional (50-150 km),59,0.612,"[0.55, 0.68]",0.607,0.0002,71.2%,54.2%
+3_GEOMAG_OBSERVABILITY,Shallow: Megathrust Interface (Disjoint),62,0.628,"[0.57, 0.69]",0.604,0.0018,72.6%,58.1%
+3_GEOMAG_OBSERVABILITY,Shallow: Crustal / Splay (Disjoint),28,0.643,"[0.55, 0.76]",0.611,0.0012,78.6%,53.6%

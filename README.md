@@ -1,79 +1,12 @@
-# LAIC-GUARD
+﻿# LAIC-GUARD (v002)
 
-**Working title:** Lithosphere–Atmosphere–Ionosphere Confounder-Aware Research and Detection System
+**Deconfounded Multi-Domain Benchmark for Lithosphere–Atmosphere–Ionosphere Coupling (`2000–2025`)**
 
-This repository is a clean research workspace for testing whether independent lithospheric, atmospheric, ionospheric and electromagnetic observations contain reproducible information about future earthquakes **beyond conventional seismicity and environmental baselines**.
+## Reproduced Benchmark Summary (`v002` Zero-Overlap, Equal-Lag `1–10 d` Calibration)
+- **Global Catalogue Funnel:** `1,186` USGS ComCat $M \ge 6.5$ earthquakes (`2000–2025`) $\rightarrow$ `563` Core Pilot events (`378` shallow targets, `185` deep-slab/outer-rise candidate negative controls) $\rightarrow$ `111` within-event paired near-field ($d \le 150\text{ km}$) events (`90` shallow, `21` controls) with $\ge 80\%$ 5-min GNSS completeness (`4,039` daily CODE AIUB IONEX maps; NASA OMNIWeb `Kp`/`Dst`/`F10.7`).
+- **M2a (`GNSS Troposphere ZTD-Only`, Shallow $N=90$):** $\text{ROC-AUC} = 0.518\ [0.44, 0.60]$ ($p_{\text{Wilc}} = 0.1233$) — no statistically distinguishable discriminative skill over placebo under equal-lag calibration.
+- **M3 (`F10.7-Adjusted Quiet GIM VTEC`, Shallow $N=90$):** $\text{ROC-AUC} = 0.627\ [0.56, 0.70]$ ($p_{\text{Wilc}} = 0.0010$; `0.623` under $\pm 15\text{ d}$ storm-cluster CV) vs. `0.522 [0.32, 0.71]` on slab/outer-rise controls ($N=21$).
+- **Tectonic Mechanism Split (`M3`):** Signal concentrates in shallow megathrust interface ruptures ($\text{AUC} = 0.645\ [0.57, 0.73]$, $N=62$) rather than shallow crustal/splay events ($\text{AUC} = 0.463\ [0.34, 0.60]$, $N=28$).
 
-> This is a research hypothesis, not an established earthquake-prediction system. No precursor or forecast skill is assumed.
-
-## Start here
-
-1. Read `docs/00_PROJECT_CHARTER.md`.
-2. Read `docs/01_RESEARCH_PROTOCOL_DRAFT.md`. The event criteria in it are provisional and must be frozen before examining event-aligned anomalies.
-3. Fill in `metadata/source_registry.csv` before downloading any dataset.
-4. Download original data only into `data/raw/`.
-5. Record every downloaded file in `metadata/data_manifest.csv`, including its SHA-256 checksum and source URL.
-6. Keep original files unchanged. Put transformations in `data/interim/`, curated analysis-ready data in `data/processed/`, and model-ready features in `data/features/`.
-7. Run scripts only after their input/output contracts and tests are defined.
-8. Commit code, documentation, metadata and small reproducibility assets to GitHub. Do **not** push large raw scientific datasets, credentials, or restricted data.
-
-## First milestone
-
-**Do not train a machine-learning model yet.** The first milestone is a reproducible data-availability audit:
-
-- Generate a complete candidate earthquake catalogue from a declared rule.
-- Build a station/product inventory.
-- Calculate event-by-event coverage for each intended domain and parameter.
-- Record exclusions and reasons.
-- Produce a coverage report showing what can actually be tested.
-
-The output of this milestone determines the realistic study scope.
-
-## Data layers
-
-- `data/raw/`: untouched downloads; ignored by Git.
-- `data/interim/`: intermediate transformations; ignored by Git.
-- `data/processed/`: quality-controlled analysis-ready data; ignored by Git unless a small, redistributable sample is explicitly approved.
-- `data/features/`: derived features; ignored by Git by default.
-- `metadata/`: source registry, manifests, catalogues, coverage and exclusion logs. Small metadata files are version-controlled.
-- `reports/`: human-readable reports and selected figures. Only approved, reproducible summaries should be committed.
-
-## File naming convention
-
-Use lowercase `snake_case`, UTC timestamps, and explicit versions. Examples:
-
-- `usgs_comcat_candidate_events_2000_2025_v001.csv`
-- `giro_station_inventory_1987_2025_v001.csv`
-- `era5_daily_weather_2000_2025_v001.parquet`
-- `coverage_matrix_v001.csv`
-- `coverage_audit_2026-11-08_v001.md`
-
-Never use names such as `final_final2.csv`. Never overwrite raw data.
-
-## Status vocabulary
-
-Use `planned`, `downloaded`, `hashed`, `qc_pending`, `qc_pass`, `qc_fail`, `analysed`, `verified`, `commit_ready`, `committed`, or `excluded`.
-
-Record status changes and reasons in `metadata/artifact_register.csv` and `docs/03_DECISIONS_LOG.md`.
-
-## GitHub
-
-Git should track the research code and audit trail, not act as a bulk scientific-data warehouse. Keep data local initially. Consider DVC or an approved institutional/object-storage solution later, after data volume, licensing and storage are understood.
-
-Suggested first Git commits:
-
-1. `chore: create LAIC-GUARD research structure`
-2. `docs: define provisional research protocol`
-3. `data: add source registry and manifest templates`
-4. `audit: add reproducible candidate catalogue and coverage audit`
-
-## Reproducibility rules
-
-- Preserve source files exactly as downloaded.
-- Store source URL, product/version, download time in UTC, date coverage, file size, SHA-256 and licence/access notes.
-- Store software environment and configuration used for every run.
-- Do not silently interpolate, forward-fill or back-fill missing observations.
-- Do not use future information in a historical forecast.
-- Keep event selection, feature selection, thresholds and exclusion rules independent of test outcomes.
-- Split by earthquake sequence and time, not randomly by rows.
-- Compare multimodal models with seismicity-only baselines.
+## Reproducibility & Integrity Verification
+Every pipeline stage (`Stage 1C.2` through `Stage 5D`) includes a `SHA256SUMS.csv` manifest and `VERIFY_PACKAGE.ps1` script enforcing `configs/quality_control.yaml` (`preserve_missing`, zero imputation).

@@ -1,0 +1,103 @@
+Hasterok_subplate,events_all_catalogue,events_in_four_box_union,events_outside_pilot,events_overlap_review,candidate_domain_family_v001,candidate_subdomain_v001,nearest_boundary_types,median_nearest_boundary_km
+Australian,85,3,82,0,,,spreading center:26;subduction zone:24;extension zone:23;dextral transform:8;sinistral transform:3;collision zone:1,69.106
+Kuril-Kamchatka,79,79,0,0,KURIL_KAMCHATKA_ARC_REVIEW,KURIL_KAMCHATKA,subduction zone:60;collision zone:19,107.651
+New Hebrides,57,0,57,0,,,subduction zone:49;extension zone:8,65.318
+Pacific,56,10,46,0,,,subduction zone:41;spreading center:5;extension zone:5;dextral transform:5,24.41
+South American,49,27,22,0,SOUTH_AMERICAN_PLATE_REVIEW,SOUTH_AMERICAN,collision zone:26;spreading center:20;subduction zone:1;sinistral transform:1;inferred:1,39.877
+Puna,46,46,0,0,CENTRAL_ANDES_SEGMENTATION_REVIEW,PUNA,subduction zone:33;inferred:12;collision zone:1,103.117
+South Bismarck,45,3,42,0,,,subduction zone:24;collision zone:11;dextral transform:6;spreading center:4,76.898
+West Sumatra,39,39,0,0,SUNDA_ARC_SEGMENTATION_REVIEW,WEST_SUMATRA,subduction zone:19;dextral transform:15;extension zone:5,102.413
+Kermadec,37,0,37,0,,,subduction zone:20;extension zone:17,69.771
+Bering Sea,37,12,25,0,BERING_SEA_ALEUTIAN_REVIEW,BERING_SEA,subduction zone:31;sinistral transform:3;collision zone:2;dextral transform:1,92.19
+San Christobal,33,0,33,0,,,subduction zone:25;inferred:7;collision zone:1,37.4
+Sunda,29,29,0,0,SUNDA_ARC_SEGMENTATION_REVIEW,SUNDA_JAVA,subduction zone:18;dextral transform:6;collision zone:3;spreading center:1;extension zone:1,64.811
+Banda Sea,20,20,0,0,BANDA_TIMOR_COLLISION_REVIEW,BANDA_SEA,collision zone:15;sinistral transform:2;extension zone:2;subduction zone:1,63.326
+Molucca Sea,19,19,0,0,MOLUCCA_DOUBLE_SUBDUCTION_REVIEW,MOLUCCA_SEA,subduction zone:18;dextral transform:1,59.352
+Burma,19,19,0,4,BURMA_SHAN_THAI_COMPLEX_REVIEW,BURMA,subduction zone:9;extension zone:4;dextral transform:4;spreading center:1;collision zone:1,69.479
+Tibet,18,18,0,0,INDIA_EURASIA_COLLISION_BELT_REVIEW,TIBET,collision zone:12;sinistral transform:5;dextral transform:1,93.572
+Altiplano,18,18,0,0,CENTRAL_ANDES_SEGMENTATION_REVIEW,ALTIPLANO,subduction zone:13;collision zone:3;inferred:2,90.594
+North Bismarck,18,0,18,0,,,dextral transform:16;subduction zone:1;inferred:1,18.816
+Antarctic,18,0,18,0,,,spreading center:16;sinistral transform:1;extension zone:1,7.759
+Mariana,16,9,7,0,MARIANA_ARC_REVIEW,MARIANA,spreading center:12;subduction zone:3;sinistral transform:1,67.361
+Timor,16,16,0,0,BANDA_TIMOR_COLLISION_REVIEW,TIMOR,collision zone:15;dextral transform:1,45.753
+Nicaragua,16,0,16,0,,,dextral transform:11;subduction zone:4;sinistral transform:1,71.925
+Philippine,15,8,7,0,PHILIPPINE_MOBILE_BELT_REVIEW,PHILIPPINE,extension zone:7;subduction zone:6;spreading center:1;sinistral transform:1,52.57
+Tonga,15,0,15,0,,,subduction zone:9;extension zone:5;dextral transform:1,30.884
+Okhotsk,14,13,1,0,OKHOTSK_ADJACENT_DOMAIN_REVIEW,OKHOTSK,collision zone:14,180.549
+Sierra Madre del Sur,13,0,13,0,,,subduction zone:11;extension zone:1;dextral transform:1,84.662
+Mamberamo,12,8,4,0,NEW_GUINEA_EASTERN_INDONESIA_REVIEW,MAMBERAMO,collision zone:9;subduction zone:3,35.234
+Sandwich,12,0,12,0,,,subduction zone:9;sinistral transform:3,65.747
+Bicol,11,11,0,0,PHILIPPINE_MOBILE_BELT_REVIEW,BICOL,subduction zone:4;sinistral transform:4;dextral transform:3,33.067
+Pamir,11,11,0,0,INDIA_EURASIA_COLLISION_BELT_REVIEW,PAMIR,collision zone:10;dextral transform:1,132.888
+Ryukyu,11,8,3,0,RYUKYU_ARC_REVIEW,RYUKYU,spreading center:5;subduction zone:3;extension zone:2;dextral transform:1,40.699
+Aegean,10,0,10,0,,,subduction zone:6;extension zone:3;dextral transform:1,71.701
+Panama,10,8,2,0,CENTRAL_AMERICA_CARIBBEAN_REVIEW,PANAMA,subduction zone:7;collision zone:3,39.257
+Mindanao,10,10,0,0,PHILIPPINE_MOBILE_BELT_REVIEW,MINDANAO,sinistral transform:7;subduction zone:3,61.006
+Capricorn,9,7,2,0,,,subduction zone:3;inferred:2;extension zone:2;spreading center:2,30.816
+North American,9,0,9,0,,,sinistral transform:5;spreading center:2;extension zone:1;subduction zone:1,10.468
+Guatamala,9,0,9,0,,,sinistral transform:5;dextral transform:2;collision zone:1;subduction zone:1,72.441
+Alaskan Peninsular,8,0,8,0,,,sinistral transform:6;subduction zone:2,68.079
+Southern Alpine,8,0,8,0,,,dextral transform:7;collision zone:1,20.988
+North Andes,8,8,0,0,NORTHERN_ANDES_REVIEW,NORTH_ANDES,subduction zone:5;collision zone:3,82.586
+Cenderawasih,7,7,0,0,NEW_GUINEA_EASTERN_INDONESIA_REVIEW,CENDERAWASIH,dextral transform:6;extension zone:1,19.49
+African,7,0,7,0,,,spreading center:4;extension zone:1;inferred:1;subduction zone:1,74.16
+California Borderland,7,0,7,0,,,dextral transform:4;spreading center:3,6.205
+East Luzon,7,7,0,0,PHILIPPINE_MOBILE_BELT_REVIEW,EAST_LUZON,subduction zone:6;sinistral transform:1,26.823
+Birds Head,6,6,0,0,NEW_GUINEA_EASTERN_INDONESIA_REVIEW,BIRDS_HEAD,dextral transform:4;subduction zone:2,37.474
+Eurasian,6,0,6,0,,,spreading center:4;collision zone:1;sinistral transform:1,7.446
+Sur,6,0,6,0,,,subduction zone:3;spreading center:2;dextral transform:1,5.378
+Solomon,6,0,6,0,,,subduction zone:5;sinistral transform:1,18.323
+Scotia,6,2,4,0,SCOTIA_DOMAIN_REVIEW,SCOTIA,sinistral transform:4;spreading center:1;subduction zone:1,23.83
+Southwest Japan Inner,6,6,0,0,SOUTHWEST_JAPAN_REVIEW,SOUTHWEST_JAPAN_INNER,collision zone:4;dextral transform:2,46.641
+Macquarie,6,0,6,0,,,dextral transform:2;spreading center:2;sinistral transform:1;subduction zone:1,16.244
+Peruvian,6,6,0,0,PERU_ANDES_REVIEW,PERUVIAN,subduction zone:3;collision zone:2;dextral transform:1,90.571
+North Sulawesi,5,5,0,0,NORTH_SULAWESI_REVIEW,NORTH_SULAWESI,dextral transform:3;collision zone:1;subduction zone:1,66.442
+Wrangell-Talkeetna,5,0,5,0,,,dextral transform:2;collision zone:2;sinistral transform:1,7.05
+Halmahera,5,5,0,0,MOLUCCA_DOUBLE_SUBDUCTION_REVIEW,HALMAHERA,subduction zone:3;collision zone:1;dextral transform:1,7.956
+Iranian,5,0,5,0,,,collision zone:3;dextral transform:2,35.152
+Explorer,5,0,5,0,,,spreading center:3;extension zone:1;subduction zone:1,19.561
+Izu Bonin,5,4,1,0,IZU_BONIN_ARC_REVIEW,IZU_BONIN,extension zone:3;collision zone:2,27.305
+Amur,5,5,0,0,AMUR_ADJACENT_DOMAIN_REVIEW,AMUR,collision zone:3;extension zone:2,86.769
+Lesser Antilles,5,4,1,0,CENTRAL_AMERICA_CARIBBEAN_REVIEW,LESSER_ANTILLES,subduction zone:3;extension zone:2,63.029
+Kinki Outer,4,4,0,0,SOUTHWEST_JAPAN_REVIEW,KINKI_OUTER,subduction zone:4,8.771
+Niuaf'ou,4,0,4,0,,,extension zone:3;dextral transform:1,36.419
+Conway Reef,4,0,4,0,,,spreading center:3;sinistral transform:1,41.902
+Indian,4,3,1,0,INDIAN_PLATE_ADJACENT_REVIEW,INDIAN,collision zone:1;spreading center:1;subduction zone:1;extension zone:1,42.474
+Caribbean,4,0,4,0,,,sinistral transform:4,10.693
+Anatolia,4,0,4,0,,,sinistral transform:2;dextral transform:1;collision zone:1,53.73
+Gorda,4,0,4,0,,,dextral transform:3;subduction zone:1,31.316
+Afghan,4,4,0,0,INDIA_EURASIA_COLLISION_BELT_REVIEW,AFGHAN,sinistral transform:3;dextral transform:1,116.361
+Arabian,3,0,3,0,,,sinistral transform:2;spreading center:1,16.959
+Coast Belt,3,0,3,0,,,dextral transform:2;subduction zone:1,9.788
+Juan Fernandez,3,0,3,0,,,spreading center:3,35.21
+Shan-Thai,3,3,0,3,BURMA_SHAN_THAI_COMPLEX_REVIEW,SHAN_THAI,dextral transform:2;collision zone:1,5.247
+West Luzon,3,3,0,0,PHILIPPINE_MOBILE_BELT_REVIEW,WEST_LUZON,sinistral transform:3,33.107
+South Chile,3,3,0,0,SOUTHERN_ANDES_REVIEW,SOUTH_CHILE,inferred:1;collision zone:1;subduction zone:1,14.58
+Shetland,3,0,3,0,,,extension zone:2;sinistral transform:1,4.237
+Coastal Oregon,3,0,3,0,,,subduction zone:2;collision zone:1,21.427
+Cocos,3,2,1,0,COCOS_PLATE_REVIEW,COCOS,dextral transform:2;subduction zone:1,4.533
+Futuna,3,0,3,0,,,sinistral transform:2;dextral transform:1,49.601
+Sonora,3,0,3,0,,,dextral transform:2;spreading center:1,16.632
+Tien Shan,3,1,2,0,CENTRAL_ASIA_COLLISION_REVIEW,TIEN_SHAN,collision zone:3,18.094
+Puysegur,3,0,3,0,,,subduction zone:3,16.827
+Yangtze,2,0,2,0,,,spreading center:2,52.653
+Buru,2,2,0,0,,,subduction zone:1;extension zone:1,25.046
+Victorian,2,0,2,0,,,extension zone:2,35.98
+East Iceland,2,0,2,0,,,spreading center:2,3.534
+Easter,2,0,2,0,,,spreading center:2,27.508
+Woodlark,2,0,2,0,,,spreading center:1;collision zone:1,63.035
+Walker Lane,2,0,2,0,,,dextral transform:1;extension zone:1,8.774
+Western Mediterranean,2,0,2,0,,,collision zone:2,72.358
+Phoenix,2,0,2,0,,,subduction zone:1;sinistral transform:1,134.312
+Nazca,2,2,0,0,NAZCA_PLATE_REVIEW,NAZCA,subduction zone:2,21.968
+Moake,2,2,0,0,NEW_GUINEA_EASTERN_INDONESIA_REVIEW,MOAKE_SOURCE_LABEL,collision zone:1;extension zone:1,76.774
+Mongolian,2,0,2,0,,,sinistral transform:2,23.14
+Southern Caspian,2,0,2,0,,,collision zone:2,34.875
+Coiba,1,1,0,0,CENTRAL_AMERICA_CARIBBEAN_REVIEW,COIBA,spreading center:1,15.82
+Caroline,1,0,1,0,,,subduction zone:1,127.445
+Lwandle,1,0,1,0,,,spreading center:1,8.215
+North Cordillera,1,0,1,0,,,dextral transform:1,20.495
+Pannonian,1,0,1,0,,,dextral transform:1,3.783
+Rivera,1,0,1,0,,,dextral transform:1,20.718
+Taupo,1,0,1,0,,,extension zone:1,8.938
+,1,0,1,0,,,spreading center:1,265.089

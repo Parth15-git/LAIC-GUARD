@@ -1,0 +1,272 @@
+﻿pilot_assignment_v001,nearest_boundary_name,nearest_boundary_type,nearest_boundary_plate1,nearest_boundary_plate2,event_count
+ANDES,Peru-Chile Trench,subduction zone,Puna,Nazca,35
+ANDES,,collision zone,Peruvian,South American,16
+ANDES,Peru-Chile Trench,subduction zone,Altiplano,Nazca,13
+ANDES,,inferred,Puna,Altiplano,9
+ANDES,,collision zone,Altiplano,South American,8
+ANDES,,collision zone,Puna,South American,8
+ANDES,Middle America Trench,subduction zone,Panama,Cocos,5
+ANDES,,inferred,Puna,South Chile,4
+ANDES,Peru-Chile Trench,subduction zone,North Andes,Nazca,3
+ANDES,Peru-Chile Trench,subduction zone,Peruvian,Nazca,3
+ANDES,Algeciras Fault,collision zone,North Andes,South American,2
+ANDES,Lesser Antilles Trench,subduction zone,Lesser Antilles,South American,2
+ANDES,Panama Fracture Zone,dextral transform,Cocos,Coiba,2
+ANDES,Peru-Chile Trench,subduction zone,Malpelo,North Andes,2
+ANDES,Peru-Chile Trench,subduction zone,Panama,Coiba,2
+ANDES,South Caribbean Marginal Thrust,collision zone,North Andes,Panama,2
+ANDES,,extension zone,Lesser Antilles,Caribbean,2
+ANDES,,inferred,Puna,South American,2
+ANDES,Chile Trench,subduction zone,Scotia,Antarctic,1
+ANDES,North Scotia Transform,sinistral transform,Scotia,South American,1
+ANDES,Pallatanga-Puná Fault,dextral transform,North Andes,Peruvian,1
+ANDES,Peru-Chile Trench,subduction zone,South Chile,Nazca,1
+ANDES,Regina Ridge,spreading center,Coiba,Malpelo,1
+ANDES,,collision zone,South Chile,South American,1
+ANDES,,inferred,Altiplano,Peruvian,1
+HIMALAYA_TIBET_CORE,Main Pamir Thrust,collision zone,Pamir,Tien Shan,7
+HIMALAYA_TIBET_CORE,Himalayan Main Boundary Thrust,collision zone,Tibet,Indian,6
+HIMALAYA_TIBET_CORE,Altyn Tagh Fault,sinistral transform,Tibet,Tarim,3
+HIMALAYA_TIBET_CORE,Chaman Fault,sinistral transform,Afghan,Pakistan Ranges,3
+HIMALAYA_TIBET_CORE,Longmenshan Fault,collision zone,Tibet,Sichuan,3
+HIMALAYA_TIBET_CORE,Karakorum Fault,dextral transform,Tibet,Pamir,2
+HIMALAYA_TIBET_CORE,North Qilian Thrust,collision zone,Tibet,Gobi,2
+HIMALAYA_TIBET_CORE,,collision zone,Tibet,Pamir,2
+HIMALAYA_TIBET_CORE,,sinistral transform,Shan-Thai,Tibet,2
+HIMALAYA_TIBET_CORE,Himalayan Main Boundary Thrust,collision zone,Pamir,Pakistan Ranges,1
+HIMALAYA_TIBET_CORE,Keping Fault,collision zone,Tien Shan,Tarim,1
+HIMALAYA_TIBET_CORE,Kirthar Basement Fault,collision zone,Pakistan Ranges,Indian Plate,1
+HIMALAYA_TIBET_CORE,Main Pamir Thrust,collision zone,Tibet,Tien Shan,1
+HIMALAYA_TIBET_CORE,,dextral transform,Afghan,Iranian,1
+JAPAN_KURIL,Japan Trench,subduction zone,Kuril-Kamchatka,Pacific,43
+JAPAN_KURIL,,collision zone,Kuril-Kamchatka,Okhotsk,25
+JAPAN_KURIL,Kuril Trench,subduction zone,Kuril-Kamchatka,Pacific,14
+JAPAN_KURIL,Aleutian Trench,subduction zone,Bering Sea,Pacific,13
+JAPAN_KURIL,Kamchatka Trench,subduction zone,Kuril-Kamchatka,Pacific,12
+JAPAN_KURIL,Nankai Trough,subduction zone,Kinki Outer,Philippine,5
+JAPAN_KURIL,,collision zone,Southwest Japan Inner,Amur,4
+JAPAN_KURIL,Itoigawa-Shizuoka Tectonic Line,collision zone,Kuril-Kamchatka,Southwest Japan Inner,3
+JAPAN_KURIL,,extension zone,Philippine,Izu Bonin,3
+JAPAN_KURIL,Japan Sea Trough,collision zone,Kuril-Kamchatka,Southwest Japan Inner,2
+JAPAN_KURIL,Japan Sea Trough,collision zone,Okhotsk,Amur,2
+JAPAN_KURIL,Median Tectonic Line,dextral transform,Southwest Japan Inner,Kinki Inner,2
+JAPAN_KURIL,Sagami Trough,collision zone,Izu Bonin,Kuril-Kamchatka,2
+JAPAN_KURIL,Sakhalin Shear Zone,collision zone,Amur,Okhotsk,2
+JAPAN_KURIL,,extension zone,Amur,North China,2
+JAPAN_KURIL,,extension zone,Ryukyu,Kinki Outer,2
+JAPAN_KURIL,Itoigawa-Shizuoka Tectonic Line,collision zone,Kuril-Kamchatka,Kinki Outer,1
+JAPAN_KURIL,Okinawa Trough,spreading center,Ryukyu,Yangtze,1
+OUTSIDE_PILOT,South New Hebrides Trench,subduction zone,New Hebrides,Australian,55
+OUTSIDE_PILOT,New Britain Trench,subduction zone,South Brunswick,Solomon,27
+OUTSIDE_PILOT,San Christobal Trench,subduction zone,San Christobal,Australian,25
+OUTSIDE_PILOT,,extension zone,Australian,Kermadec,24
+OUTSIDE_PILOT,San Christobal Trench,subduction zone,Pacific,Australian,23
+OUTSIDE_PILOT,Weitin Fault,dextral transform,North Bismarck,South Bismarck,22
+OUTSIDE_PILOT,Africa-South America Ridge,spreading center,African,South American,20
+OUTSIDE_PILOT,Aleutian Trench,subduction zone,Bering Sea,Pacific,20
+OUTSIDE_PILOT,Kermadec Trench,subduction zone,Kermadec,Pacific,19
+OUTSIDE_PILOT,,spreading center,Australian,Tonga,18
+OUTSIDE_PILOT,Hazel Holme Extensional Zone,extension zone,New Hebrides,Pacific,13
+OUTSIDE_PILOT,Tonga Trench,subduction zone,Tonga,Pacific,13
+OUTSIDE_PILOT,Middle America Trench,subduction zone,Panama,Cocos,11
+OUTSIDE_PILOT,,dextral transform,Nicaragua,Caribbean,11
+OUTSIDE_PILOT,Ramu-Markham Fault,collision zone,South Bismarck,Mamberamo,10
+OUTSIDE_PILOT,,extension zone,Niuaf'ou,Australian,10
+OUTSIDE_PILOT,Bullard Transform Fault,spreading center,South American,Antarctic,9
+OUTSIDE_PILOT,Donna Ridge,dextral transform,Niuaf'ou,Australian,8
+OUTSIDE_PILOT,North New Hebrides Trench,subduction zone,New Hebrides,Australian,8
+OUTSIDE_PILOT,,inferred,San Christobal,North Bismarck,8
+OUTSIDE_PILOT,Australia-Antarctica Ridge,spreading center,Australian,Antarctic,7
+OUTSIDE_PILOT,Europe-North America Ridge,spreading center,North American,Eurasian,7
+OUTSIDE_PILOT,South Sandwich Trench,subduction zone,Sandwich,South American,7
+OUTSIDE_PILOT,,extension zone,Niuaf'ou,Tonga,7
+OUTSIDE_PILOT,,extension zone,Philippine,Izu Bonin,7
+OUTSIDE_PILOT,Hellenic Trench,subduction zone,Aegean,African,6
+OUTSIDE_PILOT,Marianas Trough,spreading center,Philippine,Mariana,6
+OUTSIDE_PILOT,Montagua Fault,sinistral transform,Guatemala,Nicaragua,6
+OUTSIDE_PILOT,South Sandwich Trench,subduction zone,Sandwich,South Atlantic,6
+OUTSIDE_PILOT,Southwest Indian Ridge,spreading center,African,Antarctic,6
+OUTSIDE_PILOT,Middle America Trench,subduction zone,Nicaragua,Cocos,5
+OUTSIDE_PILOT,Australia-Antarctica Ridge,spreading center,Macquarie,Antarctic,4
+OUTSIDE_PILOT,East Anatolian Fault,sinistral transform,Anatolia,Arabian,4
+OUTSIDE_PILOT,Gulf of California Ridge,spreading center,Sonora,California Borderland,4
+OUTSIDE_PILOT,Havre Trough,extension zone,Kermadec,Australian,4
+OUTSIDE_PILOT,Hikurangi Trench,subduction zone,Kermadec,Pacific,4
+OUTSIDE_PILOT,Macquarie Ridge,dextral transform,Macquarie,Pacific,4
+OUTSIDE_PILOT,Okinawa Trough,spreading center,Ryukyu,Yangtze,4
+OUTSIDE_PILOT,Pacific-Antarctic Ridge,spreading center,Antarctic,Pacific,4
+OUTSIDE_PILOT,,sinistral transform,Bering Sea,Alaska Peninsular,4
+OUTSIDE_PILOT,,sinistral transform,Bering Sea,Alaskan Peninsular,4
+OUTSIDE_PILOT,Aleutian Trench,subduction zone,Alaskan Peninsular,Pacific,3
+OUTSIDE_PILOT,Bransfield Strait Extensional zone,extension zone,Shetland,Antarctic,3
+OUTSIDE_PILOT,Central Spreading Ridge,spreading center,New Hebrides,Conway Reef,3
+OUTSIDE_PILOT,Juan Fernandez Ridge,spreading center,Juan Fernandez,Nazca,3
+OUTSIDE_PILOT,Juan de Fuca Ridge,spreading center,Pacific,Explorer,3
+OUTSIDE_PILOT,Manus Trench,subduction zone,San Christobal,Woodlark,3
+OUTSIDE_PILOT,North Fiji Fracture Zone,sinistral transform,Balmoral Reef,Australian,3
+OUTSIDE_PILOT,Oriente Fault Zone,sinistral transform,Gonave,North American,3
+OUTSIDE_PILOT,Puysegur Trench,subduction zone,Puysegur,Macquarie,3
+OUTSIDE_PILOT,Queen Charlotte Fault,dextral transform,Pacific,Coast Belt,3
+OUTSIDE_PILOT,Ramu-Markham Fault,collision zone,South Bismarck,Woodlark,3
+OUTSIDE_PILOT,South Scotia Ridge,sinistral transform,Sandwich,Antarctic,3
+OUTSIDE_PILOT,South Scotia Ridge,sinistral transform,Scotia,Antarctic,3
+OUTSIDE_PILOT,Swan Fault,sinistral transform,Caribbean,North American,3
+OUTSIDE_PILOT,West Sayan Fault Zone,sinistral transform,Eurasian,Amur,3
+OUTSIDE_PILOT,,collision zone,Okhotsk,Bering Sea,3
+OUTSIDE_PILOT,,dextral transform,Guatemala,Sierra Madre del Sur,3
+OUTSIDE_PILOT,,dextral transform,Sonora,California Borderland,3
+OUTSIDE_PILOT,Africa-Australia Ridge,spreading center,Capricorn,Somali,2
+OUTSIDE_PILOT,Alaskan Border Ranges Fault,collision zone,Alaskan Peninsular,Wrangell-Talkeetna,2
+OUTSIDE_PILOT,Alpine Fault Zone,dextral transform,Southern Alpine,Australian,2
+OUTSIDE_PILOT,Alpine Fault Zone,dextral transform,Southern Alpine,Taupo,2
+OUTSIDE_PILOT,Cascadia Trench,subduction zone,Coast Belt,Explorer,2
+OUTSIDE_PILOT,Cascadia Trench,subduction zone,Coastal Oregon,Gorda,2
+OUTSIDE_PILOT,Denali Fault,dextral transform,North Cordillera,Wrangell-Talkeetna,2
+OUTSIDE_PILOT,Donna Ridge,dextral transform,Futuna,Australian,2
+OUTSIDE_PILOT,Easter Ridge,spreading center,Easter,Pacific,2
+OUTSIDE_PILOT,Eastern Spreading Center,spreading center,Conway Reef,Australian,2
+OUTSIDE_PILOT,Enriquillo-Plantain-Garden Fault Zone,sinistral transform,Gonave,Caribbean,2
+OUTSIDE_PILOT,Hjort Trench,subduction zone,Pacific,Macquarie,2
+OUTSIDE_PILOT,Juan de Fuca Ridge,spreading center,Pacific,Gorda,2
+OUTSIDE_PILOT,Marianas Trench,subduction zone,Mariana,Pacific,2
+OUTSIDE_PILOT,Mendocino Transform,dextral transform,Pacific,Gorda,2
+OUTSIDE_PILOT,North Scotia Transform,sinistral transform,Scotia,South American,2
+OUTSIDE_PILOT,Ryukyu Trench,subduction zone,Ryukyu,Philippine,2
+OUTSIDE_PILOT,Southwest Indian Ridge,spreading center,Lwandle,Antarctic,2
+OUTSIDE_PILOT,Uganda Rift,extension zone,African,Victorian,2
+OUTSIDE_PILOT,,collision zone,Caspian,Northern Caucus,2
+OUTSIDE_PILOT,,collision zone,Mamberamo,Woodlark,2
+OUTSIDE_PILOT,,collision zone,Panama,Nicaragua,2
+OUTSIDE_PILOT,,collision zone,Tien Shan,Eurasian,2
+OUTSIDE_PILOT,,dextral transform,Afghan,Iranian,2
+OUTSIDE_PILOT,,dextral transform,Puysegur,Southern Alpine,2
+OUTSIDE_PILOT,,extension zone,Aegean,Pannonian,2
+OUTSIDE_PILOT,,extension zone,Kermadec,Taupo,2
+OUTSIDE_PILOT,,sinistral transform,Bering Sea,Wrangell-Talkeetna,2
+OUTSIDE_PILOT,African-Indian Ridge,spreading center,Somali,Indian,1
+OUTSIDE_PILOT,Alpine Fault Zone,dextral transform,Southern Alpine,Kermadec,1
+OUTSIDE_PILOT,Apennine Frontal Thrust,collision zone,Western Mediterranean,Adriatic,1
+OUTSIDE_PILOT,Australia-Antarctica Ridge,spreading center,Capricorn,Antarctic,1
+OUTSIDE_PILOT,Cadiz Trench,subduction zone,Gulf of Cadiz,African,1
+OUTSIDE_PILOT,Cascadia Trench,subduction zone,Coastal Oregon,Explorer,1
+OUTSIDE_PILOT,Cerro Prieto Fault,dextral transform,Sonora,California Borderland,1
+OUTSIDE_PILOT,Conway Reef Fracture Zone,sinistral transform,New Hebrides,Conway Reef,1
+OUTSIDE_PILOT,Cyprus Trench,collision zone,Anatolian,African,1
+OUTSIDE_PILOT,Fifteen-Twenty Fracture Zone,sinistral transform,North American,South American,1
+OUTSIDE_PILOT,Gakkel Ridge,spreading center,Eurasian,North American,1
+OUTSIDE_PILOT,Izu-Bonin Trench,subduction zone,Izu Bonin,Pacific,1
+OUTSIDE_PILOT,Lesser Antilles Trench,subduction zone,Lesser Antilles,North American,1
+OUTSIDE_PILOT,Lesser Antilles Trench,subduction zone,Lesser Antilles,South American,1
+OUTSIDE_PILOT,Macquarie Ridge,dextral transform,Puysegur,Macquarie,1
+OUTSIDE_PILOT,Maghrebid Frontal Thrust,collision zone,Western Mediterannean,Africa,1
+OUTSIDE_PILOT,Mendocino Transform,dextral transform,California Borderland,Gorda,1
+OUTSIDE_PILOT,Middle America Trench,subduction zone,Guatemala,Cocos,1
+OUTSIDE_PILOT,Mojave Megashear Zone,dextral transform,Walker Lane,Sierra Nevada,1
+OUTSIDE_PILOT,Mozambique Rift,extension zone,Rovuma,African,1
+OUTSIDE_PILOT,Nazca-Antarctic Ridge,spreading center,Nazca,Antarctic,1
+OUTSIDE_PILOT,New Britain Trench,subduction zone,North Bismarck,Solomon,1
+OUTSIDE_PILOT,North Anatolian Fault Zone,dextral transform,Aegean,Pannonian,1
+OUTSIDE_PILOT,North Anatolian Fault Zone,dextral transform,Anatolia,Eurasian,1
+OUTSIDE_PILOT,North Anatolian Fault Zone,dextral transform,Anatolia,Pannonian,1
+OUTSIDE_PILOT,Nubara Fault,sinistral transform,Woodlark,Solomon,1
+OUTSIDE_PILOT,Pacific-Cocos Ridge,spreading center,Pacific,Cocos,1
+OUTSIDE_PILOT,Queen Charlotte Fault,dextral transform,St. Elias,St. Elias,1
+OUTSIDE_PILOT,Resolution Ridge,sinistral transform,Macquarie,Australian,1
+OUTSIDE_PILOT,Rivera Transform,dextral transform,Pacific,Rivera,1
+OUTSIDE_PILOT,San Andreas Fault,dextral transform,California Borderland,Sierra Nevada,1
+OUTSIDE_PILOT,Scotia Ridge,spreading center,Scotia,Sandwich,1
+OUTSIDE_PILOT,Shackelton Fracture Zone,sinistral transform,Scotia,Phoenix,1
+OUTSIDE_PILOT,Sheba Ridge,spreading center,Arabian,Somali,1
+OUTSIDE_PILOT,South Scotia Transform,sinistral transform,Scotia,Shetland,1
+OUTSIDE_PILOT,South Shetland Trough,subduction zone,Shetland,Phoenix,1
+OUTSIDE_PILOT,Sumatra-Java Trench,subduction zone,Sunda,Australian,1
+OUTSIDE_PILOT,Tonga Trench,sinistral transform,Futuna,Pacific,1
+OUTSIDE_PILOT,Trobriand Trough,subduction zone,Woodlark,Solomon,1
+OUTSIDE_PILOT,Vityaz Trench,collision zone,San Christobal,Pacific,1
+OUTSIDE_PILOT,West Melanesian Trench,subduction zone,North Bismarck,Caroline,1
+OUTSIDE_PILOT,West Melanesian Trench,subduction zone,North Bismarck,Pacific,1
+OUTSIDE_PILOT,Woodlark Ridge,spreading center,Australian,Woodlark,1
+OUTSIDE_PILOT,Zagros Mountain Front Fault,collision zone,Iranian,Arabian,1
+OUTSIDE_PILOT,,collision zone,Caucus,Eurasian,1
+OUTSIDE_PILOT,,collision zone,Coastal Oregon,Coast Belt,1
+OUTSIDE_PILOT,,collision zone,Guatemala,North American,1
+OUTSIDE_PILOT,,collision zone,Iranian,Caucus,1
+OUTSIDE_PILOT,,collision zone,Iranian,Southern Caspian,1
+OUTSIDE_PILOT,,collision zone,Southern Alpine,Pacific,1
+OUTSIDE_PILOT,,dextral transform,Bering Sea,North Alaskan,1
+OUTSIDE_PILOT,,dextral transform,Juan de Fuca,Gorda,1
+OUTSIDE_PILOT,,dextral transform,Niuaf'ou,Tonga,1
+OUTSIDE_PILOT,,dextral transform,North Cordillera,Northern Basin and Range,1
+OUTSIDE_PILOT,,dextral transform,South American,South Atlantic,1
+OUTSIDE_PILOT,,extension zone,Aegean,Denaric Alps,1
+OUTSIDE_PILOT,,extension zone,Australian,Balmoral Reef,1
+OUTSIDE_PILOT,,extension zone,Juan de Fuca,Explorer,1
+OUTSIDE_PILOT,,extension zone,North American,Eurasian,1
+OUTSIDE_PILOT,,extension zone,Sierra Madre del Sur,North American,1
+OUTSIDE_PILOT,,extension zone,Walker Lane,Northern Basin and Range,1
+OUTSIDE_PILOT,,inferred,San Plate,African Plate,1
+OUTSIDE_PILOT,,sinistral transform,Futuna,Pacific,1
+OUTSIDE_PILOT,,spreading center,Manus,South Bismacrk,1
+OUTSIDE_PILOT,,spreading center,North Bismarck,South Bismarck,1
+OUTSIDE_PILOT,,subduction zone,San Christobal,Solomon,1
+OVERLAP_REVIEW_HIMALAYA_SUNDA,Saging Fault,dextral transform,Shan-Thai,Burma,5
+OVERLAP_REVIEW_HIMALAYA_SUNDA,Naga Thrust,collision zone,Burma,Indian,1
+OVERLAP_REVIEW_HIMALAYA_SUNDA,,collision zone,Shan-Thai,Sunda,1
+SUNDA_INDONESIA_CORE,Sumatra-Java Trench,subduction zone,West Sumatra,Capricorn,21
+SUNDA_INDONESIA_CORE,Sumatra Fault,dextral transform,West Sumatra,Sunda,20
+SUNDA_INDONESIA_CORE,Cotabato Trench,subduction zone,Mindanao,Sunda,14
+SUNDA_INDONESIA_CORE,Halmahera Trench,subduction zone,Halmahera,Molluca Sea,14
+SUNDA_INDONESIA_CORE,Wetar Thrust,collision zone,Timor,Banda Sea,14
+SUNDA_INDONESIA_CORE,Flores Thrust,collision zone,Timor,Banda Sea,11
+SUNDA_INDONESIA_CORE,Andaman Trench,subduction zone,Burma,Indian,9
+SUNDA_INDONESIA_CORE,Philippine Fault,sinistral transform,Mindanao,Bicol,9
+SUNDA_INDONESIA_CORE,West Andaman Fault,extension zone,Burma,West Sumatra,9
+SUNDA_INDONESIA_CORE,Flores Thrust,collision zone,Timor,Sunda,7
+SUNDA_INDONESIA_CORE,Marianas Trough,spreading center,Philippine,Mariana,7
+SUNDA_INDONESIA_CORE,Sumatra-Java Trench,subduction zone,Sunda,Capricorn,6
+SUNDA_INDONESIA_CORE,,dextral transform,Birds Head,Cenderawasih,6
+SUNDA_INDONESIA_CORE,East Luzon Trench,subduction zone,East Luzon,Philippine,5
+SUNDA_INDONESIA_CORE,Philippine Trench,subduction zone,Bicol,Philippine,5
+SUNDA_INDONESIA_CORE,Ramu-Markham Fault,collision zone,South Bismarck,Mamberamo,4
+SUNDA_INDONESIA_CORE,Ryukyu Trench,subduction zone,Ryukyu,Philippine,4
+SUNDA_INDONESIA_CORE,Sangihe Trench,subduction zone,Sangihe,Molluca Sea,4
+SUNDA_INDONESIA_CORE,,dextral transform,Bicol,Molluca Sea,4
+SUNDA_INDONESIA_CORE,,dextral transform,Cenderawasih,Moake,4
+SUNDA_INDONESIA_CORE,Indo-Australian Rift,extension zone,Capricorn,Indian,3
+SUNDA_INDONESIA_CORE,New Guinea Trench,subduction zone,Mamberamo,North Bismarck,3
+SUNDA_INDONESIA_CORE,Papuan Fold and Thrust Belt,collision zone,Mamberamo,Australian,3
+SUNDA_INDONESIA_CORE,Philippine Trench,subduction zone,Molluca Sea,Philippine,3
+SUNDA_INDONESIA_CORE,,extension zone,Banda Sea,Buru,3
+SUNDA_INDONESIA_CORE,Andaman Ridge,spreading center,Burma,Sunda,2
+SUNDA_INDONESIA_CORE,Guam Transform,sinistral transform,Philippine,Mariana,2
+SUNDA_INDONESIA_CORE,Marianas Trench,subduction zone,Mariana,Pacific,2
+SUNDA_INDONESIA_CORE,New Guinea Trench,subduction zone,Cenderawasih,Caroline,2
+SUNDA_INDONESIA_CORE,North Sulawesi Trench,subduction zone,North Sulawesi,Sunda,2
+SUNDA_INDONESIA_CORE,Okinawa Trough,spreading center,Ryukyu,Yangtze,2
+SUNDA_INDONESIA_CORE,Palu-Koro Fault,dextral transform,Banda Sea,North Sulawwesi,2
+SUNDA_INDONESIA_CORE,Sibuyan Sea Fault,sinistral transform,Mindanao,West Luzon,2
+SUNDA_INDONESIA_CORE,Southern Capricorn Boundary (proposed),inferred,Capricorn,Australian,2
+SUNDA_INDONESIA_CORE,,dextral transform,Timor,Sunda,2
+SUNDA_INDONESIA_CORE,,extension zone,Cederawasih,Moake,2
+SUNDA_INDONESIA_CORE,,sinistral transform,Banda Sea,Buru,2
+SUNDA_INDONESIA_CORE,,sinistral transform,Sangihe,Mindanao,2
+SUNDA_INDONESIA_CORE,,spreading center,North Bismarck,South Bismarck,2
+SUNDA_INDONESIA_CORE,Andaman Trench,subduction zone,Burma,Capricorn,1
+SUNDA_INDONESIA_CORE,Banda Trench,subduction zone,Banda Sea,Australian,1
+SUNDA_INDONESIA_CORE,Banda Trench,subduction zone,Banda Sea,Birds Head,1
+SUNDA_INDONESIA_CORE,East Walanae Fault,collision zone,Banda Sea,Sunda,1
+SUNDA_INDONESIA_CORE,Manilla Trench,subduction zone,East Luzon,Sunda,1
+SUNDA_INDONESIA_CORE,Mantano Fault,dextral transform,North Sulawesi,Buru,1
+SUNDA_INDONESIA_CORE,Negros Trench,subduction zone,Mindanao,Sunda,1
+SUNDA_INDONESIA_CORE,Papuan Fold and Thrust Belt,collision zone,Moake,Australian,1
+SUNDA_INDONESIA_CORE,Philippine Fault,sinistral transform,West Luzon,East Luzon,1
+SUNDA_INDONESIA_CORE,Philippine Trench,subduction zone,East Luzon,Philippine,1
+SUNDA_INDONESIA_CORE,Saging Fault,dextral transform,Shan-Thai,Burma,1
+SUNDA_INDONESIA_CORE,Sula Thrust,collision zone,North Sulawesi,Molluca Sea,1
+SUNDA_INDONESIA_CORE,Tolo Thrust,subduction zone,Banda Sea,Buru,1
+SUNDA_INDONESIA_CORE,West Andaman Fault,extension zone,Burma,Sunda,1
+SUNDA_INDONESIA_CORE,,collision zone,Halmahera,Philippine,1
+SUNDA_INDONESIA_CORE,,dextral transform,Birds Head,Halmahera,1
+SUNDA_INDONESIA_CORE,,dextral transform,East Luzon,Ryukyu,1
+SUNDA_INDONESIA_CORE,,extension zone,Birds Head,Australian,1
+SUNDA_INDONESIA_CORE,,sinistral transform,East Luzon,Sunda,1

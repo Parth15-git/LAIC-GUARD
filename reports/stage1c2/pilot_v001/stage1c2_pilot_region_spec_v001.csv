@@ -1,0 +1,6 @@
+﻿region_id,role,west,east,south,north,boundary_semantics
+HIMALAYA_TIBET,candidate_operational_pilot_box,60.0,105.0,20.0,42.0,inclusive rectangle; exploratory Stage 1C.1 box; not a tectonic polygon
+JAPAN_KURIL,candidate_operational_pilot_box,125.0,180.0,30.0,60.0,inclusive rectangle; exploratory Stage 1C.1 box; not a tectonic polygon
+SUNDA_INDONESIA,candidate_operational_pilot_box,90.0,145.0,-15.0,25.0,inclusive rectangle; exploratory Stage 1C.1 box; not a tectonic polygon
+ANDES,candidate_operational_pilot_box,-85.0,-55.0,-60.0,15.0,inclusive rectangle; exploratory Stage 1C.1 box; not a tectonic polygon
+HIMALAYA_SUNDA_INTERSECTION,overlap_review_intersection,90.0,105.0,20.0,25.0,exact geometric intersection of Himalaya-Tibet and Sunda-Indonesia candidate boxes

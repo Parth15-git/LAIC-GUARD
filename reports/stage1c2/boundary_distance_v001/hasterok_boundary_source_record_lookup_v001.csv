@@ -1,0 +1,572 @@
+﻿source_record_id,feature_id,feature,type,comment,plate1,plate2,level,length
+HAST_ROW_0001,1.0,Galapagos Ridge,spreading center,,Galapagos,Cocos,1,48.231534946570726
+HAST_ROW_0002,2.0,Papuan Fold and Thrust Belt,collision zone,,Moake,Australian,2,633.7113403231714
+HAST_ROW_0003,3.0,,dextral transform,,Sonora,Rivera,1,181.38244924356735
+HAST_ROW_0004,4.0,Regina Ridge,spreading center,,Coiba,Malpelo,2,561.0182008750442
+HAST_ROW_0005,5.0,South Shetland Trough,subduction zone,,Shetland,Phoenix,2,447.94790874428617
+HAST_ROW_0006,6.0,,dextral transform,,North Sulawwesi,Sangihe,2,153.55231179643204
+HAST_ROW_0007,7.0,Nubara Fault,sinistral transform,,Woodlark,Solomon,1,293.42620424600574
+HAST_ROW_0008,8.0,,collision zone,,Western Mediterranean,Alpine,2,217.75000565088968
+HAST_ROW_0009,9.0,Apennine Frontal Thrust,collision zone,,Western Mediterranean,Adriatic,2,1343.401422419716
+HAST_ROW_0010,10.0,Carpathian Thrust,collision zone,,Pannonian,Eurasian,2,2240.242605989898
+HAST_ROW_0011,11.0,,dextral transform,,Sierra Nevada,Coastal Oregon,2,243.9544133560346
+HAST_ROW_0012,12.0,,collision zone,,Peruvian,South American,2,1780.0724368608942
+HAST_ROW_0013,13.0,Keping Fault,collision zone,,Tien Shan,Tarim,2,1406.4823853107046
+HAST_ROW_0014,14.0,North Gobi Altai Fault Zone,collision zone,,Amur,Mongolian,2,273.09576993077155
+HAST_ROW_0015,15.0,,collision zone,,Iranian,Eurasian,2,237.31109064147338
+HAST_ROW_0016,16.0,Indo-Australian Rift,extension zone,diffuse boundary,Capricorn,Indian,1,3671.3326279664097
+HAST_ROW_0017,17.0,Kamchatka Trench,subduction zone,,Kuril-Kamchatka,Pacific,1,806.6944746726555
+HAST_ROW_0018,18.0,Anegada Trough,extension zone,,HIspaniola,Puerto Rico-Virgin Islands,2,332.66506518319665
+HAST_ROW_0019,19.0,Cayman Spreading Center,spreading center,,Gonave,North American,1,128.24229270718425
+HAST_ROW_0020,20.0,Oriente Fault Zone,sinistral transform,,Gonave,North American,1,844.4921256306428
+HAST_ROW_0021,21.0,Scotia Ridge,spreading center,,Scotia,Sandwich,2,763.0748378610859
+HAST_ROW_0022,22.0,Fifteen-Twenty Fracture Zone,sinistral transform,diffuse boundary,North American,South American,1,1576.770116456307
+HAST_ROW_0023,23.0,South Sandwich Trench,subduction zone,,Sandwich,South Atlantic,1,347.8098056705758
+HAST_ROW_0024,24.0,Lesser Antilles Trench,subduction zone,,Lesser Antilles,South American,1,1011.6691342895425
+HAST_ROW_0025,25.0,Bullard Transform Fault,spreading center,,South American,Antarctic,1,1926.3407718722224
+HAST_ROW_0026,26.0,Europe-North America Ridge,spreading center,,North American,Eurasian,1,5827.403941126959
+HAST_ROW_0027,27.0,,sinistral transform,,Lesser Antilles,Puerto Rico-Virgin Islands,2,588.089753787041
+HAST_ROW_0028,28.0,Alpine Fault Zone,dextral transform,,Southern Alpine,Australian,1,621.1877955460114
+HAST_ROW_0029,29.0,Middle America Trench,subduction zone,,Sonora,Rivera,1,135.0626696881347
+HAST_ROW_0030,30.0,,collision zone,,HIspaniola,North American,1,616.8651270622264
+HAST_ROW_0031,31.0,Cocos-Nazca Ridge,spreading center,,Cocos,Nazca,1,2544.7206585750946
+HAST_ROW_0032,32.0,Pacific-Cocos Ridge,spreading center,,Pacific,Cocos,1,2049.9752829337144
+HAST_ROW_0033,33.0,Middle America Trench,subduction zone,Sierra Madre del Sur,Panama,Cocos,1,1086.4492671841774
+HAST_ROW_0034,34.0,,inferred,no clear structures; bounary defined by change in seismicity,Puna,South Chile,2,363.1677825917845
+HAST_ROW_0035,35.0,Peru-Chile Trench,subduction zone,,Panama,Coiba,1,560.0982383521723
+HAST_ROW_0036,36.0,Pacific-Antarctic Fracture Zone,dextral transform,,Macquarie,Pacific,1,237.71712219765777
+HAST_ROW_0037,37.0,Dutoit Fracture Zone,dextral transform,,African,Antarctic,1,561.7803557645394
+HAST_ROW_0038,38.0,Southwest Indian Ridge,spreading center,,African,Antarctic,1,2344.485609508028
+HAST_ROW_0039,39.0,Africa-North America Ridge,spreading center,,North American,African,1,3946.728234954928
+HAST_ROW_0040,40.0,Africa-South America Ridge,spreading center,,African,South American,1,14524.159228486533
+HAST_ROW_0041,41.0,Easter Ridge,spreading center,,Easter,Nazca,1,858.733561154685
+HAST_ROW_0042,42.0,Pacific-Nazca Ridge,spreading center,,Pacific,Nazca,1,4189.435811946427
+HAST_ROW_0043,43.0,Nazca-Antarctic Ridge,spreading center,,Nazca,Antarctic,1,4051.4418566702457
+HAST_ROW_0044,44.0,Rivera Ridge,spreading center,,Pacific,Rivera,1,259.67272127490713
+HAST_ROW_0045,45.0,Cascadia Trench,subduction zone,,Coast Belt,Explorer,1,208.15166061013127
+HAST_ROW_0046,46.0,Juan de Fuca Ridge,spreading center,,Pacific,Gorda,1,267.21543334638596
+HAST_ROW_0047,47.0,Mendocino Transform,dextral transform,,Pacific,Gorda,1,98.5284397721605
+HAST_ROW_0048,48.0,San Andreas Fault,dextral transform,,California Borderland,Sierra Nevada,1,1090.3209459180289
+HAST_ROW_0049,49.0,Teton Fault,extension zone,,Northern Basin and Range,North American,2,192.90573248582052
+HAST_ROW_0050,50.0,,sinistral transform,diffuse boundary; inferred from seismicity,Colrado Plateau,Northern Basin and Range,2,76.71269385925656
+HAST_ROW_0051,51.0,Mojave Megashear Zone,dextral transform,,Walker Lane,Sierra Nevada,2,972.5171621991885
+HAST_ROW_0052,52.0,Mozambique Rift,extension zone,,Rovuma,African,1,636.0540341396245
+HAST_ROW_0053,53.0,Mozambique Ridge,dextral transform,,Lwandle,African,1,2634.4195916577987
+HAST_ROW_0054,54.0,,dextral transform,minimal seismicity; inferred boundary,Rovuma,African,1,548.546730776182
+HAST_ROW_0055,55.0,Red Sea Rift,spreading center,,Danakil,Arabian,1,774.8389743225749
+HAST_ROW_0056,56.0,West Andaman Fault,extension zone,,Burma,West Sumatra,2,399.8227091062824
+HAST_ROW_0057,57.0,Sumatra-Java Trench,subduction zone,,West Sumatra,Capricorn,1,1540.0108782720122
+HAST_ROW_0058,58.0,Banda Trench,subduction zone,,Timor,Australian,1,1456.5549509206226
+HAST_ROW_0059,59.0,Andaman Ridge,spreading center,,Burma,Sunda,2,1277.0658493381518
+HAST_ROW_0060,60.0,Saging Fault,dextral transform,,Sunda,Burma,2,497.0126980989282
+HAST_ROW_0061,61.0,Marianas Trench,subduction zone,,Mariana,Pacific,1,2365.7141586026496
+HAST_ROW_0062,62.0,Izu-Bonin Trench,subduction zone,,Izu Bonin,Pacific,1,1113.092076359562
+HAST_ROW_0063,63.0,Africa-Australia Ridge,spreading center,,Capricorn,Somali,1,3195.023577799766
+HAST_ROW_0064,64.0,Australia-Antarctica Ridge,spreading center,,Capricorn,Antarctic,1,3790.290703176175
+HAST_ROW_0065,65.0,Europe-Africa Transform,dextral transform,,Eurasian,African,1,2221.620399414315
+HAST_ROW_0066,66.0,Tonga Trench,subduction zone,,Tonga,Pacific,1,1129.1583350923195
+HAST_ROW_0067,67.0,North New Hebrides Trench,subduction zone,,New Hebrides,Australian,1,247.766532921505
+HAST_ROW_0068,68.0,,inferred,,Izu Bonin,Mariana,2,217.7545986542849
+HAST_ROW_0069,69.0,Marianas Trough,spreading center,,Philippine,Mariana,2,1385.349355217984
+HAST_ROW_0070,70.0,Sagami Trough,collision zone,,Izu Bonin,Kuril-Kamchatka,1,312.6248354032198
+HAST_ROW_0071,71.0,Japan Trench,subduction zone,,Kuril-Kamchatka,Pacific,1,824.452407162151
+HAST_ROW_0072,72.0,Kuril Trench,subduction zone,,Kuril-Kamchatka,Pacific,1,1394.5203542809925
+HAST_ROW_0073,73.0,Nankai Trough,subduction zone,,Kinki Outer,Philippine,1,709.745417938201
+HAST_ROW_0074,74.0,East Luzon Trench,subduction zone,,East Luzon,Philippine,1,953.865839426411
+HAST_ROW_0075,75.0,Ryukyu Trench,subduction zone,,Ryukyu,Philippine,1,1568.4050929120517
+HAST_ROW_0076,76.0,Guam Transform,sinistral transform,,Philippine,Mariana,2,590.2626817508122
+HAST_ROW_0077,77.0,Himalayan Main Boundary Thrust,collision zone,,Pamir,Pakistan Ranges,2,677.5760758801798
+HAST_ROW_0078,78.0,,spreading center,,Indian,Arabian,1,455.1334593438677
+HAST_ROW_0079,79.0,African-Indian Ridge,spreading center,,Somali,Indian,1,3640.941169940155
+HAST_ROW_0080,80.0,Gakkel Ridge,spreading center,,Eurasian,North American,1,3024.6411743776493
+HAST_ROW_0081,81.0,Mussau Trough,subduction zone,,Pacific,Caroline,2,429.2108817211165
+HAST_ROW_0082,82.0,,sinistral transform,,East Luzon,Sunda,2,417.80627535133897
+HAST_ROW_0083,83.0,Okinawa Trough,spreading center,,Ryukyu,Yangtze,2,1409.574420050952
+HAST_ROW_0084,84.0,,extension zone,,Ryukyu,Amur,2,97.65842550375045
+HAST_ROW_0085,85.0,West Melanesian Trench,subduction zone,,North Bismarck,Pacific,2,880.7286779395778
+HAST_ROW_0086,86.0,West Melanesian Trench,subduction zone,,North Bismarck,Caroline,2,904.013353991415
+HAST_ROW_0087,87.0,Yap Trench,subduction zone,,Philippine,Caroline,1,378.9788323599594
+HAST_ROW_0088,88.0,Palau Trench,subduction zone,,Philippine,Caroline,1,296.7785348254332
+HAST_ROW_0089,89.0,Yap-Palau Transform,dextral transform,,Philippine,Caroline,1,151.56282039397814
+HAST_ROW_0090,90.0,Ayu Trough,collision zone,,Philippine,Caroline,1,680.898716354497
+HAST_ROW_0091,91.0,New Guinea Trench,subduction zone,,Birds Head,Caroline,1,655.711313173966
+HAST_ROW_0092,92.0,,collision zone,,Gonave,HIspaniola,2,416.3569421499137
+HAST_ROW_0093,93.0,Los Muertos Trough,subduction zone,,HIspaniola,Caribbean,2,315.4849132880387
+HAST_ROW_0094,94.0,Puerto Rican Trench,subduction zone,,Puerto Rico-Virgin Islands,North American,1,519.8714990753363
+HAST_ROW_0095,95.0,Pacific-Antarctic Ridge,spreading center,,Antarctic,Pacific,1,8876.209374861191
+HAST_ROW_0096,96.0,Aleutian Trench,subduction zone,,Bering Sea,Pacific,1,1571.5137266317097
+HAST_ROW_0097,97.0,Kermadec Trench,subduction zone,,Kermadec,Pacific,1,1613.0366685349718
+HAST_ROW_0098,98.0,,extension zone,,Kermadec,Taupo,2,751.909715050627
+HAST_ROW_0099,99.0,Hikurangi Trench,subduction zone,,Kermadec,Pacific,1,677.8995298005441
+HAST_ROW_0100,100.0,Puysegur Trench,subduction zone,,Puysegur,Macquarie,1,381.34327198884733
+HAST_ROW_0101,101.0,Macquarie Ridge,dextral transform,,Macquarie,Pacific,1,770.0387578005767
+HAST_ROW_0102,102.0,Hjort Trench,subduction zone,,Pacific,Macquarie,1,412.1961989653541
+HAST_ROW_0103,103.0,Owen Fracture Zone,dextral transform,,Indian,Arabian,1,1184.7011603187445
+HAST_ROW_0104,104.0,Southwest Indian Ridge,spreading center,,Lwandle,Antarctic,1,2105.8189554301575
+HAST_ROW_0105,105.0,,collision zone,,Puna,South American,2,1548.244038864348
+HAST_ROW_0106,106.0,,collision zone,,Altiplano,South American,2,1690.826506538154
+HAST_ROW_0107,107.0,,inferred,no clear structures; boundary inferred,Puna,Altiplano,2,859.4789333430964
+HAST_ROW_0108,108.0,,inferred,no clear structures; boundary inferred,Altiplano,Peruvian,2,557.5142173984727
+HAST_ROW_0109,109.0,San Sebastian Fault Zone,dextral transform,,Los Roques,North Caribbean Ranges,1,354.75529902788986
+HAST_ROW_0110,110.0,,spreading center,,Nazca,Malpelo,2,403.6147166107617
+HAST_ROW_0111,111.0,Panama Fracture Zone,dextral transform,,Cocos,Coiba,1,226.36033625777762
+HAST_ROW_0112,112.0,Margarita-Los Roques Fault,dextral transform,,North Andes,Los Roques,1,531.5971041569946
+HAST_ROW_0113,113.0,South Caribbean Marginal Thrust,collision zone,,North Andes,Caribbean,1,898.6158874982746
+HAST_ROW_0114,114.0,Gulf of California Ridge,spreading center,,Sonora,California Borderland,1,886.1695284930761
+HAST_ROW_0115,115.0,San Andreas Fault,dextral transform,,Sonora,California Borderland,1,896.7210962608115
+HAST_ROW_0116,116.0,Rivera Transform,dextral transform,,Pacific,Rivera,1,598.3764029419466
+HAST_ROW_0117,117.0,Rivera Ridge,spreading center,,Cocos,Rivera,2,146.73410941339083
+HAST_ROW_0118,118.0,Cadiz Trench,subduction zone,,Gulf of Cadiz,Eurasian,1,217.00041821298603
+HAST_ROW_0119,119.0,Cadiz Trench,subduction zone,,Gulf of Cadiz,African,2,131.15939182995018
+HAST_ROW_0120,120.0,Cadiz Trench,subduction zone,,Gulf of Cadiz,African,2,389.6671816317539
+HAST_ROW_0121,121.0,,collision zone,,Adriatic,African,1,134.21712210104988
+HAST_ROW_0122,122.0,Maghrebid Frontal Thrust,collision zone,,Western Mediterannean,Gulf of Cadiz,1,117.31810771519037
+HAST_ROW_0123,123.0,Hellenic Trench,subduction zone,,Aegean,African,1,1330.415333621101
+HAST_ROW_0124,124.0,Cyprus Trench,collision zone,,Anatolian,African,1,626.0582236338048
+HAST_ROW_0125,125.0,,dextral transform,,Aegean,Adriatic,2,86.78258412404492
+HAST_ROW_0126,126.0,,dextral transform,,Arabian,Afghan,1,282.14379889600247
+HAST_ROW_0127,127.0,,dextral transform,,Afghan,Iranian,2,1210.8097502656626
+HAST_ROW_0128,128.0,Zagros Mountain Front Fault,collision zone,,Iranian,Arabian,1,2408.5943383622134
+HAST_ROW_0129,129.0,Montagua Fault,sinistral transform,,Guatemala,Nicaragua,1,211.63852783565594
+HAST_ROW_0130,130.0,Walton Fault,sinistral transform,,Gonave,Caribbean,2,358.5679957317455
+HAST_ROW_0131,131.0,,sinistral transform,,Somali,African,1,286.3123862585675
+HAST_ROW_0132,132.0,Chugach-St. Elias Fault,collision zone,,Alaskan Peninsular,Yakutat,1,420.33437221640344
+HAST_ROW_0133,133.0,Fairweather Fault,dextral transform,,Alaskan Peninsular,Yakutat,1,124.4551854142176
+HAST_ROW_0134,134.0,Transition Fault,dextral transform,,Pacific,Yukatat,2,626.5951330684351
+HAST_ROW_0135,135.0,North Panama Thrust,collision zone,,Panama,Caribbean,2,637.4340482407251
+HAST_ROW_0136,136.0,Bransfield Strait Extensional zone,extension zone,,Shetland,Antarctic,2,985.5475380036479
+HAST_ROW_0137,137.0,Chile Trench,subduction zone,,South American,Antarctic,1,272.25757112171715
+HAST_ROW_0138,138.0,Shackelton Fracture Zone,sinistral transform,,Scotia,Phoenix,1,605.8665617691004
+HAST_ROW_0139,139.0,,sinistral transform,,Shetland,Antarctic,2,139.25562655763238
+HAST_ROW_0140,140.0,North Scotia Transform,sinistral transform,,Scotia,South American,1,3386.444598868199
+HAST_ROW_0141,141.0,South Scotia Transform,sinistral transform,,Scotia,Shetland,1,632.2095273272625
+HAST_ROW_0142,142.0,Davie Ridge,extension zone,,Comoros,Rovuma,2,820.4678554996129
+HAST_ROW_0143,143.0,Quathlamba Seismic Axis,dextral transform,,Rovuma,Lwandle,2,883.581388503372
+HAST_ROW_0144,144.0,Comoros Transform,dextral transform,,Somali,Comoros,2,863.4329862353662
+HAST_ROW_0145,145.0,,extension zone,,Australian,Kermadec,2,909.4281966902038
+HAST_ROW_0146,146.0,,dextral transform,,Niuaf'ou,Tonga,2,86.7182887149337
+HAST_ROW_0147,147.0,,spreading center,,Australian,Tonga,2,590.9960650741208
+HAST_ROW_0148,148.0,,inferred,not an obvious boundary,Tonga,Kermadec,2,276.074685982496
+HAST_ROW_0149,149.0,,extension zone,,Niuaf'ou,Australian,2,135.5176746982689
+HAST_ROW_0150,150.0,,extension zone,,Niuaf'ou,Tonga,2,525.4384009156298
+HAST_ROW_0151,151.0,,spreading center,,Futuna,Balmoral Reef,1,152.08840456717505
+HAST_ROW_0152,152.0,,extension zone,,Australian,Balmoral Reef,1,72.1515947603696
+HAST_ROW_0153,153.0,,extension zone,,Balmoral Reef,Pacific,2,105.74393936673337
+HAST_ROW_0154,154.0,,sinistral transform,,Futuna,Pacific,1,373.11713092794724
+HAST_ROW_0155,155.0,North Fiji Fracture Zone,sinistral transform,,Australian,Balmoral Reef,1,59.36679418768835
+HAST_ROW_0156,156.0,,extension zone,,Futuna,Niuaf'ou,2,371.59326314621677
+HAST_ROW_0157,157.0,Donna Ridge,dextral transform,transtensional zone,Niuaf'ou,Australian,2,267.090937445327
+HAST_ROW_0158,158.0,South New Hebrides Trench,subduction zone,,New Hebrides,Australian,1,1240.1959045182157
+HAST_ROW_0159,159.0,North Fiji Fracture Zone,sinistral transform,,Balmoral Reef,Conway Reef,2,272.05648224341223
+HAST_ROW_0160,160.0,Central Spreading Ridge,spreading center,,New Hebrides,Conway Reef,2,666.3333462616122
+HAST_ROW_0161,161.0,Conway Reef Fracture Zone,sinistral transform,,New Hebrides,Conway Reef,2,142.26960020498004
+HAST_ROW_0162,162.0,Eastern Spreading Center,spreading center,,Conway Reef,Australian,1,550.7191536459525
+HAST_ROW_0163,163.0,North Fiji Fracture Zone,sinistral transform,,Balmoral Reef,Australian,1,431.0285350137586
+HAST_ROW_0164,164.0,Central Spreading Ridge,spreading center,,Balmoral Reef,New Hebrides,2,440.3520245744009
+HAST_ROW_0165,165.0,Hazel Holme Extensional Zone,spreading center,,New Hebrides,Pacific,2,560.9520642507304
+HAST_ROW_0166,166.0,Hazel Holme Extensional Zone,extension zone,,New Hebrides,Pacific,2,224.0503394169453
+HAST_ROW_0167,167.0,,extension zone,,Balmoral Reef,Pacific,2,881.3152671147902
+HAST_ROW_0168,168.0,,extension zone,diffuse boundary,Aegean,Denaric Alps,2,156.03673385203362
+HAST_ROW_0169,169.0,,sinistral transform,,North American,Okhotsk,2,1537.954891155386
+HAST_ROW_0170,170.0,,extension zone,,North American,Eurasian,1,2012.370810225269
+HAST_ROW_0171,171.0,Main Pamir Thrust,collision zone,,Tibet,Tien Shan,2,245.06895714537816
+HAST_ROW_0172,172.0,Main Pamir Thrust,collision zone,,Tibet,Tarim,2,740.4860697567352
+HAST_ROW_0173,173.0,North Qilian Thrust,collision zone,,Tibet,Gobi,2,791.5286826245947
+HAST_ROW_0174,174.0,Altyn Tagh Fault,sinistral transform,,Tibet,Tarim,2,1538.6650644047102
+HAST_ROW_0175,175.0,,extension zone,,Australian,Woodlark,2,370.0585653431572
+HAST_ROW_0176,176.0,North Anatolian Fault Zone,dextral transform,diffuse boundary,Aegean,Denaric Alps,2,151.33372729628627
+HAST_ROW_0177,177.0,,extension zone,diffuse boundary,Aegean,Pannonian,2,719.8178492656183
+HAST_ROW_0178,178.0,East Sichuan Fold Belt,collision zone,,Yangtze,Sichuan,2,644.5646532558184
+HAST_ROW_0179,179.0,,collision zone,,Tibet,Sichuan,2,298.8261651121537
+HAST_ROW_0180,180.0,,collision zone,,Yangtze,North China,2,537.4589245580366
+HAST_ROW_0181,181.0,,extension zone,,Yangtze,North China,2,202.50731648356737
+HAST_ROW_0182,182.0,,extension zone,,Amur,North China,2,1375.6994141681575
+HAST_ROW_0183,183.0,Sibuyan Sea Fault,sinistral transform,,Mindanao,West Luzon,2,546.8998632515115
+HAST_ROW_0184,184.0,Manilla Trench,subduction zone,,East Luzon,Sunda,2,242.75678800265018
+HAST_ROW_0185,185.0,Sangihe Trench,subduction zone,,North Sulawesi,Molluca Sea,2,232.23580702644213
+HAST_ROW_0186,186.0,Halmahera Trench,subduction zone,,Halmahera,Molluca Sea,2,716.8485103275585
+HAST_ROW_0187,187.0,,collision zone,,Halmahera,Philippine,1,665.3188623092038
+HAST_ROW_0188,188.0,Sorol Trough,extension zone,,Caroline,Pacific,2,987.6891563702038
+HAST_ROW_0189,189.0,New Guinea Trench,subduction zone,,Mamberamo,Caroline,1,425.6028057086728
+HAST_ROW_0190,190.0,Woodlark Ridge,spreading center,,Australian,Woodlark,2,790.9335656732466
+HAST_ROW_0191,191.0,Philippine Fault,sinistral transform,,Bicol,West Luzon,2,176.62407323078705
+HAST_ROW_0192,192.0,Legaspi Lineament,sinistral transform,,East Luzon,Bicol,2,315.09138825188177
+HAST_ROW_0193,193.0,Ramu-Markham Fault,collision zone,,South Bismarck,Mamberamo,1,598.7861274580788
+HAST_ROW_0194,194.0,,inferred,,San Christobal,North Bismarck,2,320.90850988335086
+HAST_ROW_0195,195.0,Trobriand Trough,subduction zone,,Woodlark,Solomon,1,590.7467352304441
+HAST_ROW_0196,196.0,,spreading center,,Manus,South Bismacrk,2,190.96437320222796
+HAST_ROW_0197,197.0,,spreading center,,North Bismarck,South Bismarck,2,836.6875859085245
+HAST_ROW_0198,198.0,,spreading center,,North Bismarck,South Bismarck,2,95.61898804097191
+HAST_ROW_0199,199.0,,spreading center,,Manus,North Bismarck,2,221.03837792934362
+HAST_ROW_0200,200.0,Manus Trench,subduction zone,,San Christobal,Woodlark,1,140.30413366486184
+HAST_ROW_0201,201.0,San Christobal Trench,subduction zone,,San Christobal,Australian,1,838.8914057301704
+HAST_ROW_0202,202.0,New Guinea Trench,subduction zone,,Mamberamo,North Bismarck,1,108.70378517108104
+HAST_ROW_0203,203.0,,collision zone,,Mamberamo,Cenderawasih,2,128.65105995434632
+HAST_ROW_0204,204.0,,collision zone,,Mamberamo,Moake,2,377.2935982645653
+HAST_ROW_0205,205.0,East Walanae Fault,collision zone,,Banda Sea,Sunda,2,343.4739691805698
+HAST_ROW_0206,206.0,Flores Thrust,collision zone,,Timor,Banda Sea,2,787.8661033506033
+HAST_ROW_0207,207.0,Makassar Trench,subduction zone,,Banda Sea,Sunda,2,475.7149976732824
+HAST_ROW_0208,208.0,Palu-Koro Fault,dextral transform,,Banda Sea,North Sulawwesi,2,472.1899620234284
+HAST_ROW_0209,209.0,Tolo Thrust,subduction zone,,Banda Sea,Buru,2,558.5978696470124
+HAST_ROW_0210,210.0,Mantano Fault,dextral transform,,North Sulawesi,Buru,2,626.8671154590842
+HAST_ROW_0211,211.0,Wetar Thrust,collision zone,,Timor,Banda Sea,2,647.9796876855994
+HAST_ROW_0212,212.0,North Sulawesi Trench,subduction zone,,North Sulawesi,Sunda,2,561.003415395962
+HAST_ROW_0213,213.0,Tonga Trench,sinistral transform,,Futuna,Pacific,1,200.17618047988623
+HAST_ROW_0214,214.0,Tonga Trench,sinistral transform,,Tonga,Pacific,1,44.87549519030249
+HAST_ROW_0215,215.0,Baikal-Stanovoy Seismic Belt,extension zone,,Amur,Eurasian,2,1295.178570082521
+HAST_ROW_0216,216.0,,extension zone,,Mongolian,Amur,2,932.160456431876
+HAST_ROW_0217,217.0,,extension zone,,Okhotsk,Eurasian,1,1410.2994879063635
+HAST_ROW_0218,218.0,Sakhalin Shear Zone,collision zone,,Amur,Okhotsk,1,607.2542811347372
+HAST_ROW_0219,219.0,,collision zone,,Amur,North China,2,505.46316593655484
+HAST_ROW_0220,220.0,,collision zone,,Kamchatka,Bering Sea,2,168.56145209779862
+HAST_ROW_0221,221.0,Baikal-Stanovoy Seismic Belt,sinistral transform,,Eurasian,Amur,2,1545.54371485519
+HAST_ROW_0222,222.0,,dextral transform,,Gobi,Tien Shan,2,307.51349096036444
+HAST_ROW_0223,223.0,,extension zone,,Birds Head,Australian,2,218.55397395328652
+HAST_ROW_0224,224.0,Sula Thrust,collision zone,,North Sulawesi,Molluca Sea,2,523.1312579180975
+HAST_ROW_0225,225.0,,dextral transform,,Birds Head,Halmahera,1,451.7351403911783
+HAST_ROW_0226,226.0,,sinistral transform,,Banda Sea,Buru,2,353.8517681361608
+HAST_ROW_0227,227.0,,extension zone,,Banda Sea,Buru,2,153.90651827345047
+HAST_ROW_0228,228.0,,extension zone,,Ordos,Amur,2,57.72041554735517
+HAST_ROW_0229,229.0,,collision zone,,Amur,North China,2,115.81708606511076
+HAST_ROW_0230,230.0,,dextral transform,,Amur,North China,2,401.40858256788977
+HAST_ROW_0231,231.0,Main Pamir Thrust,collision zone,,Pamir,Eurasian,2,215.00049679145403
+HAST_ROW_0232,232.0,North East Anatolian Fault,sinistral transform,,Caucus,Eurasian,2,512.3328995332748
+HAST_ROW_0233,233.0,,collision zone,,Caucus,Northern Caucus,2,514.1120842433845
+HAST_ROW_0234,234.0,,sinistral transform,boundary not clear,Caucus,Southern Caspian,2,276.0849766799513
+HAST_ROW_0235,235.0,,extension zone,,North China,Ordos,2,873.971454589684
+HAST_ROW_0236,236.0,,sinistral transform,,Sichuan,North China,2,360.3654317229
+HAST_ROW_0237,237.0,Haiyuan Fault,sinistral transform,,Ordos,Sichuan,2,322.98075619100763
+HAST_ROW_0238,238.0,Chatham Strait Fault,dextral transform,,St. Elias,Coast Belt,2,415.35826128369416
+HAST_ROW_0239,239.0,,extension zone,,Walker Lane,Southern Basin and Range,2,509.03992452693853
+HAST_ROW_0240,240.0,,collision zone,,Walker Lane,Coastal Oregon,2,250.70450441898606
+HAST_ROW_0241,241.0,,extension zone,,Walker Lane,Northern Basin and Range,2,637.3409286769257
+HAST_ROW_0242,242.0,,collision zone,,Eurasian,Caucus,2,652.7202266383856
+HAST_ROW_0243,243.0,,collision zone,,Caucus,Eurasian,2,1625.3597398397067
+HAST_ROW_0244,244.0,,collision zone,,Caspian,Eurasian,2,422.87540391231545
+HAST_ROW_0245,245.0,West Sayan Fault Zone,sinistral transform,,Eurasian,Amur,2,1087.3762445967911
+HAST_ROW_0246,246.0,Irtysh Fault Zone,dextral transform,,Mongolian,Tien Shan,2,643.1581634221241
+HAST_ROW_0247,247.0,,collision zone,,South Chile,South American,2,1330.3955505288584
+HAST_ROW_0248,248.0,,dextral transform,,North Cordillera,Northern Basin and Range,2,886.8568980195155
+HAST_ROW_0249,249.0,,dextral transform,,Walker Lane,North Cordillera,2,243.92752644720028
+HAST_ROW_0250,250.0,,extension zone,,Sierra Madre del Sur,North American,2,953.2343785034998
+HAST_ROW_0251,251.0,,dextral transform,,Sierra Madre del Sur,North American,2,413.57986255408196
+HAST_ROW_0252,252.0,Tintina Fault,dextral transform,,North Cordillera,North American,2,114.02695600165715
+HAST_ROW_0253,253.0,Sumatra Fault,dextral transform,,West Sumatra,Sunda,2,1865.3801424023106
+HAST_ROW_0254,254.0,Denali Fault,dextral transform,,North Alaskan,Wrangell-Talkeetna,2,489.0296868067622
+HAST_ROW_0255,255.0,,sinistral transform,,Bering Sea,Wrangell-Talkeetna,2,439.2431700930874
+HAST_ROW_0256,256.0,Red-River Fault,dextral transform,,Yangtze,Sunda,2,1003.5650266980361
+HAST_ROW_0257,257.0,,sinistral transform,,Shan-Thai,Tibet,2,459.2975124907346
+HAST_ROW_0258,258.0,Longmenshan Fault,collision zone,,Tibet,Sichuan,2,399.6576462736294
+HAST_ROW_0259,259.0,Southwest Sichuan Fold and Thrust Belt,collision zone,,Shan-Thai,Sichuan,2,334.4115355151475
+HAST_ROW_0260,260.0,,sinistral transform,,Shan-Thai,Tibet,2,448.05471167505385
+HAST_ROW_0261,261.0,,extension zone,,Yangtze,Shan-Thai,2,633.7179035566809
+HAST_ROW_0262,262.0,,extension zone,,Yangtze,Sunda,2,1372.1600396260305
+HAST_ROW_0263,263.0,Rocky Mountain Frontal Thrust,collision zone,,Canadian Rockies,North American,2,3369.498509760961
+HAST_ROW_0264,264.0,Alaskan Border Ranges Fault,collision zone,,Alaskan Peninsular,Wrangell-Talkeetna,2,1007.0320193574329
+HAST_ROW_0265,265.0,,sinistral transform,,Bering Sea,Alaska Peninsular,2,737.4274230641594
+HAST_ROW_0266,266.0,,dextral transform,,Bering Sea,North American,2,99.84286072738576
+HAST_ROW_0267,267.0,,collision zone,,Coastal Oregon,Coast Belt,2,636.5471541805582
+HAST_ROW_0268,268.0,Denali Fault,dextral transform,,North Cordillera,St. Elias,2,461.5530028455256
+HAST_ROW_0269,269.0,Totschunda Fault,dextral transform,,St. Elias,Alaskan Peninsular,2,38.41413755835125
+HAST_ROW_0270,270.0,,dextral transform,,Bering Sea,North American,2,710.1574907712215
+HAST_ROW_0271,271.0,,extension zone,,Bering Sea,North Alaskan,2,452.7948666830216
+HAST_ROW_0272,272.0,Canadian Coast Shear Zone,dextral transform,,Coast Belt,North Cordillera,2,1583.7237748476643
+HAST_ROW_0273,273.0,,extension zone,,Sonora,Southern Basin and Range,2,824.5126177614306
+HAST_ROW_0274,274.0,,extension zone,,Southern Basin and Range,Colorado Plateau,2,919.4932337557076
+HAST_ROW_0275,275.0,,extension zone,,Southern Basin and Range,Rio Grande Valley,2,194.67881381557646
+HAST_ROW_0276,276.0,,extension zone,,Southern Basin and Range,North American,2,857.2349818716837
+HAST_ROW_0277,277.0,,extension zone,,Rio Grande Valley,Colorado Plateau,2,231.8303166366549
+HAST_ROW_0278,278.0,,extension zone,,Sonora,North American,2,1061.534255293075
+HAST_ROW_0279,279.0,,extension zone,,Rio Grande Valley,North American,2,1494.0423709569707
+HAST_ROW_0280,280.0,Kirthar Basement Fault,collision zone,,Pakistan Ranges,Indian Plate,1,2034.794033268793
+HAST_ROW_0281,281.0,Makran Trench,subduction zone,,Afghan,Indian,1,998.3462216186313
+HAST_ROW_0282,282.0,Herat Fault,dextral transform,,Pamir,Afghan,2,193.4298641520627
+HAST_ROW_0283,283.0,Aleutian Trench,subduction zone,,Bering Sea,Pacific,1,1256.8385773013204
+HAST_ROW_0284,284.0,Aleutian Trench,subduction zone,,Alaskan Peninsular,Pacific,1,1009.3038307343213
+HAST_ROW_0285,285.0,Cascadia Trench,subduction zone,,Coastal Oregon,Explorer,1,166.50379583152463
+HAST_ROW_0286,286.0,New Guinea Trench,subduction zone,,Caroline,Birds Head,1,34.74496461886689
+HAST_ROW_0287,287.0,,collision zone,,Caspian,Northern Caucus,2,566.4429868617091
+HAST_ROW_0288,288.0,,collision zone,,Denaric Alps,Alpine,2,174.96855321582257
+HAST_ROW_0289,289.0,Alpine Frontal Thrust,collision zone,,Alpine,Eurasian,2,1393.9020530911407
+HAST_ROW_0290,290.0,,extension zone,,Pannonian,Eurasian,2,122.61752940262998
+HAST_ROW_0291,291.0,,extension zone,,Sierra Madre del Sur,Sonora,2,199.6371116153092
+HAST_ROW_0292,292.0,Himalayan Main Boundary Thrust,collision zone,,Pamir,Indian,1,1169.7730105981595
+HAST_ROW_0293,293.0,,extension zone,,Futuna,Tonga,2,158.95625474245557
+HAST_ROW_0294,294.0,Panama Fracture Zone,dextral transform,,Malpelo,Cocos,1,231.134904344427
+HAST_ROW_0295,295.0,Chaman Fault,sinistral transform,,Afghan,Pakistan Ranges,2,1223.2370737065326
+HAST_ROW_0296,296.0,,collision zone,,Tibet,Pamir,2,121.83839981483612
+HAST_ROW_0297,297.0,Herat Fault,dextral transform,,Afghan,Eurasian,2,636.4805948203576
+HAST_ROW_0298,298.0,Palu-Koro Fault,dextral transform,,North Sulawesi,Sunda,2,201.34074452327596
+HAST_ROW_0299,299.0,Queen Charlotte Fault,dextral transform,,St. Elias,St. Elias,1,236.48895280441616
+HAST_ROW_0300,300.0,Enriquillo-Plantain-Garden Fault Zone,sinistral transform,,Gonave,Caribbean,2,800.5607817748532
+HAST_ROW_0301,301.0,Swan Fault,sinistral transform,,Caribbean,North American,1,699.6827664171382
+HAST_ROW_0302,302.0,,collision zone,,Panama,Caribbean,2,391.4355547595076
+HAST_ROW_0303,303.0,Japan Sea Trough,collision zone,,Okhotsk,Amur,1,874.1738954039456
+HAST_ROW_0304,304.0,,dextral transform,,Moake,Birds Head,2,48.54154554255201
+HAST_ROW_0305,305.0,,extension zone,,Northern Basin and Range,North American,2,270.60211601026236
+HAST_ROW_0306,306.0,,extension zone,,Northern Basin and Range,North American,2,102.72734167030067
+HAST_ROW_0307,307.0,,extension zone,,Colorado Plateau,North American,2,707.1060111393756
+HAST_ROW_0308,308.0,,extension zone,,Northern Basin and Range,Colorado Plateau,2,402.81693861896133
+HAST_ROW_0309,309.0,,extension zone,,Rovuma,Victorian,2,306.50213828402036
+HAST_ROW_0310,310.0,,sinistral transform,,Bering Sea,Alaskan Peninsular,2,316.4992946529694
+HAST_ROW_0311,311.0,Panama Fracture Zone,sinistral transform,,Nazca,Malpelo,2,128.19697485943362
+HAST_ROW_0312,312.0,Calabrian Trench,subduction zone,,Western Mediterannean,Africa,1,755.3236549171367
+HAST_ROW_0313,313.0,South Pyrenean Frontal Thrust,collision zone,,Western Mediterranean,Eurasian,2,614.7054947069031
+HAST_ROW_0314,314.0,,collision zone,,Western Mediterranean,Eurasian,2,1061.8457889274846
+HAST_ROW_0315,315.0,North Pyrenean Frontal Thrust,collision zone,,Western Mediterranean,Eurasian,2,482.73277043372786
+HAST_ROW_0316,316.0,Karakorum Fault,dextral transform,,Tibet,Pamir,2,1658.3590932052184
+HAST_ROW_0317,317.0,Dead Sea Fault,sinistral transform,,Sinai,Arabian,1,920.7591238226985
+HAST_ROW_0318,318.0,,dextral transform,,Birds Head,Buru,2,76.68570895094008
+HAST_ROW_0319,319.0,Tasman Fracture Zone,sinistral transform,,Macquarie,Australian,2,852.3351466515236
+HAST_ROW_0320,320.0,Resolution Ridge,sinistral transform,,Macquarie,Australian,2,1909.74303020571
+HAST_ROW_0321,321.0,Shan Fault,dextral transform,,Tibet,Burma,2,111.06980615337454
+HAST_ROW_0322,322.0,Naga Thrust,collision zone,,Burma,Indian,1,552.8008132225077
+HAST_ROW_0323,323.0,Chittagong Coastal Fault,collision zone,,Burma,Indian,1,863.5280368903246
+HAST_ROW_0324,324.0,Andaman Trench,subduction zone,,Burma,Indian,1,1831.4740483828875
+HAST_ROW_0325,325.0,Dawki Fault,dextral transform,,Burma,Indian,1,152.01934178766757
+HAST_ROW_0326,326.0,North Anatolian Fault Zone,dextral transform,,Anatolia,Iranian,2,58.97621285092029
+HAST_ROW_0327,327.0,East Anatolian Fault,sinistral transform,,Anatolia,Sinai,1,67.33223829503699
+HAST_ROW_0328,328.0,,dextral transform,,Caroline,Pacific,2,427.998546287428
+HAST_ROW_0329,329.0,Hunter Fracture Zone,sinistral transform,,New Hebrides,Australian,1,333.5382406729044
+HAST_ROW_0330,330.0,West Walanae Fault,dextral transform,,Banda Sea,Sunda,2,205.24799823651668
+HAST_ROW_0331,331.0,Borde Llanero Fault,collision zone,,Maracaibo,South American,2,384.431594020471
+HAST_ROW_0332,332.0,Algeciras Fault,collision zone,,North Andes,South American,2,1001.041575473437
+HAST_ROW_0333,333.0,Pallatanga-Puná Fault,dextral transform,,North Andes,Peruvian,2,605.5836023618031
+HAST_ROW_0334,334.0,Chingual-Cosanga Fault,collision zone,,North Andes,Peruvian,2,170.06481401105128
+HAST_ROW_0335,335.0,,dextral transform,,Denaric Alps,Pannonian,2,53.75147276259812
+HAST_ROW_0336,336.0,,sinistral transform,,Pannonian,Alpine,2,332.6041668855243
+HAST_ROW_0337,337.0,,sinistral transform,,Denaric Alps,Pannonian,2,1207.1381904371492
+HAST_ROW_0338,338.0,Weitin Fault,dextral transform,,North Bismarck,South Bismarck,2,370.2091457503565
+HAST_ROW_0339,339.0,Philippine Fault,sinistral transform,,Mindanao,Bicol,2,783.0853681381773
+HAST_ROW_0340,340.0,,dextral transform,,Bicol,Molluca Sea,2,266.99037332491633
+HAST_ROW_0341,341.0,Manilla Trench,subduction zone,,Mindanao,Sunda,2,184.0510510184393
+HAST_ROW_0342,342.0,Mindoro Fault,collision zone,,Mindanao,Sunda,2,252.9268444029399
+HAST_ROW_0343,343.0,Negros Trench,subduction zone,,Mindanao,Sunda,2,283.03204214839036
+HAST_ROW_0344,344.0,Davao River Fault,sinistral transform,,Mindanao,Sunda,2,249.93845532609046
+HAST_ROW_0345,345.0,Cotabato Trench,subduction zone,,Mindanao,Sunda,2,361.05454186944786
+HAST_ROW_0346,346.0,Celebes Sea Transform,inferred,,Sangihe,Sunda,2,418.2222154507526
+HAST_ROW_0347,347.0,,dextral transform,,Birds Head,Cenderawasih,2,480.6256550605657
+HAST_ROW_0348,348.0,,extension zone,,Cederawasih,Moake,2,290.486661667144
+HAST_ROW_0349,349.0,,dextral transform,,Cenderawasih,Moake,2,294.2248320129113
+HAST_ROW_0350,350.0,,collision zone,,Cenderawasih,Moake,2,290.486661667144
+HAST_ROW_0351,351.0,Papuan Fold and Thrust Belt,collision zone,,Mamberamo,Australian,2,1146.4758536164009
+HAST_ROW_0352,352.0,,collision zone,,Mamberamo,Woodlark,2,423.45172638223323
+HAST_ROW_0353,353.0,Ramu-Markham Fault,collision zone,,South Bismarck,Woodlark,1,207.40397474313207
+HAST_ROW_0354,354.0,Malawi Rift,extension zone,,Rovuma,African,1,809.015355463607
+HAST_ROW_0355,355.0,,dextral transform,,Timor,Sunda,2,606.583845465958
+HAST_ROW_0356,356.0,,inferred,,North Alaskan,North American,2,552.8829146409142
+HAST_ROW_0357,357.0,,inferred,,North Alaskan,North American,2,753.5202135748298
+HAST_ROW_0358,358.0,,collision zone,,North Alaskan,North American,2,791.3570296649192
+HAST_ROW_0359,359.0,Galapagos Ridge,spreading center,,Galapagos,Nazca,2,247.37110113328208
+HAST_ROW_0360,360.0,Galapagos Ridge,spreading center,,Galapagos,Pacific,1,119.75390255210353
+HAST_ROW_0361,361.0,,extension zone,,Ryukyu,Kinki Outer,2,294.171122182197
+HAST_ROW_0362,362.0,,collision zone,,Southwest Japan Inner,Amur,2,1069.831755453368
+HAST_ROW_0363,363.0,Niigata-Kobe Tectonic Zone,dextral transform,,Southwest Japan Inner,Kinki Outer,2,426.7414752639688
+HAST_ROW_0364,364.0,Vityaz Trench,collision zone,trench is no longer active,San Christobal,Pacific,2,1212.3766862552964
+HAST_ROW_0365,365.0,Juan Fernandez Ridge,spreading center,,Juan Fernandez,Pacific,2,515.2393900707629
+HAST_ROW_0366,366.0,Easter Ridge,spreading center,,Easter,Pacific,2,920.867725496208
+HAST_ROW_0367,367.0,,sinistral transform,,Balmoral Reef,Pacific,2,117.26235160798035
+HAST_ROW_0368,368.0,,dextral transform,,Nicaragua,Caribbean,2,885.0272553858591
+HAST_ROW_0369,369.0,,collision zone,,Guatemala,North American,2,934.2663382063115
+HAST_ROW_0370,370.0,,collision zone,,Kuril-Kamchatka,Okhotsk,2,3276.7981375816953
+HAST_ROW_0371,371.0,,dextral transform,,East Luzon,Ryukyu,2,95.9773108020469
+HAST_ROW_0372,372.0,,sinistral transform,,Sangihe,Mindanao,2,127.56430951001306
+HAST_ROW_0373,373.0,,collision zone,,Tien Shan,Eurasian,2,551.3047188417991
+HAST_ROW_0374,374.0,,collision zone,,Tien Shan,Eurasian,2,507.0869981921287
+HAST_ROW_0375,375.0,,dextral transform,,Tien Shan,Eurasian,2,526.5219178307425
+HAST_ROW_0376,376.0,,dextral transform,,Tien Shan,Eurasian,2,258.3746834722791
+HAST_ROW_0377,377.0,,sinistral transform,,Tien Shan,Gobi,2,730.9508424717877
+HAST_ROW_0378,378.0,,dextral transform,,Tien Shan,Eurasian,2,80.47706209485928
+HAST_ROW_0379,379.0,,collision zone,,Tien Shan,Eurasian,2,319.4792756971308
+HAST_ROW_0380,380.0,,dextral transform,,Tien Shan,Eurasian,2,64.28371735435617
+HAST_ROW_0381,381.0,,collision zone,,Tien Shan,Eurasian,2,88.57538535863337
+HAST_ROW_0382,382.0,,dextral transform,,Tien Shan,Eurasian,2,78.24528429076946
+HAST_ROW_0383,383.0,,collision zone,,Tien Shan,Eurasian,2,155.93584087923924
+HAST_ROW_0384,384.0,,dextral transform,,Tien Shan,Eurasian,2,142.33740781277288
+HAST_ROW_0385,385.0,,collision zone,,Tien Shan,Eurasian,2,306.97048554640105
+HAST_ROW_0386,386.0,,collision zone,,Tien Shan,Eurasian,2,488.4099404333738
+HAST_ROW_0387,387.0,,dextral transform,,Tien Shan,Eurasian,2,71.56758929191064
+HAST_ROW_0388,388.0,,collision zone,,Tien Shan,Eurasian,2,1421.2571662343864
+HAST_ROW_0389,389.0,,collision zone,,Tien Shan,Gobi,2,609.651328001668
+HAST_ROW_0390,390.0,,inferred,,California Borderland,Pacific,2,2866.720485017601
+HAST_ROW_0391,391.0,,extension zone,,Sinai,African,2,705.0204983042385
+HAST_ROW_0392,392.0,,inferred,,Sinai,African,2,986.0361279076232
+HAST_ROW_0393,393.0,Southern Capricorn Boundary (proposed),inferred,doi:10.1029/2018JB016812,Capricorn,Australian,2,5378.654774397523
+HAST_ROW_0394,394.0,Southern Capricorn Boundary (proposed),inferred,doi:10.1007/s10712-019-09564-6,Capricorn,Australian,2,3869.5488944961335
+HAST_ROW_0395,395.0,,extension zone,,Philippine,Izu Bonin,2,1295.3596040108846
+HAST_ROW_0396,396.0,Himalayan Main Boundary Thrust,collision zone,,Tibet,Indian,1,1412.7949469660812
+HAST_ROW_0397,397.0,,dextral transform,,Pusegur,Pacific,2,448.80600821851283
+HAST_ROW_0398,398.0,,collision zone,,Southern Alpine,Pacific,2,281.38836064766946
+HAST_ROW_0399,399.0,,collision zone,,Southern Alpine,Pacific,2,734.4872251978708
+HAST_ROW_0400,400.0,,extension zone,,Taupo,Australian,2,929.6616453183449
+HAST_ROW_0401,401.0,Madagascar Ridge,extension zone,,Lwandle,Somali,2,1592.6327819730545
+HAST_ROW_0402,402.0,,sinistral transform,,Somali,Rovuma,2,200.26440151340068
+HAST_ROW_0403,403.0,Davie Ridge,dextral transform,,Somali,Rovuma,2,288.35882822711267
+HAST_ROW_0404,404.0,Davie Ridge,dextral transform,,Comodoros,Rovuma,2,146.18713961359398
+HAST_ROW_0405,405.0,,dextral transform,,Danakil,African,2,289.90916906222554
+HAST_ROW_0406,406.0,Madagascar Ridge,extension zone,,Somali,Comoros,2,1566.4533808382016
+HAST_ROW_0407,407.0,Ranotsara Shear Zone,dextral transform,,Somali,Lwandle,2,209.01175870029556
+HAST_ROW_0408,408.0,Ranotsara Shear Zone,dextral transform,,Lwandle,Comoros,2,385.09643023874753
+HAST_ROW_0409,409.0,,dextral transform,,Lwandle,Comoros,2,262.09760188744104
+HAST_ROW_0410,410.0,,extension zone,,Danakil,African,2,484.5130017016557
+HAST_ROW_0411,411.0,Ethiopian Rift,extension zone,,Somali,African,1,866.1684685016672
+HAST_ROW_0412,412.0,East Azores Fracture Zone,dextral transform,,Azores,African,2,675.1448851971135
+HAST_ROW_0413,413.0,Phoenix Fracture Zone,dextral transform,,Phoenix,Antarctic,2,233.00533710927533
+HAST_ROW_0414,414.0,Phoenix-Antarctic Ridge,spreading center,,Phoenix,Antarctic,2,429.8826524445613
+HAST_ROW_0415,415.0,,extension zone,,West Iceland,North American,2,534.4355002434661
+HAST_ROW_0416,416.0,,extension zone,,East Iceland,Eurasian,2,702.2620364606715
+HAST_ROW_0417,417.0,,dextral transform,,South American,South Atlantic,2,439.95213780606366
+HAST_ROW_0418,418.0,,extension zone,,Juan de Fuca,Explorer,2,93.06991228653584
+HAST_ROW_0419,419.0,,dextral transform,,Juan de Fuca,Gorda,2,165.91084192251733
+HAST_ROW_0420,420.0,South Caribbean Marginal Thrust,collision zone,,Los Roques,Caribbean,2,606.6219892601727
+HAST_ROW_0421,421.0,Los Muertos Trough,subduction zone,,Lesser Antilles,Caribbean,2,322.8091729511478
+HAST_ROW_0422,422.0,,dextral transform,,Los Roques,Caribbean,2,238.76845672368756
+HAST_ROW_0423,423.0,,extension zone,,Lesser Antilles,Caribbean,2,1138.8405398383372
+HAST_ROW_0424,424.0,,sinistral transform,,Maracaibo,North Andes,2,608.052329442926
+HAST_ROW_0425,425.0,,dextral transform,,Maracaibo,North Andes,2,671.6763066192889
+HAST_ROW_0426,426.0,,inferred,,Maracaibo,North Andes,2,136.27230585024546
+HAST_ROW_0427,427.0,Southwest Indian Ridge,spreading center,,Somali,Antarctic,1,3295.332735853125
+HAST_ROW_0428,428.0,Australia-Antarctica Ridge,spreading center,,Australian,Antarctic,1,6317.36492069148
+HAST_ROW_0429,429.0,Australia-Antarctica Ridge,spreading center,,Macquarie,Antarctic,1,1638.409231602764
+HAST_ROW_0430,430.0,,collision zone,,North Alaskan,North American,2,552.8829146409142
+HAST_ROW_0431,431.0,,collision zone,,North Alaskan,North American,2,753.5202135748298
+HAST_ROW_0432,432.0,Havre Trough,extension zone,,Kermadec,Australian,2,515.5042509918682
+HAST_ROW_0433,433.0,,extension zone,,Ryukyu,Southwest Japan Inner,2,90.97973792420943
+HAST_ROW_0434,434.0,Median Tectonic Line,dextral transform,,Southwest Japan Inner,Kinki Inner,2,411.32994453053306
+HAST_ROW_0435,435.0,Itoigawa-Shizuoka Tectonic Line,collision zone,,Kuril-Kamchatka,Kinki Outer,1,221.6704673395215
+HAST_ROW_0436,436.0,Itoigawa-Shizuoka Tectonic Line,collision zone,,Kuril-Kamchatka,Southwest Japan Inner,1,186.67655224608296
+HAST_ROW_0437,437.0,Japan Sea Trough,collision zone,,Kuril-Kamchatka,Southwest Japan Inner,1,430.3124130786459
+HAST_ROW_0438,438.0,,collision zone,,Okhotsk,Bering Sea,2,684.8810943077094
+HAST_ROW_0439,439.0,Keping Fault,collision zone,,Tarim,Tien Shan,2,498.4183561236586
+HAST_ROW_0440,440.0,,collision zone,,Iranian,Caucus,2,796.6790634028051
+HAST_ROW_0441,441.0,,collision zone,,Iranian,Southern Caspian,2,964.2489286987881
+HAST_ROW_0442,442.0,Juan Fernandez Ridge,spreading center,,Juan Fernandez,Antarctic,1,174.8760586015608
+HAST_ROW_0443,443.0,Uinta Basin Boundary Fault,collision zone,,North American,Colorado Plateau,2,311.6159483448763
+HAST_ROW_0444,444.0,Sheba Ridge,spreading center,,Arabian,Somali,1,1771.9943305328552
+HAST_ROW_0445,445.0,Ethiopian Rift,extension zone,,Somali,Danakil,1,253.23548464132594
+HAST_ROW_0446,446.0,Kenya Rift,extension zone,,Somali,Victorian,2,1503.3879107853884
+HAST_ROW_0447,447.0,Uganda Rift,extension zone,,African,Victorian,1,2394.2272797982905
+HAST_ROW_0448,448.0,,extension zone,,Somali,Rovuma,2,513.3876750138735
+HAST_ROW_0449,449.0,Macquarie Ridge,dextral transform,,Puysegur,Macquarie,1,66.46904540477996
+HAST_ROW_0450,450.0,San Christobal Trench,subduction zone,,Pacific,Australian,1,580.1593741807267
+HAST_ROW_0451,451.0,Banda Trench,subduction zone,,Banda Sea,Birds Head,1,717.0031761958887
+HAST_ROW_0452,452.0,Banda Trench,subduction zone,,Banda Sea,Australian,1,232.49035638508562
+HAST_ROW_0453,453.0,New Guinea Trench,subduction zone,,Cenderawasih,Caroline,1,92.57125567510394
+HAST_ROW_0454,454.0,Yap Trench,subduction zone,,Philippine,Pacific,1,212.25374844213604
+HAST_ROW_0455,455.0,Yap Trench,subduction zone,,Philippine,Mariana,1,104.73048618501825
+HAST_ROW_0456,456.0,Marianas Trough,spreading center,,Philippine,Mariana,2,209.76161207671925
+HAST_ROW_0457,457.0,,subduction zone,,San Christobal,Solomon,2,48.99815581025117
+HAST_ROW_0458,458.0,New Britain Trench,subduction zone,,South Brunswick,Solomon,2,638.1856699947159
+HAST_ROW_0459,459.0,New Britain Trench,subduction zone,,North Bismarck,Solomon,2,160.53037414517752
+HAST_ROW_0460,460.0,,dextral transform,,Puysegur,Southern Alpine,2,187.076847725958
+HAST_ROW_0461,461.0,Alpine Fault Zone,dextral transform,,Southern Alpine,Taupo,1,218.48746658879617
+HAST_ROW_0462,462.0,Alpine Fault Zone,dextral transform,,Southern Alpine,Kermadec,1,154.53755100611818
+HAST_ROW_0463,463.0,,dextral transform,,Cederawasih,Moake,2,294.2248320129113
+HAST_ROW_0464,464.0,Red Sea Rift,spreading center,,African,Arabian,1,1327.2008456371966
+HAST_ROW_0465,465.0,Main Pamir Thrust,collision zone,,Pamir,Tien Shan,2,507.72723778269267
+HAST_ROW_0466,466.0,Juan Fernandez Ridge,spreading center,,Juan Fernandez,Nazca,1,555.7685650999713
+HAST_ROW_0467,467.0,Maghrebid Frontal Thrust,collision zone,,Western Mediterannean,Africa,1,1966.6553740792313
+HAST_ROW_0468,468.0,,collision zone,,Western Mediterranean,Eurasian,2,394.3795575637318
+HAST_ROW_0469,469.0,North Anatolian Fault Zone,dextral transform,,Anatolia,Pannonian,2,287.3961265595211
+HAST_ROW_0470,470.0,Dinaric Frontal Thrust,collision zone,,Denaric Alps,Adriatic,2,1429.0588353487617
+HAST_ROW_0471,471.0,Apennine Frontal Thrust,collision zone,,Alpine,Adriatic,2,348.47484011988297
+HAST_ROW_0472,472.0,,dextral transform,,Alpine,Denaric Alps,2,179.4628861528489
+HAST_ROW_0473,473.0,North Anatolian Fault Zone,dextral transform,diffuse boundary,Aegean,Pannonian,2,197.31104105855238
+HAST_ROW_0474,474.0,East Anatolian Fault,sinistral transform,,Anatolia,Arabian,1,574.0429502197751
+HAST_ROW_0475,475.0,North Anatolian Fault Zone,dextral transform,,Anatolia,Eurasian,2,851.5168248202465
+HAST_ROW_0476,476.0,North Anatolian Fault Zone,dextral transform,,Anatolia,Caucus,2,204.09678359105027
+HAST_ROW_0477,477.0,Donna Ridge,dextral transform,transtensional zone,Futuna,Australian,2,191.2362933542364
+HAST_ROW_0478,478.0,,dextral transform,,Niuaf'ou,Australian,2,62.76362581149906
+HAST_ROW_0479,479.0,North Gobi Altai Fault Zone,collision zone,,Tien Shan,Mongolian,2,889.4100538330922
+HAST_ROW_0480,480.0,,extension zone,,Amur,Gobi,2,482.340476285067
+HAST_ROW_0481,481.0,,collision zone,,Gobi,Ordos,2,724.154592043267
+HAST_ROW_0482,482.0,,inferred,no clear structures or seismicity,North China,Yangtze,2,222.28748458529995
+HAST_ROW_0483,483.0,,inferred,no clear structures or seismicity,Amur,Yangtze,2,589.919464845741
+HAST_ROW_0484,484.0,Red-River Fault,dextral transform,,Yangtze,Shan-Thai,2,545.695960360326
+HAST_ROW_0485,485.0,Saging Fault,dextral transform,,Shan-Thai,Burma,2,642.0579222320542
+HAST_ROW_0486,486.0,West Andaman Fault,extension zone,,Burma,Sunda,2,233.76032378793514
+HAST_ROW_0487,487.0,Sumatra-Java Trench,subduction zone,,Sunda,Australian,1,1044.1406151038861
+HAST_ROW_0488,488.0,Andaman Trench,subduction zone,,Burma,Capricorn,1,377.56755400958673
+HAST_ROW_0489,489.0,Sumatra-Java Trench,subduction zone,,Sunda,Capricorn,1,721.2804383499978
+HAST_ROW_0490,490.0,,collision zone,,Shan-Thai,Sunda,2,1142.3583461203177
+HAST_ROW_0491,491.0,Shan Fault,dextral transform,,Shan-Thai,Burma,2,444.92953504464134
+HAST_ROW_0492,492.0,,collision zone,,Tibet,Ordos,2,311.9721142520373
+HAST_ROW_0493,493.0,,extension zone,,Yangtze,North China,2,124.51614153181
+HAST_ROW_0494,494.0,,extension zone,,Yangtze,Sichuan,2,553.3125144741758
+HAST_ROW_0495,495.0,Philippine Trench,subduction zone,,East Luzon,Philippine,1,524.4052027178896
+HAST_ROW_0496,496.0,Nankai Trough,subduction zone,,Kinki Outer,Izu Bonin,1,52.3404597722631
+HAST_ROW_0497,497.0,Flores Thrust,collision zone,,Timor,Sunda,2,563.2274381640387
+HAST_ROW_0498,498.0,Mantano Fault,dextral transform,,North Sulawesi,Buru,2,118.5013227712202
+HAST_ROW_0499,499.0,Banda Trench,subduction zone,,Banda Sea,Buru,1,71.70630897925797
+HAST_ROW_0500,500.0,Halmahera Trench,subduction zone,,Halmahera,North Sulawesi,2,20.911598230164707
+HAST_ROW_0501,501.0,Philippine Trench,subduction zone,,Bicol,Philippine,1,624.0231564145586
+HAST_ROW_0502,502.0,Philippine Trench,subduction zone,,Molluca Sea,Philippine,1,482.2106556274068
+HAST_ROW_0503,503.0,Philippine Fault,sinistral transform,,West Luzon,East Luzon,2,830.266498600882
+HAST_ROW_0504,504.0,Manilla Trench,subduction zone,,West Luzon,Yangtze,2,49.697390829159765
+HAST_ROW_0505,505.0,Manilla Trench,subduction zone,,West Luzon,Sunda,2,665.5434818302344
+HAST_ROW_0506,506.0,Sangihe Trench,subduction zone,,Sangihe,Molluca Sea,2,558.4934768626774
+HAST_ROW_0507,507.0,South Scotia Ridge,sinistral transform,,Scotia,Antarctic,1,113.60669265178076
+HAST_ROW_0508,508.0,South Scotia Ridge,sinistral transform,,Sandwich,Antarctic,1,200.72109435415123
+HAST_ROW_0509,509.0,South Scotia Ridge,sinistral transform,,Scotia,Antarctic,1,858.9355726848866
+HAST_ROW_0510,510.0,Chile Trench,subduction zone,,Scotia,Antarctic,1,867.4599980258572
+HAST_ROW_0511,511.0,South Sandwich Trench,subduction zone,,Sandwich,South American,1,572.5235902053186
+HAST_ROW_0512,512.0,Chile Trench,subduction zone,,South Chile,Antarctic,1,463.2859031513169
+HAST_ROW_0513,513.0,Peru-Chile Trench,subduction zone,,South Chile,Nazca,1,777.685224937236
+HAST_ROW_0514,514.0,Peru-Chile Trench,subduction zone,,Puna,Nazca,1,1947.156120181039
+HAST_ROW_0515,515.0,Peru-Chile Trench,subduction zone,,North Andes,Nazca,1,870.7072794419088
+HAST_ROW_0516,516.0,Peru-Chile Trench,subduction zone,,Malpelo,North Andes,1,413.832527392296
+HAST_ROW_0517,517.0,Peru-Chile Trench,subduction zone,,North Andes,Coiba,1,176.71725743965771
+HAST_ROW_0518,518.0,Peru-Chile Trench,subduction zone,,Peruvian,Nazca,1,1412.5448030769985
+HAST_ROW_0519,519.0,Algeciras Fault,collision zone,,Maracaibo,South American,2,91.53582883362466
+HAST_ROW_0520,520.0,Borde Llanero Fault,collision zone,,North Andes,North Caribbean Ranges,2,81.95567735095615
+HAST_ROW_0521,521.0,South Caribbean Marginal Thrust,collision zone,,North Andes,Panama,1,287.2725293597919
+HAST_ROW_0522,522.0,Borde Llanero Fault,collision zone,,Maracaibo,North Caribbean Ranges,2,178.55324830602035
+HAST_ROW_0523,523.0,,inferred,no clear structures; bounary defined by change in seismicity,Puna,South American,2,807.6104058581941
+HAST_ROW_0524,524.0,Peru-Chile Trench,subduction zone,,Altiplano,Nazca,1,904.6040741434388
+HAST_ROW_0525,525.0,Shackelton Fracture Zone,sinistral transform,,Scotia,Antarctic,1,160.17364844774673
+HAST_ROW_0526,526.0,San Sebastian Fault Zone,dextral transform,,Lesser Antilles,South American,1,227.03121095500492
+HAST_ROW_0527,527.0,San Sebastian Fault Zone,dextral transform,,Lesser Antilles,North Caribbean Ranges,1,353.10494428526016
+HAST_ROW_0528,528.0,,dextral transform,,Los Roques,Caribbean,2,40.31702307190365
+HAST_ROW_0529,529.0,Lesser Antilles Trench,subduction zone,,Lesser Antilles,North American,1,384.6161241290792
+HAST_ROW_0530,530.0,,dextral transform,,Guatemala,Sierra Madre del Sur,2,200.54253646417578
+HAST_ROW_0531,531.0,Puerto Rican Trench,subduction zone,,HIspaniola,North American,1,116.46992033210304
+HAST_ROW_0532,532.0,Los Muertos Trough,subduction zone,,Puerto Rico-Virgin Islands,Caribbean,2,109.59981192911268
+HAST_ROW_0533,533.0,,collision zone,,Panama,Nicaragua,2,199.41388609531015
+HAST_ROW_0534,534.0,Montagua Fault,sinistral transform,,Guatemala,Caribbean,1,401.2549140959499
+HAST_ROW_0535,535.0,Middle America Trench,subduction zone,,Panama,Cocos,1,578.5963478824015
+HAST_ROW_0536,536.0,Middle America Trench,subduction zone,,Nicaragua,Cocos,1,753.1122241761316
+HAST_ROW_0537,537.0,Middle America Trench,subduction zone,,Guatemala,Cocos,1,384.85156808665033
+HAST_ROW_0538,538.0,Middle America Trench,subduction zone,Sierra Madre del Sur,Sierra Madre del Sur,Rivera,1,279.90101587279145
+HAST_ROW_0539,539.0,Mendocino Transform,dextral transform,,California Borderland,Gorda,1,101.39759847523318
+HAST_ROW_0540,540.0,Mendocino Transform,dextral transform,,California Borderland,Coastal Oregon,1,27.708262562614127
+HAST_ROW_0541,541.0,San Andreas Fault,dextral transform,,California Borderland,Walker Lane,1,56.174704046035984
+HAST_ROW_0542,542.0,,collision zone,,Coastal Oregon,North Cordillera,2,636.101467900067
+HAST_ROW_0543,543.0,Juan de Fuca Ridge,spreading center,,Pacific,Juan de Fuca,1,967.2867261745861
+HAST_ROW_0544,544.0,Cascadia Trench,subduction zone,,Coastal Oregon,Gorda,1,162.16458611840184
+HAST_ROW_0545,545.0,,sinistral transform,diffuse boundary; inferred from seismicity,Southern Basin and Range,Northern Basin and Range,2,438.77674763014863
+HAST_ROW_0546,546.0,,dextral transform,,North American,Northern Basin and Range,2,119.9519611827307
+HAST_ROW_0547,547.0,Tintina Fault,dextral transform,,North Cordillera,Canadian Rockies,2,2941.3579555108113
+HAST_ROW_0548,548.0,Queen Charlotte Fault,dextral transform,,Pacific,Coast Belt,1,473.07635943825494
+HAST_ROW_0549,549.0,Denali Fault,dextral transform,,North Cordillera,Wrangell-Talkeetna,2,645.2556681921718
+HAST_ROW_0550,550.0,Tintina Fault,dextral transform,,North Cordillera,North Alaskan,2,487.687457613725
+HAST_ROW_0551,551.0,Cascadia Trench,subduction zone,,Coastal Oregon,Juan de Fuca,1,907.3680910306543
+HAST_ROW_0552,552.0,Juan de Fuca Ridge,spreading center,,Pacific,Explorer,1,414.17777617795366
+HAST_ROW_0553,553.0,Rocky Mountain Frontal Thrust,collision zone,,Canadian Rockies,North Alaskan,2,502.98169505757346
+HAST_ROW_0554,554.0,,dextral transform,,Bering Sea,North Alaskan,2,1250.4084689989097
+HAST_ROW_0555,555.0,Fairweather Fault,dextral transform,,St. Elias,Yakutat,1,306.96648568985717
+HAST_ROW_0556,556.0,Totschunda Fault,dextral transform,,St. Elias,Wrangell-Talkeetna,2,217.57211543883037
+HAST_ROW_0557,557.0,,dextral transform,,South American,North Caribbean Ranges,2,942.6631163179075
+HAST_ROW_0558,,Southwest East African Rift,extension zone,,San Plate,African Plate,2,1430.501864805181
+HAST_ROW_0559,,Walvis Ridge,inferred,poorly resolved boundary,San Plate,African Plate,2,4970.356169476579
+HAST_ROW_0560,,,inferred,poorly resolved boundary,San Plate,African Plate,2,776.1736615539338
+HAST_ROW_0561,115.0,,extension zone,,Sonora,California Borderland,1,896.7210962608115
+HAST_ROW_0562,115.0,Cerro Prieto Fault,dextral transform,,Sonora,California Borderland,1,896.7210962608115
+HAST_ROW_0563,115.0,,extension zone,,Sonora,California Borderland,1,896.7210962608115
+HAST_ROW_0564,115.0,,dextral transform,,Sonora,California Borderland,1,896.7210962608115
+HAST_ROW_0565,115.0,,dextral transform,,Sonora,California Borderland,1,896.7210962608115
+HAST_ROW_0566,115.0,,extension zone,,Sonora,California Borderland,1,896.7210962608115
+HAST_ROW_0567,115.0,,dextral transform,,Sonora,California Borderland,1,896.7210962608115
+HAST_ROW_0568,115.0,,extension zone,,Sonora,California Borderland,1,896.7210962608115
+HAST_ROW_0569,115.0,,dextral transform,,Sonora,California Borderland,1,896.7210962608115
+HAST_ROW_0570,115.0,,extension zone,,Sonora,California Borderland,1,896.7210962608115
+HAST_ROW_0571,115.0,Imperial Fault,dextral transform,,Sonora,California Borderland,1,896.7210962608115
