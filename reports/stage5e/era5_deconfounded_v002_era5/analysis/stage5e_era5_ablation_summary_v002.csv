@@ -1,0 +1,9 @@
+model_or_stratum,n_events,roc_auc,ci95,pr_auc,wilcoxon_p
+M2a: Raw GNSS ZTD-Only (Shallow Baseline),90,0.518,"[0.44, 0.60]",0.518,0.1233
+M2b: Physical GNSS - ERA5 (ZHD+ZWD) Residual (Shallow),90,0.422,"[0.34, 0.50]",0.441,0.3175
+"M2c: Calibrated GNSS - ERA5 Residual (Shallow, Event-LOEO)",90,0.621,"[0.55, 0.70]",0.636,0.0009
+"M2c: Calibrated GNSS - ERA5 Residual (Shallow, Cluster-CV)",90,0.618,"[0.54, 0.70]",0.637,0.0009
+M2c: Calibrated GNSS - ERA5 Residual (Null-Control Slab),21,0.503,"[0.33, 0.67]",0.619,0.3383
+M2c: Calibrated GNSS - ERA5 Residual (Megathrust N=62),62,0.672,"[0.58, 0.76]",0.719,0.0004
+M2c: Calibrated GNSS - ERA5 Residual (Crustal/Splay N=28),28,0.445,"[0.30, 0.61]",0.482,0.2509
+M4_era5: Joint ERA5-Resid + Quiet VTEC (Shallow),90,0.642,"[0.56, 0.72]",0.637,0.0009
