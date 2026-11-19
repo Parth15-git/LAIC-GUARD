@@ -1,0 +1,30 @@
+P1 Unit Test: PASS (Matches physical ~195 mm ZWD scale; 100x v002 bug resolved) (Pi^-1=6.4929, ZWD=194.79 mm)
+P2 Disjointness Test: PASS (Strictly mutually disjoint half-open UTC intervals with equal 12d baseline and 10d eval)
+IONEX extraction: 1/111 events; event=usp000ahfr; cached_days=51; peak_days=51; evicted_days=0
+IONEX extraction: 5/111 events; event=usp000d60h; cached_days=51; peak_days=51; evicted_days=164
+IONEX extraction: 10/111 events; event=usp000dsw1; cached_days=51; peak_days=51; evicted_days=260
+IONEX extraction: 15/111 events; event=usp000eh8s; cached_days=51; peak_days=51; evicted_days=400
+IONEX extraction: 20/111 events; event=usp000fmtk; cached_days=51; peak_days=51; evicted_days=558
+IONEX extraction: 25/111 events; event=usp000fshy; cached_days=51; peak_days=51; evicted_days=623
+IONEX extraction: 30/111 events; event=usp000fzx4; cached_days=51; peak_days=51; evicted_days=710
+IONEX extraction: 35/111 events; event=usp000gapt; cached_days=51; peak_days=51; evicted_days=817
+IONEX extraction: 40/111 events; event=usp000h093; cached_days=51; peak_days=51; evicted_days=968
+IONEX extraction: 45/111 events; event=usp000h24c; cached_days=51; peak_days=51; evicted_days=1018
+IONEX extraction: 50/111 events; event=official20100227063411530_30; cached_days=51; peak_days=51; evicted_days=1113
+IONEX extraction: 55/111 events; event=usp000hat0; cached_days=51; peak_days=51; evicted_days=1151
+IONEX extraction: 60/111 events; event=usp000hfdm; cached_days=51; peak_days=51; evicted_days=1254
+IONEX extraction: 65/111 events; event=usp000hvhj; cached_days=51; peak_days=51; evicted_days=1429
+IONEX extraction: 70/111 events; event=usp000hzq8; cached_days=51; peak_days=51; evicted_days=1462
+IONEX extraction: 75/111 events; event=usp000j88b; cached_days=51; peak_days=51; evicted_days=1580
+IONEX extraction: 80/111 events; event=usc000f03a; cached_days=51; peak_days=51; evicted_days=1778
+IONEX extraction: 85/111 events; event=usc000nzvd; cached_days=51; peak_days=51; evicted_days=1942
+IONEX extraction: 90/111 events; event=usb000s5x1; cached_days=51; peak_days=51; evicted_days=2039
+IONEX extraction: 95/111 events; event=us1000ga0z; cached_days=51; peak_days=51; evicted_days=2226
+IONEX extraction: 100/111 events; event=us6000f48v; cached_days=51; peak_days=51; evicted_days=2477
+IONEX extraction: 105/111 events; event=us6000m52p; cached_days=51; peak_days=51; evicted_days=2682
+IONEX extraction: 110/111 events; event=us6000pjny; cached_days=51; peak_days=51; evicted_days=2857
+IONEX extraction: 111/111 events; event=us7000qvw5; cached_days=51; peak_days=51; evicted_days=2908
+v004 feature-eligible dependence components: time=42, primary=41, station_any=27
+Verified v004 cohort: 111 events across 82 unique stations, 11 regions, 65 overlap-graph components.
+Conditional component-block comparison M2c vs M2a: delta_AUC=-0.063, p=0.20320
+Conditional component-block comparison M4 vs M3: delta_AUC=-0.058, p=0.01710

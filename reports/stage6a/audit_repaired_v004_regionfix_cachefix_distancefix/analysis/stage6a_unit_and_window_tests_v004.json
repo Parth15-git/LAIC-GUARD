@@ -1,0 +1,144 @@
+{
+  "p1_wet_delay_unit_test": {
+    "test_tm_K": 270.0,
+    "test_tcwv_kgm2": 30.0,
+    "test_pi_inv_mm_per_kgm2": 6.4929,
+    "test_zwd_mm": 194.79,
+    "test_zhd_mm": 2309.13,
+    "test_ztd_mm": 2503.92,
+    "status": "PASS (Matches physical ~195 mm ZWD scale; 100x v002 bug resolved)"
+  },
+  "p2_window_disjointness_test": {
+    "B0_hours": [
+      -1080,
+      -792
+    ],
+    "w0_hours": [
+      -792,
+      -552
+    ],
+    "B1_hours": [
+      -552,
+      -264
+    ],
+    "w1_hours": [
+      -264,
+      -24
+    ],
+    "Guard_hours": [
+      -24,
+      0
+    ],
+    "pairwise_intersections": 0,
+    "baseline_duration_hours": 288,
+    "eval_duration_hours": 240,
+    "status": "PASS (Strictly mutually disjoint half-open UTC intervals with equal 12d baseline and 10d eval)"
+  },
+  "cohort_counts": {
+    "n_total_paired": 111,
+    "n_shallow": 90,
+    "n_controls": 21,
+    "unique_stations": 82,
+    "unique_regions": 11,
+    "unique_overlap_components": 65
+  },
+  "evaluation_status_counts": {
+    "EVALUATED": 32
+  },
+  "skipped_secondary_evaluations": [],
+  "distance_validation": {
+    "source_field": "verified_gnss_distance_km",
+    "source_dataset": "Stage 4B paired Tier 1 event table",
+    "independent_check": "Haversine distance from Stage 1D event coordinates to verified station_registry.csv coordinates",
+    "earth_radius_km": 6371.0088,
+    "acceptance_tolerance_km": 0.1,
+    "maximum_absolute_difference_km": 0.00499,
+    "events_validated": 111
+  },
+  "paired_model_comparisons": {
+    "M2c_vs_M2a": {
+      "auc_model_a": 0.4141975308641975,
+      "auc_model_b": 0.4776543209876543,
+      "delta_auc_a_minus_b": -0.06345679012345679,
+      "p_value_two_sided": 0.2032,
+      "n_events": 90,
+      "n_components": 38,
+      "method": "MONTE_CARLO_COMPONENT_BLOCK_MODEL_SWAP",
+      "n_permutations": 9999,
+      "seed": 2027,
+      "interpretation": "conditional_on_fixed_OOF_predictions",
+      "assumption": "model_identity_exchangeable_at_component_level",
+      "p_value_holm": 0.2032,
+      "multiplicity_family": "two_primary_model_comparisons"
+    },
+    "M4_vs_M3": {
+      "auc_model_a": 0.465679012345679,
+      "auc_model_b": 0.5238271604938272,
+      "delta_auc_a_minus_b": -0.05814814814814817,
+      "p_value_two_sided": 0.0171,
+      "n_events": 90,
+      "n_components": 38,
+      "method": "MONTE_CARLO_COMPONENT_BLOCK_MODEL_SWAP",
+      "n_permutations": 9999,
+      "seed": 2027,
+      "interpretation": "conditional_on_fixed_OOF_predictions",
+      "assumption": "model_identity_exchangeable_at_component_level",
+      "p_value_holm": 0.0342,
+      "multiplicity_family": "two_primary_model_comparisons"
+    }
+  },
+  "dependence_group_counts_primary_shallow": {
+    "time_overlap": 40,
+    "shared_time_or_station_50d": 38,
+    "shared_time_or_station_any": 27
+  },
+  "ionex_cache_diagnostics": {
+    "policy": "chronological sliding cache; retain current and future event-required dates",
+    "maximum_cached_daily_maps": 51,
+    "evicted_daily_map_entries": 2908
+  },
+  "multiple_testing": {
+    "method": "Holm step-down within three pre-specified families",
+    "families": {
+      "four_primary_model_auc_tests": {
+        "raw_p_values": {
+          "M2a: Raw GNSS ZTD-Only (Shallow, PRIMARY-DEPENDENCE-COMPONENT-CV)": 0.73,
+          "M2c: Baseline-Calibrated ERA5 Residual (Shallow, PRIMARY-DEPENDENCE-COMPONENT-CV)": 0.2,
+          "M3: Quiet F10.7-Adj. GIM VTEC (Shallow, PRIMARY-DEPENDENCE-COMPONENT-CV)": 0.8,
+          "M4_ERA5: Joint Calibrated ERA5 + Quiet VTEC (Shallow, PRIMARY-DEPENDENCE-COMPONENT-CV)": 0.62
+        },
+        "holm_adjusted_p_values": {
+          "M2a: Raw GNSS ZTD-Only (Shallow, PRIMARY-DEPENDENCE-COMPONENT-CV)": 1.0,
+          "M2c: Baseline-Calibrated ERA5 Residual (Shallow, PRIMARY-DEPENDENCE-COMPONENT-CV)": 0.8,
+          "M3: Quiet F10.7-Adj. GIM VTEC (Shallow, PRIMARY-DEPENDENCE-COMPONENT-CV)": 1.0,
+          "M4_ERA5: Joint Calibrated ERA5 + Quiet VTEC (Shallow, PRIMARY-DEPENDENCE-COMPONENT-CV)": 1.0
+        }
+      },
+      "three_distinct_physical_endpoint_tests": {
+        "raw_p_values": {
+          "raw_gnss_ztd_q95": 0.7288,
+          "calibrated_era5_residual_q95": 0.4866,
+          "quiet_adjusted_vtec_q95": 0.7026
+        },
+        "holm_adjusted_p_values": {
+          "raw_gnss_ztd_q95": 1.0,
+          "calibrated_era5_residual_q95": 1.0,
+          "quiet_adjusted_vtec_q95": 1.0
+        }
+      },
+      "two_primary_model_comparisons": {
+        "raw_p_values": {
+          "M2c_vs_M2a": 0.2032,
+          "M4_vs_M3": 0.0171
+        },
+        "holm_adjusted_p_values": {
+          "M2c_vs_M2a": 0.2032,
+          "M4_vs_M3": 0.0342
+        }
+      }
+    },
+    "duplicate_policy": "M4 physical tests repeat M2c residual and M3 VTEC measurements on the same cohort and are not recounted.",
+    "auc_permutation_resolution_warning": "The four primary AUC tests currently use 99 refitted permutations as a computational pilot. Minimum attainable Monte Carlo p-value is 0.01; this is not final confirmatory resolution."
+  },
+  "scientific_scope": "Retrospective early-versus-late pre-event temporal discrimination; not prospective earthquake prediction."
+}

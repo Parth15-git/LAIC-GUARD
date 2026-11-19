@@ -1,0 +1,36 @@
+{
+  "script_version": "stage6a1_build_strict_tcwv_features_v001",
+  "pilot_version": "pilot_v001",
+  "status": "PILOT_FEATURE_GENERATION_COMPLETED",
+  "purpose": "Five-event implementation and provenance diagnostic only",
+  "events_processed": 5,
+  "event_ids": [
+    "usp000ahfr",
+    "us6000nith",
+    "us7000lsze",
+    "us7000m9g4",
+    "us7000n05d"
+  ],
+  "unit_tests_passed": 4,
+  "unit_tests_failed": 0,
+  "input_crosswalk_events_verified": 111,
+  "stage2c_rows_verified": 363,
+  "pinned_era5_cache_manifest_sha256": "776A619820785457A8B2A9DD2918E16866A99E446876BE3264140DEBF8088107",
+  "all_pilot_cache_hashes_verified": true,
+  "all_pilot_archive_files_verified": true,
+  "strict_eligibility_counts": {
+    "eligible": 2,
+    "ineligible": 3
+  },
+  "warnings": [
+    "Pilot results are not inferential results.",
+    "No AUC, cross-validation, permutation or model comparison was run.",
+    "The five-event pilot cannot verify the full 88/36, 87/35 or 19/15 cohort counts.",
+    "ERA5 model was explicitly requested; response metadata may not independently attest it.",
+    "NGL TRO 1.00 UTC time scale is recorded as LEGACY_SINEX_UTC_INFERRED.",
+    "TROTOT mm is an explicit legacy product interpretation, not a unit printed in the sample header.",
+    "Dew point is diagnostic only and never substitutes for TCWV.",
+    "Partial five-minute hourly GNSS means are retained; sample counts are exported.",
+    "Temporal zero-match gaps do not identify which source caused the missing pair."
+  ]
+}

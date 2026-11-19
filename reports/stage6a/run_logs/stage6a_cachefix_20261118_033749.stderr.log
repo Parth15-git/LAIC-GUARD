@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "C:\Users\parth\OneDrive\Desktop\Research\LAIC-GUARD\scripts\stage6a_repaired_benchmark_v004_regionfix_cachefix.py", line 1879, in <module>
+    main()
+  File "C:\Users\parth\OneDrive\Desktop\Research\LAIC-GUARD\scripts\stage6a_repaired_benchmark_v004_regionfix_cachefix.py", line 1089, in main
+    eval_v004("M3: Quiet GIM VTEC (Station 50 < d <= 150 km)", "Ionosphere", [e for e in sh if e["dist_km"] > 50.0], ["p_vtec_max", "p_vtec_q95"], ["t_vtec_max", "t_vtec_q95"], "vtec", "event_id")
+  File "C:\Users\parth\OneDrive\Desktop\Research\LAIC-GUARD\scripts\stage6a_repaired_benchmark_v004_regionfix_cachefix.py", line 895, in eval_v004
+    raise ValueError(f"{desc}: empty evaluation cohort.")
+ValueError: M3: Quiet GIM VTEC (Station 50 < d <= 150 km): empty evaluation cohort.

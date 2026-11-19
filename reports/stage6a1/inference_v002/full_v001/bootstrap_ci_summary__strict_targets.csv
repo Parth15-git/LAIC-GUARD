@@ -1,0 +1,5 @@
+﻿cohort,model,observed_auc,ci95_low,ci95_high,n_bootstrap,seed,scope,quantile_rule
+STRICT_TARGETS,M2a,0.36299070247933884,0.2853185595567867,0.42950617283950615,1000,42,component_bootstrap_conditional_on_fixed_OOF_predictions,sorted[index=int(p*n_boot)]
+STRICT_TARGETS,M2c,0.3855888429752066,0.32117126049309275,0.4659796538512353,1000,42,component_bootstrap_conditional_on_fixed_OOF_predictions,sorted[index=int(p*n_boot)]
+STRICT_TARGETS,M3,0.5216942148760331,0.4083256810529538,0.6223469387755102,1000,42,component_bootstrap_conditional_on_fixed_OOF_predictions,sorted[index=int(p*n_boot)]
+STRICT_TARGETS,M4,0.43362603305785125,0.331224173553719,0.5368127643214149,1000,42,component_bootstrap_conditional_on_fixed_OOF_predictions,sorted[index=int(p*n_boot)]

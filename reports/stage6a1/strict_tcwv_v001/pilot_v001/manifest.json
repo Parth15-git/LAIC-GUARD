@@ -1,0 +1,186 @@
+{
+  "schema": "LAIC_GUARD_STAGE6A1_STRICT_TCWV_PILOT_MANIFEST_v001",
+  "script_version": "stage6a1_build_strict_tcwv_features_v001",
+  "pilot_version": "pilot_v001",
+  "created_at_utc": "2026-11-18T16:03:29.880336+00:00",
+  "root": "C:\\Users\\parth\\OneDrive\\Desktop\\Research\\LAIC-GUARD",
+  "output_directory": "reports\\stage6a1\\strict_tcwv_v001\\pilot_v001",
+  "input_sha256": {
+    "v004": "8D8182CEBE35D10C0492D2B42E2CD337669BAA4DCB7C8A801771B269A3A98334",
+    "v004_script": "4C7DFD199A3C04D82E4850AE487FA5AD1642EE59DF0A51B60948F4B6EE5A68A0",
+    "stage4b": "BA1DD886CD2861F32928A039A9308323395EE151DD8CA6EC70FFF6AFB28C578F",
+    "stage2c": "D5C288AE3B15A719EF787EA3A431B51F11ECCB9778C3AB8B230C97C75F579530",
+    "registry": "5C948A29DDCC8AD602A2BDE0573A45A6AE532C957544052156198F62DC198B50",
+    "downloader": "D59C4444175F6E77AC491E8860B6468118473C512A464EB8AB680446D827695B",
+    "stage5c_parser": "7BDBC3A8CAFE6BAC90BA634A3626D1B001328C4875672B4C0A2C242E5B480E7C",
+    "stage5e_reference": "91A9FBCC039EFC37237989D77CAEB35C13AFFBD33928CD3BA40655D0977028FD",
+    "cache_manifest": "776A619820785457A8B2A9DD2918E16866A99E446876BE3264140DEBF8088107",
+    "protocol_protocol": "6088588F5CBD1DD29CFBA2B1AF04A1261B25AA91E48FECD08E793A8F8F272538",
+    "protocol_addendum001": "3BD5E4A4EACD157E90C9C4E5FDE3B8B3F3019F51E17CD2E4AB7281AE863C2368",
+    "protocol_addendum002": "711062902326CE99268A96A81B9627447A4E726D4305E507B955E4C5CC429D3D"
+  },
+  "expected_pinned_sha256": {
+    "v004": "8D8182CEBE35D10C0492D2B42E2CD337669BAA4DCB7C8A801771B269A3A98334",
+    "v004_script": "4C7DFD199A3C04D82E4850AE487FA5AD1642EE59DF0A51B60948F4B6EE5A68A0",
+    "stage4b": "BA1DD886CD2861F32928A039A9308323395EE151DD8CA6EC70FFF6AFB28C578F",
+    "registry": "5C948A29DDCC8AD602A2BDE0573A45A6AE532C957544052156198F62DC198B50",
+    "downloader": "D59C4444175F6E77AC491E8860B6468118473C512A464EB8AB680446D827695B",
+    "cache_manifest": "776A619820785457A8B2A9DD2918E16866A99E446876BE3264140DEBF8088107",
+    "protocol": "6088588F5CBD1DD29CFBA2B1AF04A1261B25AA91E48FECD08E793A8F8F272538",
+    "addendum001": "3BD5E4A4EACD157E90C9C4E5FDE3B8B3F3019F51E17CD2E4AB7281AE863C2368",
+    "addendum002": "711062902326CE99268A96A81B9627447A4E726D4305E507B955E4C5CC429D3D"
+  },
+  "pilot_event_ids": [
+    "usp000ahfr",
+    "us6000nith",
+    "us7000lsze",
+    "us7000m9g4",
+    "us7000n05d"
+  ],
+  "pilot_cache_records": {
+    "usp000ahfr": {
+      "era5_cache_sha256": "A8589174A9A0B6F415EE13216F6B4B668EDC54FFEA7FAE26F893C7FFD5F6E198",
+      "gnss_archives": [
+        {
+          "url": "https://geodesy.unr.edu/gps_timeseries/IGS20/trop/AREQ/AREQ.2001.trop.zip",
+          "filename": "AREQ.2001.trop.zip",
+          "bytes": 2209922,
+          "sha256": "E9FCD3713E32348902E9F36D4DD3A1B031DC11A4B80C2891D1718EE7F1F62E6C"
+        }
+      ]
+    },
+    "us6000nith": {
+      "era5_cache_sha256": "FC5F8EAC7143CDBC8110D2EE62A812C6059E868B58251B12393EAEC36C83E946",
+      "gnss_archives": [
+        {
+          "url": "https://geodesy.unr.edu/gps_timeseries/IGS20/trop/G088/G088.2024.trop.zip",
+          "filename": "G088.2024.trop.zip",
+          "bytes": 2381522,
+          "sha256": "53EA86AE3AB28E9A8A59014758FE0F8EBF588930B38A5712B5E926B2CBF00759"
+        }
+      ]
+    },
+    "us7000lsze": {
+      "era5_cache_sha256": "CAA14ACF29076518297866A4BB82CF5BF77A98BA2E692767C451794AD488E0F4",
+      "gnss_archives": [
+        {
+          "url": "https://geodesy.unr.edu/gps_timeseries/IGS20/trop/KMTR/KMTR.2023.trop.zip",
+          "filename": "KMTR.2023.trop.zip",
+          "bytes": 2145450,
+          "sha256": "916C58A688538B7A0FE7C3FAE3A70D878CAC41E700AA57112745208F1E78DBFC"
+        },
+        {
+          "url": "https://geodesy.unr.edu/gps_timeseries/IGS20/trop/KMTR/KMTR.2024.trop.zip",
+          "filename": "KMTR.2024.trop.zip",
+          "bytes": 2144815,
+          "sha256": "5C78AD4FFC5E1C621B5A0DC7DA3BFD5CB2E83BEC8B69EEBEE93487F5F1B75E03"
+        }
+      ]
+    },
+    "us7000m9g4": {
+      "era5_cache_sha256": "0D06ADAB2BD657C272CFD6878D8A00858825A41A3A6EAF6C36E7C8C013609C5A",
+      "gnss_archives": [
+        {
+          "url": "https://geodesy.unr.edu/gps_timeseries/IGS20/trop/SHUL/SHUL.2024.trop.zip",
+          "filename": "SHUL.2024.trop.zip",
+          "bytes": 678355,
+          "sha256": "BDA5B5B52E0726EB57BB4812029E31552E3408CBCCC3C6A2CAACE3798E7E2C9F"
+        }
+      ]
+    },
+    "us7000n05d": {
+      "era5_cache_sha256": "1E9D74BC12E6BAC2C71E873A64CB8D6EB2DC1045004C0CA5DBF568C288AFCC56",
+      "gnss_archives": [
+        {
+          "url": "https://geodesy.unr.edu/gps_timeseries/IGS20/trop/CJNT/CJNT.2024.trop.zip",
+          "filename": "CJNT.2024.trop.zip",
+          "bytes": 1782203,
+          "sha256": "93E1576604DBFDF41F08E130A88D469832FA3B43F63B5CCD99996DA8166C666F"
+        }
+      ]
+    }
+  },
+  "formula": {
+    "zhd": "2.2768*Ps / [1 - 0.00266*cos(2*phi) - 0.00028*(h/1000)]",
+    "mean_temperature": "70.2 + 0.72*(T2_C + 273.15)",
+    "pi_inverse": "1e-5*461.5*(3.739e5/Tmean + 22.1)",
+    "zwd": "Pi_inverse * direct_TCWV_kg_m2",
+    "ztd": "ZHD + ZWD",
+    "calibration": "GNSS_ZTD = alpha + beta*ERA5_ZTD + residual",
+    "calibrated_residual": "GNSS_ZTD - (alpha + beta*ERA5_ZTD)"
+  },
+  "calibration_rules": {
+    "separate_baselines": true,
+    "minimum_matched_pairs": 24,
+    "degenerate_predictor_sxx_threshold": 1e-06,
+    "silent_fallback_prohibited": true
+  },
+  "feature_rules": {
+    "minimum_baseline_pool": 20,
+    "hour_of_day_minimum": 2,
+    "mad_scale_factor": 1.4826,
+    "minimum_scale": 1e-06,
+    "minimum_target_matched_hours": 12,
+    "q95": "sorted_values[floor(0.95*(n-1))]"
+  },
+  "gnss_parser": {
+    "column_selection": "Header-driven TROTOT",
+    "trotot_acceptance_range_mm": [
+      1000,
+      3500
+    ],
+    "hourly_aggregation": "Mean of accepted five-minute records",
+    "partial_hours_retained": true,
+    "duplicate_policy": "First valid timestamp retained; duplicates counted",
+    "time_scale": "LEGACY_SINEX_UTC_INFERRED"
+  },
+  "era5_provenance": {
+    "requested_model": "era5",
+    "model_independently_attested": false,
+    "cell_selection": "land",
+    "timezone": "UTC",
+    "dew_point_fallback": false,
+    "tcwv_imputation": false,
+    "station_elevation_used_in_zhd": true,
+    "returned_elevation_is_independent_dem": false
+  },
+  "statistical_inference_run": false,
+  "output_files": {
+    "pilot_calibration_diagnostics.csv": {
+      "bytes": 1553,
+      "sha256": "167B277B6894D5B4FAC43E51BB7FA579089E68E0ADFC92035F4D8E8EB0FE83EB"
+    },
+    "pilot_daily_coverage.csv": {
+      "bytes": 11965,
+      "sha256": "A3F6FF2D309278C3190D3869036523227996C68332083F32323D171DCD229960"
+    },
+    "pilot_event_eligibility_ledger.csv": {
+      "bytes": 4096,
+      "sha256": "60F6133A951761C63191C57526DC36299FEA15227DE0170517593A1E1DDF27BA"
+    },
+    "pilot_feature_scores.csv": {
+      "bytes": 7071,
+      "sha256": "D4428B7DDF1A7083C106734B302F3601C29EC863BB5DD53F5EA9B98737F2F5C5"
+    },
+    "pilot_gnss_parser_audit.csv": {
+      "bytes": 2975,
+      "sha256": "2E9B46A3B3D69CF3ABE517684D007234DAACA37242319876EA0353CE830B880B"
+    },
+    "pilot_hourly_baseline_stats.csv": {
+      "bytes": 67238,
+      "sha256": "29870A8FCF9026DE64165512E250852E8B2AADD171CB3C5D2F9B8FC07883B43B"
+    },
+    "pilot_hourly_features.csv": {
+      "bytes": 970282,
+      "sha256": "0B1A74FC44C2AC7DD4C754ED71727949313B40AB1405153D96CD8DD9D63AB8E5"
+    },
+    "pilot_qa.json": {
+      "bytes": 1541,
+      "sha256": "78A4322552E213E8FFCF51FBCF1019BB821FC9E91907ABF98B98624D30070654"
+    },
+    "pilot_unit_tests.csv": {
+      "bytes": 341,
+      "sha256": "9B5D849B178B390D631C6E9C0A256F08331CEDABCC4ADD3602524BA1358D33E3"
+    }
+  }
+}

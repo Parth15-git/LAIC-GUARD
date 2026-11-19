@@ -1,0 +1,202 @@
+{
+  "benchmark_run": false,
+  "builder_file": "stage6a1_build_independent_m3_v002.py",
+  "builder_sha256": "808D1A596024AEBBB31C5D2DAE95A3C75A0D09CF35536A53CDEE53E2B14401E1",
+  "cohort_summary": {
+    "component_counts": {
+      "CONSERVATIVE_TARGETS": 35,
+      "ORIGINAL_TARGETS": 38,
+      "STRICT_PHYSICAL_CONTROLS": 15,
+      "STRICT_TARGETS": 36
+    },
+    "component_size_distributions": {
+      "CONSERVATIVE_TARGETS": {
+        "1": 20,
+        "11": 1,
+        "2": 5,
+        "3": 2,
+        "4": 4,
+        "7": 1,
+        "8": 1,
+        "9": 1
+      },
+      "ORIGINAL_TARGETS": {
+        "1": 23,
+        "11": 1,
+        "2": 5,
+        "3": 2,
+        "4": 4,
+        "7": 1,
+        "8": 1,
+        "9": 1
+      },
+      "STRICT_PHYSICAL_CONTROLS": {
+        "1": 11,
+        "2": 4
+      },
+      "STRICT_TARGETS": {
+        "1": 21,
+        "11": 1,
+        "2": 5,
+        "3": 2,
+        "4": 4,
+        "7": 1,
+        "8": 1,
+        "9": 1
+      }
+    },
+    "conservative_target_exclusions": [
+      "us6000nith",
+      "us7000lsze",
+      "us7000m9g4"
+    ],
+    "counts": {
+      "CONSERVATIVE_TARGETS": 87,
+      "ORIGINAL_TARGETS": 90,
+      "STRICT_PHYSICAL_CONTROLS": 19,
+      "STRICT_TARGETS": 88
+    },
+    "strict_control_exclusions": [
+      "us6000m52p",
+      "us7000n05d"
+    ],
+    "strict_target_exclusions": [
+      "us7000lsze",
+      "us7000m9g4"
+    ]
+  },
+  "created_at_utc": "2026-11-18T18:35:39.655684+00:00",
+  "input_sha256": {
+    "addendum001": "3BD5E4A4EACD157E90C9C4E5FDE3B8B3F3019F51E17CD2E4AB7281AE863C2368",
+    "addendum002": "711062902326CE99268A96A81B9627447A4E726D4305E507B955E4C5CC429D3D",
+    "ledger": "55189838722A7F4BD08C70FCB7C16772B3DE8B860C9508D07B8FEC7D9DD9E851",
+    "membership": "C78B08324A4572DD796487A0F9FFBD292117291EFD61AA2C0D927951DF116AC5",
+    "protocol": "6088588F5CBD1DD29CFBA2B1AF04A1261B25AA91E48FECD08E793A8F8F272538",
+    "s1d": "1BE9B0CC60BF6B36B4C5F38134E58F7B79D93E24705E7178B22F16B1BE0C21BD",
+    "s4b": "BA1DD886CD2861F32928A039A9308323395EE151DD8CA6EC70FFF6AFB28C578F",
+    "stage4b_script": "91F741C1500FB263F229DDF1D69590B357158CBFB42105F3F992AEA0DA3994B0",
+    "stage5b_script": "06BC22ED858D65CB56A0309185E435463817B0F6E8A455F43F6AA7BEE971476C",
+    "summary": "903A9F9DDDC73CC155C8CEDA5CA83FC0776D6381F9681C98FF59BA3E975BEC8F",
+    "tcwv_manifest": "D9F43845D3997C03FAE463D3AAD042EC922CBCF309B3443BDADCF23727CEFB53",
+    "v004_features": "8D8182CEBE35D10C0492D2B42E2CD337669BAA4DCB7C8A801771B269A3A98334",
+    "v004_script": "4C7DFD199A3C04D82E4850AE487FA5AD1642EE59DF0A51B60948F4B6EE5A68A0"
+  },
+  "ionex_file_count": 2959,
+  "ionex_file_inventory_sha256": "D3D7CDE0EBF30E02D12BFD53FCCE2B96C769DCD557E00678D2048FAB4610621D",
+  "method": {
+    "baseline_windows": {
+      "B0": [
+        -1080,
+        -792
+      ],
+      "B1": [
+        -552,
+        -264
+      ],
+      "GUARD": [
+        -24,
+        0
+      ],
+      "W0": [
+        -792,
+        -552
+      ],
+      "W1": [
+        -264,
+        -24
+      ]
+    },
+    "cohort_handling": "frozen Stage6A.1 event IDs and primary dependency component IDs are copied unchanged; no component rebuilding",
+    "epicentre_source": "Stage1D frozen catalogue latitude_deg/longitude_deg",
+    "event_feature_eligibility": "B0 and B1 baseline pools >=20 and W0 and W1 each have >=12 quiet adjusted-VTEC scores",
+    "event_population": "Stage4B paired tier-1 events; 111 exact event IDs",
+    "event_time_source": "Stage4B origin_time_utc, exact-matched to Stage1D and V004",
+    "f107_adjustment_fit": "OLS slope fitted on quiet B0 union B1 pairs; >=48 pairs; predictor Sxx >1e-6; adjusted VTEC = VTEC - slope*(F10.7 - mean F10.7)",
+    "interpolation": "independent exact copy of Stage4B bilinear_vtec formula, including edge clamping",
+    "ionex_candidate_precedence": "CODG*.Z first; COD0OPSFIN*.INX.gz second; selected file must exceed 2000 bytes",
+    "ionex_daily_dates": "event calendar date offsets -45 through +5 inclusive",
+    "ionex_grid": "validated 71x73; exponent -1; grid values multiplied by 10**exponent",
+    "q95": "sorted order statistic at floor(0.95*(n-1))",
+    "quiet_condition": "Kp available and <3.0; Dst available and >-30.0",
+    "reconstruction": "V004 M3 feature fields are comparison references only; independent features are calculated from IONEX and OMNI inputs",
+    "scoring": "quiet hours only; baseline pool >=20; hourly-of-day median/MAD when >=2 samples else pooled; exact Stage4B median/MAD using averaged central pair for even n and central value for odd n; 1.4826 scale with 1e-6 floor; absolute z scores",
+    "timeline": "event origin truncated down to UTC hour; offsets -1080 through 0 inclusive"
+  },
+  "omni_file_count": 28,
+  "omni_file_inventory_sha256": "B61933585FE6541C5960A235569F7A354EEEE65806F1045A953EE3454497A4A3",
+  "output_files": {
+    "m3_cohort_component_membership.csv": {
+      "bytes": 46648,
+      "rows": 284,
+      "sha256": "F2311C4D62E0AEC30D294BB623DD0D7AD75C7B036AE0964F373C547B97B4B606"
+    },
+    "m3_event_calibration_diagnostics.csv": {
+      "bytes": 15531,
+      "rows": 111,
+      "sha256": "4326AD736746762CF7B4A361B9C848E6B325E210CE3A72516D02EC2ECDB06791"
+    },
+    "m3_event_coverage_audit.csv": {
+      "bytes": 18515,
+      "rows": 111,
+      "sha256": "CFE4E4CC2580B7C45B0E37028C242A75611552AC7EBCFD607B69BFE68F0A2F3C"
+    },
+    "m3_event_eligibility_ledger.csv": {
+      "bytes": 8863,
+      "rows": 111,
+      "sha256": "8E6097ADFE01A4F1ED01857C4E857B6789C1EFAC2A6D2572DE6BB76C9AEE589F"
+    },
+    "m3_event_feature_scores.csv": {
+      "bytes": 38498,
+      "rows": 111,
+      "sha256": "C52AF30DDA73D045A939636DEAA64B8BE80938E5877E8086BE4B074CB585F775"
+    },
+    "m3_event_hourly_features.csv": {
+      "bytes": 19389589,
+      "rows": 119991,
+      "sha256": "B52544B2957AA1E3FEA2A0AB498BC602DA67043FFABB2A34C7CE4C980B3E829C"
+    },
+    "m3_hourly_baseline_statistics.csv": {
+      "bytes": 579642,
+      "rows": 5328,
+      "sha256": "9266B90391EB55E6F31076FC1DFF026C11261B574889562D802D59795E79141D"
+    },
+    "m3_ionex_event_date_audit.csv": {
+      "bytes": 730316,
+      "rows": 5661,
+      "sha256": "3BC5A0EF5D47DDC80C55ABD8B8AAB64A5A7CE9ADF6A491A313C307E37F884C95"
+    },
+    "m3_ionex_file_inventory.csv": {
+      "bytes": 692507,
+      "rows": 2959,
+      "sha256": "D3D7CDE0EBF30E02D12BFD53FCCE2B96C769DCD557E00678D2048FAB4610621D"
+    },
+    "m3_omni_file_inventory.csv": {
+      "bytes": 2954,
+      "rows": 28,
+      "sha256": "B61933585FE6541C5960A235569F7A354EEEE65806F1045A953EE3454497A4A3"
+    },
+    "m3_qa.json": {
+      "bytes": 3398,
+      "rows": null,
+      "sha256": "3345C6CD33F84B6B0E1E1D7E15670C494F91FB4A2E0ED2E088EA446676AE124D"
+    },
+    "m3_unit_tests.csv": {
+      "bytes": 398,
+      "rows": 5,
+      "sha256": "AE5A05096C5E257FC336F25FC03A684F7D43384BDEAD44446C5B794C8E1EA7A3"
+    },
+    "m3_v004_reconstruction_check.csv": {
+      "bytes": 41088,
+      "rows": 111,
+      "sha256": "BFADFA6D2C38354CB5FC27923460A497E7599727D3DD88FC6DC753AD97259B8C"
+    }
+  },
+  "qa_file": {
+    "name": "m3_qa.json",
+    "sha256": "3345C6CD33F84B6B0E1E1D7E15670C494F91FB4A2E0ED2E088EA446676AE124D"
+  },
+  "schema": "LAIC_GUARD_INDEPENDENT_M3_FEATURE_MANIFEST_v002",
+  "statistical_inference_run": false,
+  "supersedes_v001_builder_sha256": "4D83E48FFA24A7C19E24444FFF3F1D3F897D96BD682914713D57B3E722A553BE",
+  "supersedes_v001_reason": "v001 implemented the median/MAD helper incorrectly for even-length samples. v002 follows the pinned Stage4B helper exactly."
+}

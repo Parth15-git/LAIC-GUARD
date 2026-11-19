@@ -1,0 +1,5 @@
+cohort,time_overlap_pairs,same_station_within_50d_pairs,connected_pairs
+ORIGINAL_TARGETS,107,16,109
+STRICT_TARGETS,107,16,109
+CONSERVATIVE_TARGETS,107,16,109
+STRICT_PHYSICAL_CONTROLS,4,0,4

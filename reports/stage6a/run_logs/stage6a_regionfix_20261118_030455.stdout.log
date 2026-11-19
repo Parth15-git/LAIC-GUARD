@@ -1,0 +1,2 @@
+P1 Unit Test: PASS (Matches physical ~195 mm ZWD scale; 100x v002 bug resolved) (Pi^-1=6.4929, ZWD=194.79 mm)
+P2 Disjointness Test: PASS (Strictly mutually disjoint half-open UTC intervals with equal 12d baseline and 10d eval)

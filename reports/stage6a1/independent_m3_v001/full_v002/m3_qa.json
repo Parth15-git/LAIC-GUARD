@@ -1,0 +1,120 @@
+{
+  "all_source_hashes_verified": true,
+  "benchmark_run": false,
+  "cohort_summary": {
+    "component_counts": {
+      "CONSERVATIVE_TARGETS": 35,
+      "ORIGINAL_TARGETS": 38,
+      "STRICT_PHYSICAL_CONTROLS": 15,
+      "STRICT_TARGETS": 36
+    },
+    "component_size_distributions": {
+      "CONSERVATIVE_TARGETS": {
+        "1": 20,
+        "11": 1,
+        "2": 5,
+        "3": 2,
+        "4": 4,
+        "7": 1,
+        "8": 1,
+        "9": 1
+      },
+      "ORIGINAL_TARGETS": {
+        "1": 23,
+        "11": 1,
+        "2": 5,
+        "3": 2,
+        "4": 4,
+        "7": 1,
+        "8": 1,
+        "9": 1
+      },
+      "STRICT_PHYSICAL_CONTROLS": {
+        "1": 11,
+        "2": 4
+      },
+      "STRICT_TARGETS": {
+        "1": 21,
+        "11": 1,
+        "2": 5,
+        "3": 2,
+        "4": 4,
+        "7": 1,
+        "8": 1,
+        "9": 1
+      }
+    },
+    "conservative_target_exclusions": [
+      "us6000nith",
+      "us7000lsze",
+      "us7000m9g4"
+    ],
+    "counts": {
+      "CONSERVATIVE_TARGETS": 87,
+      "ORIGINAL_TARGETS": 90,
+      "STRICT_PHYSICAL_CONTROLS": 19,
+      "STRICT_TARGETS": 88
+    },
+    "strict_control_exclusions": [
+      "us6000m52p",
+      "us7000n05d"
+    ],
+    "strict_target_exclusions": [
+      "us7000lsze",
+      "us7000m9g4"
+    ]
+  },
+  "conservative_target_count": 87,
+  "conservative_target_m3_ineligible_ids": [],
+  "conservative_targets_all_m3_eligible": true,
+  "duplicate_vtec_hour_assignments_overwritten_in_date_order": 4860,
+  "event_m3_feature_eligible_count": 111,
+  "expected_hourly_feature_rows": 119991,
+  "hourly_feature_rows": 119991,
+  "interpretation": "Feature extraction and independent V004 reconstruction only. No ROC/AUC, permutation, bootstrap, paired inference, or claims of precursor predictability are produced by this builder.",
+  "ionex_event_date_requests": 5661,
+  "ionex_exponent_values": [
+    -1
+  ],
+  "ionex_files_successfully_parsed": 2959,
+  "ionex_grid_cells_parsed": 251344402,
+  "ionex_grid_dimensions": [
+    "71x73"
+  ],
+  "ionex_nan_cells": 0,
+  "ionex_total_tec_maps": 48494,
+  "omni_diagnostics": {
+    "files": 28,
+    "malformed_rows": 0,
+    "required_hour_duplicates": 0,
+    "required_hour_missing": 0,
+    "required_hour_records": 65315,
+    "short_rows": 0,
+    "source_rows": 245448,
+    "unique_required_hours_found": 65315
+  },
+  "original_target_count": 90,
+  "original_targets_all_m3_eligible": true,
+  "required_ionex_unique_dates": 2959,
+  "schema": "LAIC_GUARD_INDEPENDENT_M3_QA_v002",
+  "source_control_count": 21,
+  "source_event_count": 111,
+  "source_target_count": 90,
+  "statistical_inference_run": false,
+  "strict_target_count": 88,
+  "strict_target_m3_ineligible_ids": [],
+  "strict_targets_all_m3_eligible": true,
+  "supersedes_v001_reason": "v001 incorrectly used the upper-middle order statistic for even-length median and MAD samples. Stage4B median_and_mad averages the two central values when n is even. v002 corrects the implementation and unit tests.",
+  "v004_reconstruction_all_111_events_match_within_1e-7": true,
+  "v004_reconstruction_metrics": [
+    "p_vtec_max",
+    "p_vtec_q95",
+    "t_vtec_max",
+    "t_vtec_q95",
+    "p_vpos_max",
+    "p_vpos_q95",
+    "t_vpos_max",
+    "t_vpos_q95"
+  ],
+  "v004_reconstruction_mismatch_ids": []
+}

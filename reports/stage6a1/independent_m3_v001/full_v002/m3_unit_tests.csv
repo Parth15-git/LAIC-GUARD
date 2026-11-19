@@ -1,0 +1,6 @@
+test,status,detail
+window_lengths_and_disjointness,PASS,"B0=288, W0=240, B1=288, W1=240, guard=24 hours; pairwise disjoint"
+stage4b_even_sample_median_and_mad,PASS,even_n_median=2.5; even_n_scaled_MAD=1.4826
+stage4b_odd_sample_median_and_mad,PASS,odd_n_median=2.0; odd_n_scaled_MAD=1.4826
+bilinear_interpolation_center,PASS,center interpolation=15.0
+q95_order_statistic,PASS,q95 for 0..19=18

@@ -1,0 +1,5 @@
+cohort,event_count,component_count,component_size_distribution,largest_component,edge_diagnostics
+ORIGINAL_TARGETS,90,38,"{""1"": 23, ""2"": 5, ""3"": 2, ""4"": 4, ""7"": 1, ""8"": 1, ""9"": 1, ""11"": 1}",11,"{""connected_pairs"": 109, ""same_station_within_50d_pairs"": 16, ""time_overlap_pairs"": 107}"
+STRICT_TARGETS,88,36,"{""1"": 21, ""2"": 5, ""3"": 2, ""4"": 4, ""7"": 1, ""8"": 1, ""9"": 1, ""11"": 1}",11,"{""connected_pairs"": 109, ""same_station_within_50d_pairs"": 16, ""time_overlap_pairs"": 107}"
+CONSERVATIVE_TARGETS,87,35,"{""1"": 20, ""2"": 5, ""3"": 2, ""4"": 4, ""7"": 1, ""8"": 1, ""9"": 1, ""11"": 1}",11,"{""connected_pairs"": 109, ""same_station_within_50d_pairs"": 16, ""time_overlap_pairs"": 107}"
+STRICT_PHYSICAL_CONTROLS,19,15,"{""1"": 11, ""2"": 4}",2,"{""connected_pairs"": 4, ""time_overlap_pairs"": 4}"

@@ -1,0 +1,18 @@
+{
+  "four_primary_auc_tests": {
+    "M2a": 0.414,
+    "M2c": 0.414,
+    "M3": 0.803,
+    "M4": 0.689
+  },
+  "scope": "STRICT_TARGETS only; conservative results are sensitivity analyses and are not included in these Holm families",
+  "three_distinct_physical_endpoints": {
+    "calibrated_era5_residual_q95": 1.0,
+    "quiet_adjusted_vtec_q95": 1.0,
+    "raw_gnss_ztd_q95": 1.0
+  },
+  "two_primary_model_comparisons": {
+    "M2c_vs_M2a": 0.6135,
+    "M4_vs_M3": 0.017
+  }
+}

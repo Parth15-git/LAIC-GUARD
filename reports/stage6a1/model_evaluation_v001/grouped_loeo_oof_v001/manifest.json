@@ -1,0 +1,218 @@
+{
+  "cohorts": {
+    "CONSERVATIVE_TARGETS": {
+      "components": 35,
+      "events": 87,
+      "paired_rows": 174
+    },
+    "STRICT_TARGETS": {
+      "components": 36,
+      "events": 88,
+      "paired_rows": 176
+    },
+    "physical_controls": "kept outside primary target classifiers",
+    "strict_only_event": "us6000nith"
+  },
+  "estimator_specification": {
+    "description": "Exact pinned stage5b grouped_loeo implementation; not sklearn LogisticRegression",
+    "folding": "Leave one frozen dependence component out; both paired rows for every event in that component held out together",
+    "initial_intercept": 0.0,
+    "initial_weights": 0.0,
+    "iterations": 250,
+    "learning_rate": 0.08,
+    "logit_clip": [
+      -20.0,
+      20.0
+    ],
+    "optimizer": "full-batch gradient descent",
+    "standard_deviation_floor": 1e-06,
+    "training_only_standardization": "per-feature arithmetic mean and sample SD computed from training rows only",
+    "weight_penalty": "L2 weight penalty added to each weight gradient; intercept unpenalized"
+  },
+  "inference_status": {
+    "feature_tuning": "NOT_RUN",
+    "group_bootstrap_ci": "NOT_RUN",
+    "holm_adjustments": "NOT_RUN",
+    "paired_model_component_swaps": "NOT_RUN",
+    "physical_endpoint_component_sign_flips": "NOT_RUN",
+    "primary_component_label_swap_permutations": "NOT_RUN"
+  },
+  "input_sha256": {
+    "reports\\stage6a1\\independent_m3_v001\\full_v002\\m3_event_feature_scores.csv": "C52AF30DDA73D045A939636DEAA64B8BE80938E5877E8086BE4B074CB585F775",
+    "reports\\stage6a1\\m4_joint_features_v002\\full_v001\\m4_conservative_target_pairs.csv": "9C8A962C93E03EAB620B6C898CF6B433FF541D5D04FC567E9A023C7F4F76A268",
+    "reports\\stage6a1\\m4_joint_features_v002\\full_v001\\m4_feature_assembly_qa.json": "7FB292A279B2AC873B28D8D6EE17C321BB8BE9BF27CF8339A6435D92BC06D20F",
+    "reports\\stage6a1\\m4_joint_features_v002\\full_v001\\m4_strict_target_pairs.csv": "51F07F381452CF2E925B0FF123C6E324B4E28BF82C5A5FF1F0947A5EAED28E23",
+    "reports\\stage6a1\\m4_joint_features_v002\\full_v001\\manifest.json": "30810D6540541A6B75E7D5F70E2E95F43FE798647A4E799D63176D2A03B72DC3",
+    "reports\\stage6a1\\strict_tcwv_v001\\full_v001\\full_dependency_component_membership.csv": "C78B08324A4572DD796487A0F9FFBD292117291EFD61AA2C0D927951DF116AC5",
+    "reports\\stage6a1\\strict_tcwv_v001\\full_v001\\full_event_eligibility_ledger.csv": "55189838722A7F4BD08C70FCB7C16772B3DE8B860C9508D07B8FEC7D9DD9E851",
+    "reports\\stage6a1\\strict_tcwv_v001\\full_v001\\full_feature_scores.csv": "E8AFA32F7EC49E9341BFE0C547AA63E33D523F3136FA352CC93722A41D3B4D29"
+  },
+  "labels": {
+    "W0": 0,
+    "W1": 1
+  },
+  "matrix_hashes": {
+    "CONSERVATIVE_TARGETS": {
+      "M2a": "0E6914B776D6779E929FDB920644D986A7CDD4B8430937EEA36FAA816993956D",
+      "M2c": "0716A2D4C401C20F16D8DF01A58D537451C375F1A8F62D186559972E22AC2BC7",
+      "M3": "42B313518F6E86C02380162B8408E231C7068CFBB81B71DF5F5576B23B78F647",
+      "M4": "C1EEBD1930FD472246A6FDFA23CAC6C6CED608CAD2355BB2122A9DDFA726AFB5"
+    },
+    "STRICT_TARGETS": {
+      "M2a": "31439CC4498423CA1DA00A9A81B5AA593702BA15B7A182B07AAA8584820B84D5",
+      "M2c": "75B80F94692108C4669B6C135A976E1369134B98B302240143265BD0B0D8B486",
+      "M3": "34D42FC3FF0EC7FDC8060545393994156C2D80215EF007E1CEEC1259DDEBFCEB",
+      "M4": "CBB61A7AC230C1433B399605B673C6026A7B55FCB0C8F1D835B3E3FF12A6DC38"
+    }
+  },
+  "metrics_interpretation": {
+    "not_earthquake_prediction": true,
+    "not_prospective_forecast": true,
+    "pr_auc": "descriptive observed OOF precision-recall area for W1 as positive class",
+    "roc_auc": "descriptive observed OOF discrimination of W1 versus W0"
+  },
+  "model_features": {
+    "M2a": [
+      "M2a raw GNSS ZTD maximum robust-z",
+      "M2a raw GNSS ZTD q95 robust-z"
+    ],
+    "M2c": [
+      "M2c calibrated ERA5 residual maximum absolute robust-z",
+      "M2c calibrated ERA5 residual q95 absolute robust-z"
+    ],
+    "M3": [
+      "M3 quiet-adjusted VTEC maximum absolute robust-z",
+      "M3 quiet-adjusted VTEC q95 absolute robust-z"
+    ],
+    "M4": [
+      "M2c maximum",
+      "M2c q95",
+      "M3 VTEC maximum",
+      "M3 VTEC q95"
+    ]
+  },
+  "output_sha256": {
+    "grouped_loeo_fold_diagnostics.csv": "3E5AE08AFF9EC64AE084193D2A7E26C15458D9EAC92C9F1BB7128D85069BDA61",
+    "grouped_loeo_observed_metrics.csv": "99ED42F99CAB46D6A83D23D53DBDC78E08414D6F472743F39CF645E67AD0F5B2",
+    "grouped_loeo_oof_predictions.csv": "3FAC2F02C774150A40699786B3A7195012D70BB0301D873F0A6D8D850CC8C5ED"
+  },
+  "runner": "stage6a1_run_grouped_loeo_oof_v001.py",
+  "runner_sha256": "7C807880BEBA6996CFC9BA8AC95A77753222C186C3B7E90DED68167595360B4D",
+  "runs": [
+    {
+      "cohort": "STRICT_TARGETS",
+      "folds_completed": 36,
+      "matrix_sha256": "31439CC4498423CA1DA00A9A81B5AA593702BA15B7A182B07AAA8584820B84D5",
+      "model": "M2a",
+      "n_components": 36,
+      "n_events": 88,
+      "n_features": 2,
+      "n_rows": 176,
+      "pr_auc_W1": 0.4076938846918854,
+      "roc_auc_W1_vs_W0": 0.36299070247933884
+    },
+    {
+      "cohort": "STRICT_TARGETS",
+      "folds_completed": 36,
+      "matrix_sha256": "75B80F94692108C4669B6C135A976E1369134B98B302240143265BD0B0D8B486",
+      "model": "M2c",
+      "n_components": 36,
+      "n_events": 88,
+      "n_features": 2,
+      "n_rows": 176,
+      "pr_auc_W1": 0.42049425280749364,
+      "roc_auc_W1_vs_W0": 0.3855888429752066
+    },
+    {
+      "cohort": "STRICT_TARGETS",
+      "folds_completed": 36,
+      "matrix_sha256": "34D42FC3FF0EC7FDC8060545393994156C2D80215EF007E1CEEC1259DDEBFCEB",
+      "model": "M3",
+      "n_components": 36,
+      "n_events": 88,
+      "n_features": 2,
+      "n_rows": 176,
+      "pr_auc_W1": 0.502143287942046,
+      "roc_auc_W1_vs_W0": 0.5216942148760331
+    },
+    {
+      "cohort": "STRICT_TARGETS",
+      "folds_completed": 36,
+      "matrix_sha256": "CBB61A7AC230C1433B399605B673C6026A7B55FCB0C8F1D835B3E3FF12A6DC38",
+      "model": "M4",
+      "n_components": 36,
+      "n_events": 88,
+      "n_features": 4,
+      "n_rows": 176,
+      "pr_auc_W1": 0.44713408447416025,
+      "roc_auc_W1_vs_W0": 0.43362603305785125
+    },
+    {
+      "cohort": "CONSERVATIVE_TARGETS",
+      "folds_completed": 35,
+      "matrix_sha256": "0E6914B776D6779E929FDB920644D986A7CDD4B8430937EEA36FAA816993956D",
+      "model": "M2a",
+      "n_components": 35,
+      "n_events": 87,
+      "n_features": 2,
+      "n_rows": 174,
+      "pr_auc_W1": 0.4039881874868407,
+      "roc_auc_W1_vs_W0": 0.3542079534945171
+    },
+    {
+      "cohort": "CONSERVATIVE_TARGETS",
+      "folds_completed": 35,
+      "matrix_sha256": "0716A2D4C401C20F16D8DF01A58D537451C375F1A8F62D186559972E22AC2BC7",
+      "model": "M2c",
+      "n_components": 35,
+      "n_events": 87,
+      "n_features": 2,
+      "n_rows": 174,
+      "pr_auc_W1": 0.4127649754327307,
+      "roc_auc_W1_vs_W0": 0.3733650416171225
+    },
+    {
+      "cohort": "CONSERVATIVE_TARGETS",
+      "folds_completed": 35,
+      "matrix_sha256": "42B313518F6E86C02380162B8408E231C7068CFBB81B71DF5F5576B23B78F647",
+      "model": "M3",
+      "n_components": 35,
+      "n_events": 87,
+      "n_features": 2,
+      "n_rows": 174,
+      "pr_auc_W1": 0.5046450417999262,
+      "roc_auc_W1_vs_W0": 0.5225260932752015
+    },
+    {
+      "cohort": "CONSERVATIVE_TARGETS",
+      "folds_completed": 35,
+      "matrix_sha256": "C1EEBD1930FD472246A6FDFA23CAC6C6CED608CAD2355BB2122A9DDFA726AFB5",
+      "model": "M4",
+      "n_components": 35,
+      "n_events": 87,
+      "n_features": 4,
+      "n_rows": 174,
+      "pr_auc_W1": 0.4486309959430872,
+      "roc_auc_W1_vs_W0": 0.4350640771568239
+    }
+  ],
+  "schema": "LAIC_GUARD_STAGE6A1_GROUPED_LOEO_OOF_MANIFEST_V001",
+  "source_implementation": {
+    "grouped_loeo": {
+      "file": "scripts/stage5b_hardened_audit_v002.py",
+      "function": "grouped_loeo",
+      "sha256": "06BC22ED858D65CB56A0309185E435463817B0F6E8A455F43F6AA7BEE971476C"
+    },
+    "pr_auc": {
+      "file": "scripts/stage5b_hardened_audit_v002.py",
+      "function": "pr_auc",
+      "sha256": "06BC22ED858D65CB56A0309185E435463817B0F6E8A455F43F6AA7BEE971476C"
+    },
+    "roc_auc": {
+      "file": "scripts/stage4b_scale_full_tier1_cohort_v001.py",
+      "function": "roc_auc",
+      "sha256": "91F741C1500FB263F229DDF1D69590B357158CBFB42105F3F992AEA0DA3994B0"
+    }
+  },
+  "status": "COMPLETED_DESCRIPTIVE_OOF_ONLY"
+}

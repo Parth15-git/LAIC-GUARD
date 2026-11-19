@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "C:\Users\parth\OneDrive\Desktop\Research\LAIC-GUARD\scripts\stage6a_repaired_benchmark_v004_regionfix.py", line 1833, in <module>
+    main()
+  File "C:\Users\parth\OneDrive\Desktop\Research\LAIC-GUARD\scripts\stage6a_repaired_benchmark_v004_regionfix.py", line 725, in main
+    ionex_cache[dk] = parse_ionex_safe(d_dt)
+                      ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\parth\OneDrive\Desktop\Research\LAIC-GUARD\scripts\stage5b_hardened_audit_v002.py", line 132, in parse_ionex_safe
+    ch = rs[k:k+5].strip()
+         ^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

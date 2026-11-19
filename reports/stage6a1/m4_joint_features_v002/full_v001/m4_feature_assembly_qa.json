@@ -1,0 +1,112 @@
+{
+  "build_status": "PASS",
+  "checks": {
+    "all_conservative_target_features_finite": true,
+    "all_strict_target_features_finite": true,
+    "conservative_population_is_subset_of_strict": true,
+    "each_target_event_has_exactly_one_w0_and_one_w1_row": true,
+    "exactly_two_m2c_rows_per_event": true,
+    "frozen_component_ids_reused_without_rebuilding": true,
+    "frozen_membership_counts_match": true,
+    "m2_ledger_is_authoritative_whole_second_truncation": true,
+    "m2c_and_m3_event_ids_match": true,
+    "m3_v004_and_stage1d_full_precision_timestamps_match": true,
+    "membership_timestamp_matches_m2_ledger_and_m3_hour": true,
+    "paired_rows_share_component_id": true,
+    "target_and_control_populations_kept_separate": true
+  },
+  "classifier_fit": false,
+  "feature_columns_per_window": [
+    "m2c_max_abs_robust_z",
+    "m2c_q95_abs_robust_z",
+    "m3_vtec_max_abs_robust_z",
+    "m3_vtec_q95_abs_robust_z"
+  ],
+  "inference_run": false,
+  "inputs": {
+    "frozen_component_membership": "reports\\stage6a1\\strict_tcwv_v001\\full_v001\\full_dependency_component_membership.csv",
+    "m2_event_eligibility_ledger": "reports\\stage6a1\\strict_tcwv_v001\\full_v001\\full_event_eligibility_ledger.csv",
+    "m2_feature_scores": "reports\\stage6a1\\strict_tcwv_v001\\full_v001\\full_feature_scores.csv",
+    "m3_event_feature_scores": "reports\\stage6a1\\independent_m3_v001\\full_v002\\m3_event_feature_scores.csv",
+    "stage1d_frozen_catalogue_timestamp_crosscheck": "reports\\stage1d\\catalogue_freeze_v001\\analysis\\event_catalogue_frozen_v001.csv",
+    "v004_event_features_timestamp_crosscheck": "reports\\stage6a\\audit_repaired_v004_regionfix_cachefix_distancefix\\analysis\\stage6a_v004_event_features.csv"
+  },
+  "label_definition": {
+    "0": "W0 feature row",
+    "1": "W1 feature row",
+    "note": "Each event contributes one W0/W1 pair; labels are not target-versus-control labels."
+  },
+  "notes": [
+    "The 111-event event-level join is a provenance/availability audit, not a classifier population.",
+    "Only STRICT_TARGETS and CONSERVATIVE_TARGETS are written as classifier pair datasets.",
+    "STRICT_PHYSICAL_CONTROLS are emitted as a separate event-level feature audit and are not pooled with targets.",
+    "Component IDs are copied from the validated M2 frozen membership file, separately by cohort.",
+    "M3, V004 and Stage 1D full-precision origin timestamps agree; M2 ledger/membership timestamps are verified whole-second truncations.",
+    "The frozen dependency algorithm floors origin times to UTC hour before constructing intervals; subsecond serialization loss does not alter component membership.",
+    "This package does not establish predictive skill or a precursor mechanism."
+  ],
+  "oof_predictions_created": false,
+  "permutation_tests_run": false,
+  "populations": {
+    "all_joined_events": 111,
+    "conservative_pair_rows": 174,
+    "conservative_targets": {
+      "component_count": 35,
+      "component_size_distribution": {
+        "1": 20,
+        "11": 1,
+        "2": 5,
+        "3": 2,
+        "4": 4,
+        "7": 1,
+        "8": 1,
+        "9": 1
+      },
+      "event_count": 87,
+      "largest_component": 11
+    },
+    "control_audit_rows": 19,
+    "strict_pair_rows": 176,
+    "strict_physical_controls_separate_audit_only": {
+      "component_count": 15,
+      "component_size_distribution": {
+        "1": 11,
+        "2": 4
+      },
+      "event_count": 19,
+      "largest_component": 2
+    },
+    "strict_targets": {
+      "component_count": 36,
+      "component_size_distribution": {
+        "1": 21,
+        "11": 1,
+        "2": 5,
+        "3": 2,
+        "4": 4,
+        "7": 1,
+        "8": 1,
+        "9": 1
+      },
+      "event_count": 88,
+      "largest_component": 11
+    }
+  },
+  "purpose": "M2c plus M3 feature assembly; strict and conservative target-only paired datasets",
+  "schema": "LAIC_GUARD_M4_FEATURE_ASSEMBLY_QA_v002",
+  "timestamp_lineage": {
+    "all_membership_and_m3_timestamps_have_same_floored_utc_hour": true,
+    "authoritative_full_precision_sources": [
+      "M3 event features",
+      "V004 event features",
+      "Stage 1D frozen catalogue"
+    ],
+    "dependency_algorithm_uses_floored_utc_hour": true,
+    "full_precision_event_timestamp_retained_in_m4_outputs": true,
+    "full_precision_sources_agree_exactly_for_all_111_events": true,
+    "m2_ledger_and_membership_precision": "whole-second truncation of the authoritative timestamp",
+    "m2_ledger_matches_authoritative_whole_second_for_all_111_events": true,
+    "m2_minus_feature_timestamp_precision_difference_changes_component_hour": false,
+    "membership_matches_m2_ledger_and_authoritative_whole_second_for_all_membership_rows": true
+  }
+}

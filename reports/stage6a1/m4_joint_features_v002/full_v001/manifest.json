@@ -1,0 +1,69 @@
+{
+  "build_status": "PASS",
+  "builder": {
+    "path": "scripts\\stage6a1_build_m4_joint_features_v002.py",
+    "sha256": "DB8E678570715CBE90D2503E15E891C6F00A3DF42793D8CBD25677A6D0C14592"
+  },
+  "classifier_fit": false,
+  "created_utc": "2026-11-18T19:14:13.737725+00:00",
+  "inference_run": false,
+  "inputs": {
+    "reports\\stage1d\\catalogue_freeze_v001\\analysis\\event_catalogue_frozen_v001.csv": {
+      "bytes": 953219,
+      "sha256": "1BE9B0CC60BF6B36B4C5F38134E58F7B79D93E24705E7178B22F16B1BE0C21BD"
+    },
+    "reports\\stage6a1\\independent_m3_v001\\full_v002\\m3_event_feature_scores.csv": {
+      "bytes": 38498,
+      "sha256": "C52AF30DDA73D045A939636DEAA64B8BE80938E5877E8086BE4B074CB585F775"
+    },
+    "reports\\stage6a1\\strict_tcwv_v001\\full_v001\\full_dependency_component_membership.csv": {
+      "bytes": 18713,
+      "sha256": "C78B08324A4572DD796487A0F9FFBD292117291EFD61AA2C0D927951DF116AC5"
+    },
+    "reports\\stage6a1\\strict_tcwv_v001\\full_v001\\full_event_eligibility_ledger.csv": {
+      "bytes": 64135,
+      "sha256": "55189838722A7F4BD08C70FCB7C16772B3DE8B860C9508D07B8FEC7D9DD9E851"
+    },
+    "reports\\stage6a1\\strict_tcwv_v001\\full_v001\\full_feature_scores.csv": {
+      "bytes": 154724,
+      "sha256": "E8AFA32F7EC49E9341BFE0C547AA63E33D523F3136FA352CC93722A41D3B4D29"
+    },
+    "reports\\stage6a\\audit_repaired_v004_regionfix_cachefix_distancefix\\analysis\\stage6a_v004_event_features.csv": {
+      "bytes": 70911,
+      "sha256": "8D8182CEBE35D10C0492D2B42E2CD337669BAA4DCB7C8A801771B269A3A98334"
+    }
+  },
+  "outputs": {
+    "m4_conservative_target_pairs.csv": {
+      "bytes": 48057,
+      "data_rows": 174,
+      "sha256": "9C8A962C93E03EAB620B6C898CF6B433FF541D5D04FC567E9A023C7F4F76A268"
+    },
+    "m4_event_feature_join.csv": {
+      "bytes": 49171,
+      "data_rows": 111,
+      "sha256": "A40E09C81FFF80660140C90021B694F5003432AA6679A857F9408CB426C74D8F"
+    },
+    "m4_feature_assembly_qa.json": {
+      "bytes": 4835,
+      "data_rows": null,
+      "sha256": "7FB292A279B2AC873B28D8D6EE17C321BB8BE9BF27CF8339A6435D92BC06D20F"
+    },
+    "m4_physical_control_feature_audit.csv": {
+      "bytes": 7945,
+      "data_rows": 19,
+      "sha256": "5C501E5E14F92E4D37D8E3AB2A2C4F653448752B9BB4938B8232289AA76DDEBE"
+    },
+    "m4_strict_target_pairs.csv": {
+      "bytes": 47529,
+      "data_rows": 176,
+      "sha256": "51F07F381452CF2E925B0FF123C6E324B4E28BF82C5A5FF1F0947A5EAED28E23"
+    },
+    "m4_target_component_membership.csv": {
+      "bytes": 20195,
+      "data_rows": 175,
+      "sha256": "580B4129773142CF5BE2348E5637AB81AC9092DA02A5C5AB5E3C37C8B3E222C0"
+    }
+  },
+  "schema": "LAIC_GUARD_M4_FEATURE_PACKAGE_MANIFEST_v002"
+}

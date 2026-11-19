@@ -1,0 +1,5 @@
+test,status,observed,expected_rule
+ZHD_positive_and_finite,PASS,2166.1442320210713,finite positive hydrostatic delay
+Pi_inverse_physical_range,PASS,6.236882422536514,approximately 6-7 mm per kg/m2
+ZWD_direct_TCWV,PASS,155.92206056341286,Pi_inverse multiplied by direct TCWV
+ZTD_additivity,PASS,2322.066292584484,ZTD equals ZHD plus ZWD

@@ -1,0 +1,111 @@
+{
+  "schema": "LAIC_GUARD_STAGE6A1_FULL_FEATURE_QA_v001",
+  "status": "FULL_FEATURE_GENERATION_COMPLETED",
+  "script": "stage6a1_build_strict_tcwv_full_v001.py",
+  "engine_script": "stage6a1_build_strict_tcwv_features_v001.py",
+  "engine_original_sha256": "F9B9DA0226E313BA211D7ADE8F75FD01B0F7807EB73A351A0C4FD8FA8753BB7D",
+  "engine_in_memory_compatibility_patch_sha256": "21C137139F27F5D2F8F4B112ED4E7F39254264BB7F4DED14A28ED9823B0F52E8",
+  "events_processed": 111,
+  "hourly_feature_rows": 119991,
+  "calibration_rows": 222,
+  "feature_score_rows": 666,
+  "hourly_baseline_stat_rows": 15840,
+  "daily_coverage_rows": 5540,
+  "gnss_parser_audit_rows": 111,
+  "unit_tests_passed": 4,
+  "cohort_counts": {
+    "all_events": 111,
+    "original_targets": 90,
+    "original_target_components": 38,
+    "strict_targets": 88,
+    "strict_target_components": 36,
+    "conservative_targets": 87,
+    "conservative_target_components": 35,
+    "strict_controls": 19,
+    "strict_control_components": 15
+  },
+  "ineligible_target_ids": [
+    "us7000lsze",
+    "us7000m9g4"
+  ],
+  "ineligible_control_ids": [
+    "us6000m52p",
+    "us7000n05d"
+  ],
+  "G088_primary_component": "DEP034",
+  "G088_component_members": [
+    "us6000nith"
+  ],
+  "dependency_population_summaries": [
+    {
+      "cohort": "ORIGINAL_TARGETS",
+      "event_count": 90,
+      "component_count": 38,
+      "component_size_distribution": "{\"1\": 23, \"2\": 5, \"3\": 2, \"4\": 4, \"7\": 1, \"8\": 1, \"9\": 1, \"11\": 1}",
+      "largest_component": 11,
+      "edge_diagnostics": "{\"connected_pairs\": 109, \"same_station_within_50d_pairs\": 16, \"time_overlap_pairs\": 107}"
+    },
+    {
+      "cohort": "STRICT_TARGETS",
+      "event_count": 88,
+      "component_count": 36,
+      "component_size_distribution": "{\"1\": 21, \"2\": 5, \"3\": 2, \"4\": 4, \"7\": 1, \"8\": 1, \"9\": 1, \"11\": 1}",
+      "largest_component": 11,
+      "edge_diagnostics": "{\"connected_pairs\": 109, \"same_station_within_50d_pairs\": 16, \"time_overlap_pairs\": 107}"
+    },
+    {
+      "cohort": "CONSERVATIVE_TARGETS",
+      "event_count": 87,
+      "component_count": 35,
+      "component_size_distribution": "{\"1\": 20, \"2\": 5, \"3\": 2, \"4\": 4, \"7\": 1, \"8\": 1, \"9\": 1, \"11\": 1}",
+      "largest_component": 11,
+      "edge_diagnostics": "{\"connected_pairs\": 109, \"same_station_within_50d_pairs\": 16, \"time_overlap_pairs\": 107}"
+    },
+    {
+      "cohort": "STRICT_PHYSICAL_CONTROLS",
+      "event_count": 19,
+      "component_count": 15,
+      "component_size_distribution": "{\"1\": 11, \"2\": 4}",
+      "largest_component": 2,
+      "edge_diagnostics": "{\"connected_pairs\": 4, \"time_overlap_pairs\": 4}"
+    }
+  ],
+  "expected_reference_counts": {
+    "all_events": 111,
+    "original_targets": 90,
+    "original_target_components": 38,
+    "strict_targets": 88,
+    "strict_target_components": 36,
+    "conservative_targets": 87,
+    "conservative_target_components": 35,
+    "strict_controls": 19,
+    "strict_control_components": 15
+  },
+  "input_hashes": {
+    "v004": "8D8182CEBE35D10C0492D2B42E2CD337669BAA4DCB7C8A801771B269A3A98334",
+    "v004_script": "4C7DFD199A3C04D82E4850AE487FA5AD1642EE59DF0A51B60948F4B6EE5A68A0",
+    "stage4b": "BA1DD886CD2861F32928A039A9308323395EE151DD8CA6EC70FFF6AFB28C578F",
+    "stage2c": "D5C288AE3B15A719EF787EA3A431B51F11ECCB9778C3AB8B230C97C75F579530",
+    "registry": "5C948A29DDCC8AD602A2BDE0573A45A6AE532C957544052156198F62DC198B50",
+    "downloader": "D59C4444175F6E77AC491E8860B6468118473C512A464EB8AB680446D827695B",
+    "stage5c_parser": "7BDBC3A8CAFE6BAC90BA634A3626D1B001328C4875672B4C0A2C242E5B480E7C",
+    "stage5e_reference": "91A9FBCC039EFC37237989D77CAEB35C13AFFBD33928CD3BA40655D0977028FD",
+    "cache_manifest": "776A619820785457A8B2A9DD2918E16866A99E446876BE3264140DEBF8088107",
+    "protocol_protocol": "6088588F5CBD1DD29CFBA2B1AF04A1261B25AA91E48FECD08E793A8F8F272538",
+    "protocol_addendum001": "3BD5E4A4EACD157E90C9C4E5FDE3B8B3F3019F51E17CD2E4AB7281AE863C2368",
+    "protocol_addendum002": "711062902326CE99268A96A81B9627447A4E726D4305E507B955E4C5CC429D3D"
+  },
+  "statistical_inference_run": false,
+  "benchmark_run": false,
+  "notes": [
+    "This package contains feature generation and eligibility only.",
+    "No AUC, model fitting, cross-validation or permutations were run.",
+    "Strict populations were recalculated from all 111 pinned caches.",
+    "Dependence components were rebuilt for each exact evaluation subset.",
+    "V004 component labels are provenance only, not evaluation groups.",
+    "G088 remains in the main strict target population and is excluded from the conservative target population by its complete component.",
+    "Direct TCWV only; no dew-point fallback or TCWV imputation.",
+    "NGL legacy time scale remains LEGACY_SINEX_UTC_INFERRED.",
+    "ERA5 model was requested explicitly; API response metadata is not independent model attestation."
+  ]
+}

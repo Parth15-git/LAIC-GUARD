@@ -1,0 +1,184 @@
+{
+  "completed_auc_tests": [
+    "STRICT_TARGETS/M2a",
+    "STRICT_TARGETS/M2c",
+    "STRICT_TARGETS/M3",
+    "STRICT_TARGETS/M4",
+    "CONSERVATIVE_TARGETS/M2a",
+    "CONSERVATIVE_TARGETS/M2c",
+    "CONSERVATIVE_TARGETS/M3",
+    "CONSERVATIVE_TARGETS/M4"
+  ],
+  "completed_phases": [
+    "primary_auc",
+    "primary_support",
+    "sensitivity_auc",
+    "sensitivity_support"
+  ],
+  "config": {
+    "auc_batch_size": 250,
+    "cohorts": {
+      "CONSERVATIVE_TARGETS": {
+        "n_components": 35,
+        "n_events": 87,
+        "pair_file": "m4_conservative_target_pairs.csv",
+        "primary": false
+      },
+      "STRICT_TARGETS": {
+        "n_components": 36,
+        "n_events": 88,
+        "pair_file": "m4_strict_target_pairs.csv",
+        "primary": true
+      }
+    },
+    "models": [
+      "M2a",
+      "M2c",
+      "M3",
+      "M4"
+    ],
+    "n_auc_permutations_per_model_cohort": 9999,
+    "n_bootstrap_per_model_cohort": 1000,
+    "null_quantile_rule": "nearest_rank_ceil(p*n)-1",
+    "paired_comparisons": [
+      {
+        "model_a": "M2c",
+        "model_b": "M2a",
+        "name": "M2c_vs_M2a"
+      },
+      {
+        "model_a": "M4",
+        "model_b": "M3",
+        "name": "M4_vs_M3"
+      }
+    ],
+    "physical_endpoints": [
+      "raw_gnss_ztd_q95",
+      "calibrated_era5_residual_q95",
+      "quiet_adjusted_vtec_q95"
+    ],
+    "primary_holm_families": {
+      "auc": 4,
+      "paired_model_comparisons": 2,
+      "physical_endpoints": 3
+    },
+    "seeds": {
+      "auc_refit": 42,
+      "bootstrap": 42,
+      "paired_model_swap": 2027,
+      "physical_signflip": 2026
+    }
+  },
+  "config_sha256": "CE54FA3A032AC647BA378DBD02B3265533BBA7CD416993D01B0633805813FFB1",
+  "created_utc": "2026-11-18T20:31:41.528569+00:00",
+  "fold_diagnostic_row_count": 284,
+  "inputs": {
+    "m2_feature_scores": {
+      "bytes": 154724,
+      "path": "reports\\stage6a1\\strict_tcwv_v001\\full_v001\\full_feature_scores.csv",
+      "sha256": "E8AFA32F7EC49E9341BFE0C547AA63E33D523F3136FA352CC93722A41D3B4D29"
+    },
+    "m3_feature_scores": {
+      "bytes": 38498,
+      "path": "reports\\stage6a1\\independent_m3_v001\\full_v002\\m3_event_feature_scores.csv",
+      "sha256": "C52AF30DDA73D045A939636DEAA64B8BE80938E5877E8086BE4B074CB585F775"
+    },
+    "m4_conservative_pairs": {
+      "bytes": 48057,
+      "path": "reports\\stage6a1\\m4_joint_features_v002\\full_v001\\m4_conservative_target_pairs.csv",
+      "sha256": "9C8A962C93E03EAB620B6C898CF6B433FF541D5D04FC567E9A023C7F4F76A268"
+    },
+    "m4_manifest": {
+      "bytes": 2766,
+      "path": "reports\\stage6a1\\m4_joint_features_v002\\full_v001\\manifest.json",
+      "sha256": "30810D6540541A6B75E7D5F70E2E95F43FE798647A4E799D63176D2A03B72DC3"
+    },
+    "m4_qa": {
+      "bytes": 4835,
+      "path": "reports\\stage6a1\\m4_joint_features_v002\\full_v001\\m4_feature_assembly_qa.json",
+      "sha256": "7FB292A279B2AC873B28D8D6EE17C321BB8BE9BF27CF8339A6435D92BC06D20F"
+    },
+    "m4_strict_pairs": {
+      "bytes": 47529,
+      "path": "reports\\stage6a1\\m4_joint_features_v002\\full_v001\\m4_strict_target_pairs.csv",
+      "sha256": "51F07F381452CF2E925B0FF123C6E324B4E28BF82C5A5FF1F0947A5EAED28E23"
+    },
+    "oof_folds": {
+      "bytes": 29826,
+      "path": "reports\\stage6a1\\model_evaluation_v001\\grouped_loeo_oof_v001\\grouped_loeo_fold_diagnostics.csv",
+      "sha256": "3E5AE08AFF9EC64AE084193D2A7E26C15458D9EAC92C9F1BB7128D85069BDA61"
+    },
+    "oof_manifest": {
+      "bytes": 8582,
+      "path": "reports\\stage6a1\\model_evaluation_v001\\grouped_loeo_oof_v001\\manifest.json",
+      "sha256": "6D9BB35B48A326A5D1AB527C1CFD1830979DEADDFC19FD627D1CE662653E8234"
+    },
+    "oof_metrics": {
+      "bytes": 1337,
+      "path": "reports\\stage6a1\\model_evaluation_v001\\grouped_loeo_oof_v001\\grouped_loeo_observed_metrics.csv",
+      "sha256": "99ED42F99CAB46D6A83D23D53DBDC78E08414D6F472743F39CF645E67AD0F5B2"
+    },
+    "oof_predictions": {
+      "bytes": 193516,
+      "path": "reports\\stage6a1\\model_evaluation_v001\\grouped_loeo_oof_v001\\grouped_loeo_oof_predictions.csv",
+      "sha256": "3FAC2F02C774150A40699786B3A7195012D70BB0301D873F0A6D8D850CC8C5ED"
+    },
+    "stage4b": {
+      "bytes": 31124,
+      "path": "scripts\\stage4b_scale_full_tier1_cohort_v001.py",
+      "sha256": "91F741C1500FB263F229DDF1D69590B357158CBFB42105F3F992AEA0DA3994B0"
+    },
+    "stage5b": {
+      "bytes": 21894,
+      "path": "scripts\\stage5b_hardened_audit_v002.py",
+      "sha256": "06BC22ED858D65CB56A0309185E435463817B0F6E8A455F43F6AA7BEE971476C"
+    },
+    "v004": {
+      "bytes": 90345,
+      "path": "scripts\\stage6a_repaired_benchmark_v004_regionfix_cachefix_distancefix.py",
+      "sha256": "4C7DFD199A3C04D82E4850AE487FA5AD1642EE59DF0A51B60948F4B6EE5A68A0"
+    }
+  },
+  "last_invocation_utc": "2026-11-19T11:06:14.050612+00:00",
+  "matrix_fingerprints": {
+    "CONSERVATIVE_TARGETS": {
+      "M2a": "0E6914B776D6779E929FDB920644D986A7CDD4B8430937EEA36FAA816993956D",
+      "M2c": "0716A2D4C401C20F16D8DF01A58D537451C375F1A8F62D186559972E22AC2BC7",
+      "M3": "42B313518F6E86C02380162B8408E231C7068CFBB81B71DF5F5576B23B78F647",
+      "M4": "C1EEBD1930FD472246A6FDFA23CAC6C6CED608CAD2355BB2122A9DDFA726AFB5"
+    },
+    "STRICT_TARGETS": {
+      "M2a": "31439CC4498423CA1DA00A9A81B5AA593702BA15B7A182B07AAA8584820B84D5",
+      "M2c": "75B80F94692108C4669B6C135A976E1369134B98B302240143265BD0B0D8B486",
+      "M3": "34D42FC3FF0EC7FDC8060545393994156C2D80215EF007E1CEEC1259DDEBFCEB",
+      "M4": "CBB61A7AC230C1433B399605B673C6026A7B55FCB0C8F1D835B3E3FF12A6DC38"
+    }
+  },
+  "notes": [
+    "The strict target cohort is primary; conservative target cohort is sensitivity only.",
+    "Physical null controls are not included in target classifier samples.",
+    "AUC permutation patterns are drawn sequentially using random.Random(seed) in pinned V004 group order, then parallelized.",
+    "Bootstrap intervals are conditional on fixed OOF predictions.",
+    "Paired model swaps are conditional on fixed OOF predictions.",
+    "Monte Carlo null q05/q95 summaries use nearest-rank quantiles; this descriptive summary rule does not alter p-value calculations."
+  ],
+  "oof_row_count": 1400,
+  "pinned_source_fingerprints": {
+    "m4_conservative_pairs": "9C8A962C93E03EAB620B6C898CF6B433FF541D5D04FC567E9A023C7F4F76A268",
+    "m4_manifest": "30810D6540541A6B75E7D5F70E2E95F43FE798647A4E799D63176D2A03B72DC3",
+    "m4_qa": "7FB292A279B2AC873B28D8D6EE17C321BB8BE9BF27CF8339A6435D92BC06D20F",
+    "m4_strict_pairs": "51F07F381452CF2E925B0FF123C6E324B4E28BF82C5A5FF1F0947A5EAED28E23",
+    "oof_folds": "3E5AE08AFF9EC64AE084193D2A7E26C15458D9EAC92C9F1BB7128D85069BDA61",
+    "oof_manifest": "6D9BB35B48A326A5D1AB527C1CFD1830979DEADDFC19FD627D1CE662653E8234",
+    "oof_metrics": "99ED42F99CAB46D6A83D23D53DBDC78E08414D6F472743F39CF645E67AD0F5B2",
+    "oof_predictions": "3FAC2F02C774150A40699786B3A7195012D70BB0301D873F0A6D8D850CC8C5ED",
+    "stage4b": "91F741C1500FB263F229DDF1D69590B357158CBFB42105F3F992AEA0DA3994B0",
+    "stage5b": "06BC22ED858D65CB56A0309185E435463817B0F6E8A455F43F6AA7BEE971476C",
+    "v004": "4C7DFD199A3C04D82E4850AE487FA5AD1642EE59DF0A51B60948F4B6EE5A68A0"
+  },
+  "preflight_complete": true,
+  "schema": "LAIC_GUARD_STAGE6A1_INFERENCE_MANIFEST_v002",
+  "status": "COMPLETE",
+  "updated_utc": "2026-11-19T11:06:22.146205+00:00",
+  "worker_count_last_invocation": 8
+}
